@@ -1,0 +1,2177 @@
+,country,frequency,variable,value_x,value_y,count_percent
+0,Albania,Never or rarely,talkAboutMaths,199,2619,7.6
+1,Albania,Sometimes,talkAboutMaths,890,2619,33.98
+2,Albania,Often,talkAboutMaths,1086,2619,41.47
+3,Albania,Always or almost always,talkAboutMaths,444,2619,16.95
+4,Argentina,Never or rarely,talkAboutMaths,1735,3674,47.22
+5,Argentina,Sometimes,talkAboutMaths,1117,3674,30.4
+6,Argentina,Often,talkAboutMaths,485,3674,13.2
+7,Argentina,Always or almost always,talkAboutMaths,337,3674,9.17
+8,Australia,Never or rarely,talkAboutMaths,4762,9409,50.61
+9,Australia,Sometimes,talkAboutMaths,3132,9409,33.29
+10,Australia,Often,talkAboutMaths,1221,9409,12.98
+11,Australia,Always or almost always,talkAboutMaths,294,9409,3.12
+12,Austria,Never or rarely,talkAboutMaths,1388,3103,44.73
+13,Austria,Sometimes,talkAboutMaths,1300,3103,41.89
+14,Austria,Often,talkAboutMaths,337,3103,10.86
+15,Austria,Always or almost always,talkAboutMaths,78,3103,2.51
+16,Belgium,Never or rarely,talkAboutMaths,2301,5432,42.36
+17,Belgium,Sometimes,talkAboutMaths,2196,5432,40.43
+18,Belgium,Often,talkAboutMaths,764,5432,14.06
+19,Belgium,Always or almost always,talkAboutMaths,171,5432,3.15
+20,Brazil,Never or rarely,talkAboutMaths,2232,12090,18.46
+21,Brazil,Sometimes,talkAboutMaths,4917,12090,40.67
+22,Brazil,Often,talkAboutMaths,3046,12090,25.19
+23,Brazil,Always or almost always,talkAboutMaths,1895,12090,15.67
+24,Bulgaria,Never or rarely,talkAboutMaths,1324,3349,39.53
+25,Bulgaria,Sometimes,talkAboutMaths,1343,3349,40.1
+26,Bulgaria,Often,talkAboutMaths,425,3349,12.69
+27,Bulgaria,Always or almost always,talkAboutMaths,257,3349,7.67
+28,Canada,Never or rarely,talkAboutMaths,6255,14031,44.58
+29,Canada,Sometimes,talkAboutMaths,5412,14031,38.57
+30,Canada,Often,talkAboutMaths,1856,14031,13.23
+31,Canada,Always or almost always,talkAboutMaths,508,14031,3.62
+32,Chile,Never or rarely,talkAboutMaths,1607,4503,35.69
+33,Chile,Sometimes,talkAboutMaths,1851,4503,41.11
+34,Chile,Often,talkAboutMaths,784,4503,17.41
+35,Chile,Always or almost always,talkAboutMaths,261,4503,5.8
+36,China-Shanghai,Never or rarely,talkAboutMaths,492,3430,14.34
+37,China-Shanghai,Sometimes,talkAboutMaths,1608,3430,46.88
+38,China-Shanghai,Often,talkAboutMaths,1041,3430,30.35
+39,China-Shanghai,Always or almost always,talkAboutMaths,289,3430,8.43
+40,Chinese Taipei,Never or rarely,talkAboutMaths,1022,4005,25.52
+41,Chinese Taipei,Sometimes,talkAboutMaths,1915,4005,47.82
+42,Chinese Taipei,Often,talkAboutMaths,827,4005,20.65
+43,Chinese Taipei,Always or almost always,talkAboutMaths,241,4005,6.02
+44,Colombia,Never or rarely,talkAboutMaths,1448,5598,25.87
+45,Colombia,Sometimes,talkAboutMaths,2869,5598,51.25
+46,Colombia,Often,talkAboutMaths,876,5598,15.65
+47,Colombia,Always or almost always,talkAboutMaths,405,5598,7.23
+48,Connecticut (USA),Never or rarely,talkAboutMaths,536,1115,48.07
+49,Connecticut (USA),Sometimes,talkAboutMaths,393,1115,35.25
+50,Connecticut (USA),Often,talkAboutMaths,148,1115,13.27
+51,Connecticut (USA),Always or almost always,talkAboutMaths,38,1115,3.41
+52,Costa Rica,Never or rarely,talkAboutMaths,764,2880,26.53
+53,Costa Rica,Sometimes,talkAboutMaths,1282,2880,44.51
+54,Costa Rica,Often,talkAboutMaths,520,2880,18.06
+55,Costa Rica,Always or almost always,talkAboutMaths,314,2880,10.9
+56,Croatia,Never or rarely,talkAboutMaths,1344,3309,40.62
+57,Croatia,Sometimes,talkAboutMaths,1393,3309,42.1
+58,Croatia,Often,talkAboutMaths,473,3309,14.29
+59,Croatia,Always or almost always,talkAboutMaths,99,3309,2.99
+60,Czech Republic,Never or rarely,talkAboutMaths,1717,3459,49.64
+61,Czech Republic,Sometimes,talkAboutMaths,1365,3459,39.46
+62,Czech Republic,Often,talkAboutMaths,299,3459,8.64
+63,Czech Republic,Always or almost always,talkAboutMaths,78,3459,2.25
+64,Denmark,Never or rarely,talkAboutMaths,953,4791,19.89
+65,Denmark,Sometimes,talkAboutMaths,2301,4791,48.03
+66,Denmark,Often,talkAboutMaths,1253,4791,26.15
+67,Denmark,Always or almost always,talkAboutMaths,284,4791,5.93
+68,Estonia,Never or rarely,talkAboutMaths,1208,3137,38.51
+69,Estonia,Sometimes,talkAboutMaths,1541,3137,49.12
+70,Estonia,Often,talkAboutMaths,338,3137,10.77
+71,Estonia,Always or almost always,talkAboutMaths,50,3137,1.59
+72,Finland,Never or rarely,talkAboutMaths,2526,5748,43.95
+73,Finland,Sometimes,talkAboutMaths,2492,5748,43.35
+74,Finland,Often,talkAboutMaths,563,5748,9.79
+75,Finland,Always or almost always,talkAboutMaths,167,5748,2.91
+76,Florida (USA),Never or rarely,talkAboutMaths,620,1222,50.74
+77,Florida (USA),Sometimes,talkAboutMaths,388,1222,31.75
+78,Florida (USA),Often,talkAboutMaths,159,1222,13.01
+79,Florida (USA),Always or almost always,talkAboutMaths,55,1222,4.5
+80,France,Never or rarely,talkAboutMaths,1341,2963,45.26
+81,France,Sometimes,talkAboutMaths,1095,2963,36.96
+82,France,Often,talkAboutMaths,414,2963,13.97
+83,France,Always or almost always,talkAboutMaths,113,2963,3.81
+84,Germany,Never or rarely,talkAboutMaths,1126,2791,40.34
+85,Germany,Sometimes,talkAboutMaths,1269,2791,45.47
+86,Germany,Often,talkAboutMaths,321,2791,11.5
+87,Germany,Always or almost always,talkAboutMaths,75,2791,2.69
+88,Greece,Never or rarely,talkAboutMaths,1797,3352,53.61
+89,Greece,Sometimes,talkAboutMaths,977,3352,29.15
+90,Greece,Often,talkAboutMaths,416,3352,12.41
+91,Greece,Always or almost always,talkAboutMaths,162,3352,4.83
+92,Hong Kong-China,Never or rarely,talkAboutMaths,552,3063,18.02
+93,Hong Kong-China,Sometimes,talkAboutMaths,1717,3063,56.06
+94,Hong Kong-China,Often,talkAboutMaths,680,3063,22.2
+95,Hong Kong-China,Always or almost always,talkAboutMaths,114,3063,3.72
+96,Hungary,Never or rarely,talkAboutMaths,1403,3166,44.31
+97,Hungary,Sometimes,talkAboutMaths,1416,3166,44.73
+98,Hungary,Often,talkAboutMaths,299,3166,9.44
+99,Hungary,Always or almost always,talkAboutMaths,48,3166,1.52
+100,Iceland,Never or rarely,talkAboutMaths,1117,2211,50.52
+101,Iceland,Sometimes,talkAboutMaths,814,2211,36.82
+102,Iceland,Often,talkAboutMaths,208,2211,9.41
+103,Iceland,Always or almost always,talkAboutMaths,72,2211,3.26
+104,Indonesia,Never or rarely,talkAboutMaths,240,3662,6.55
+105,Indonesia,Sometimes,talkAboutMaths,1624,3662,44.35
+106,Indonesia,Often,talkAboutMaths,1412,3662,38.56
+107,Indonesia,Always or almost always,talkAboutMaths,386,3662,10.54
+108,Ireland,Never or rarely,talkAboutMaths,1905,3302,57.69
+109,Ireland,Sometimes,talkAboutMaths,1064,3302,32.22
+110,Ireland,Often,talkAboutMaths,277,3302,8.39
+111,Ireland,Always or almost always,talkAboutMaths,56,3302,1.7
+112,Israel,Never or rarely,talkAboutMaths,757,3162,23.94
+113,Israel,Sometimes,talkAboutMaths,1267,3162,40.07
+114,Israel,Often,talkAboutMaths,810,3162,25.62
+115,Israel,Always or almost always,talkAboutMaths,328,3162,10.37
+116,Italy,Never or rarely,talkAboutMaths,9607,20479,46.91
+117,Italy,Sometimes,talkAboutMaths,7241,20479,35.36
+118,Italy,Often,talkAboutMaths,2788,20479,13.61
+119,Italy,Always or almost always,talkAboutMaths,843,20479,4.12
+120,Japan,Never or rarely,talkAboutMaths,1248,4156,30.03
+121,Japan,Sometimes,talkAboutMaths,2061,4156,49.59
+122,Japan,Often,talkAboutMaths,726,4156,17.47
+123,Japan,Always or almost always,talkAboutMaths,121,4156,2.91
+124,Jordan,Never or rarely,talkAboutMaths,575,4480,12.83
+125,Jordan,Sometimes,talkAboutMaths,1068,4480,23.84
+126,Jordan,Often,talkAboutMaths,1534,4480,34.24
+127,Jordan,Always or almost always,talkAboutMaths,1303,4480,29.08
+128,Kazakhstan,Never or rarely,talkAboutMaths,414,3835,10.8
+129,Kazakhstan,Sometimes,talkAboutMaths,1510,3835,39.37
+130,Kazakhstan,Often,talkAboutMaths,1413,3835,36.84
+131,Kazakhstan,Always or almost always,talkAboutMaths,498,3835,12.99
+132,Korea,Never or rarely,talkAboutMaths,1229,3351,36.68
+133,Korea,Sometimes,talkAboutMaths,1659,3351,49.51
+134,Korea,Often,talkAboutMaths,421,3351,12.56
+135,Korea,Always or almost always,talkAboutMaths,42,3351,1.25
+136,Latvia,Never or rarely,talkAboutMaths,1186,2864,41.41
+137,Latvia,Sometimes,talkAboutMaths,1275,2864,44.52
+138,Latvia,Often,talkAboutMaths,324,2864,11.31
+139,Latvia,Always or almost always,talkAboutMaths,79,2864,2.76
+140,Liechtenstein,Never or rarely,talkAboutMaths,82,193,42.49
+141,Liechtenstein,Sometimes,talkAboutMaths,91,193,47.15
+142,Liechtenstein,Often,talkAboutMaths,13,193,6.74
+143,Liechtenstein,Always or almost always,talkAboutMaths,7,193,3.63
+144,Lithuania,Never or rarely,talkAboutMaths,1138,3016,37.73
+145,Lithuania,Sometimes,talkAboutMaths,1346,3016,44.63
+146,Lithuania,Often,talkAboutMaths,407,3016,13.49
+147,Lithuania,Always or almost always,talkAboutMaths,125,3016,4.14
+148,Luxembourg,Never or rarely,talkAboutMaths,1545,3395,45.51
+149,Luxembourg,Sometimes,talkAboutMaths,1297,3395,38.2
+150,Luxembourg,Often,talkAboutMaths,420,3395,12.37
+151,Luxembourg,Always or almost always,talkAboutMaths,133,3395,3.92
+152,Macao-China,Never or rarely,talkAboutMaths,628,3539,17.75
+153,Macao-China,Sometimes,talkAboutMaths,1971,3539,55.69
+154,Macao-China,Often,talkAboutMaths,765,3539,21.62
+155,Macao-China,Always or almost always,talkAboutMaths,175,3539,4.94
+156,Malaysia,Never or rarely,talkAboutMaths,207,3364,6.15
+157,Malaysia,Sometimes,talkAboutMaths,1417,3364,42.12
+158,Malaysia,Often,talkAboutMaths,1136,3364,33.77
+159,Malaysia,Always or almost always,talkAboutMaths,604,3364,17.95
+160,Massachusetts (USA),Never or rarely,talkAboutMaths,545,1100,49.55
+161,Massachusetts (USA),Sometimes,talkAboutMaths,377,1100,34.27
+162,Massachusetts (USA),Often,talkAboutMaths,142,1100,12.91
+163,Massachusetts (USA),Always or almost always,talkAboutMaths,36,1100,3.27
+164,Mexico,Never or rarely,talkAboutMaths,6070,22154,27.4
+165,Mexico,Sometimes,talkAboutMaths,10478,22154,47.3
+166,Mexico,Often,talkAboutMaths,3996,22154,18.04
+167,Mexico,Always or almost always,talkAboutMaths,1610,22154,7.27
+168,Montenegro,Never or rarely,talkAboutMaths,874,3048,28.67
+169,Montenegro,Sometimes,talkAboutMaths,1133,3048,37.17
+170,Montenegro,Often,talkAboutMaths,712,3048,23.36
+171,Montenegro,Always or almost always,talkAboutMaths,329,3048,10.79
+172,Netherlands,Never or rarely,talkAboutMaths,1393,2832,49.19
+173,Netherlands,Sometimes,talkAboutMaths,1021,2832,36.05
+174,Netherlands,Often,talkAboutMaths,334,2832,11.79
+175,Netherlands,Always or almost always,talkAboutMaths,84,2832,2.97
+176,New Zealand,Never or rarely,talkAboutMaths,1323,2773,47.71
+177,New Zealand,Sometimes,talkAboutMaths,994,2773,35.85
+178,New Zealand,Often,talkAboutMaths,367,2773,13.23
+179,New Zealand,Always or almost always,talkAboutMaths,89,2773,3.21
+180,Norway,Never or rarely,talkAboutMaths,1373,3030,45.31
+181,Norway,Sometimes,talkAboutMaths,1284,3030,42.38
+182,Norway,Often,talkAboutMaths,279,3030,9.21
+183,Norway,Always or almost always,talkAboutMaths,94,3030,3.1
+184,Perm(Russian Federation),Never or rarely,talkAboutMaths,215,1125,19.11
+185,Perm(Russian Federation),Sometimes,talkAboutMaths,374,1125,33.24
+186,Perm(Russian Federation),Often,talkAboutMaths,302,1125,26.84
+187,Perm(Russian Federation),Always or almost always,talkAboutMaths,234,1125,20.8
+188,Peru,Never or rarely,talkAboutMaths,447,3667,12.19
+189,Peru,Sometimes,talkAboutMaths,1966,3667,53.61
+190,Peru,Often,talkAboutMaths,801,3667,21.84
+191,Peru,Always or almost always,talkAboutMaths,453,3667,12.35
+192,Poland,Never or rarely,talkAboutMaths,811,3058,26.52
+193,Poland,Sometimes,talkAboutMaths,1396,3058,45.65
+194,Poland,Often,talkAboutMaths,665,3058,21.75
+195,Poland,Always or almost always,talkAboutMaths,186,3058,6.08
+196,Portugal,Never or rarely,talkAboutMaths,1538,3704,41.52
+197,Portugal,Sometimes,talkAboutMaths,1518,3704,40.98
+198,Portugal,Often,talkAboutMaths,525,3704,14.17
+199,Portugal,Always or almost always,talkAboutMaths,123,3704,3.32
+200,Qatar,Never or rarely,talkAboutMaths,1359,6637,20.48
+201,Qatar,Sometimes,talkAboutMaths,1924,6637,28.99
+202,Qatar,Often,talkAboutMaths,1948,6637,29.35
+203,Qatar,Always or almost always,talkAboutMaths,1406,6637,21.18
+204,Romania,Never or rarely,talkAboutMaths,909,3342,27.2
+205,Romania,Sometimes,talkAboutMaths,1150,3342,34.41
+206,Romania,Often,talkAboutMaths,817,3342,24.45
+207,Romania,Always or almost always,talkAboutMaths,466,3342,13.94
+208,Russian Federation,Never or rarely,talkAboutMaths,781,3444,22.68
+209,Russian Federation,Sometimes,talkAboutMaths,1561,3444,45.33
+210,Russian Federation,Often,talkAboutMaths,826,3444,23.98
+211,Russian Federation,Always or almost always,talkAboutMaths,276,3444,8.01
+212,Serbia,Never or rarely,talkAboutMaths,1049,3010,34.85
+213,Serbia,Sometimes,talkAboutMaths,1230,3010,40.86
+214,Serbia,Often,talkAboutMaths,519,3010,17.24
+215,Serbia,Always or almost always,talkAboutMaths,212,3010,7.04
+216,Singapore,Never or rarely,talkAboutMaths,616,3688,16.7
+217,Singapore,Sometimes,talkAboutMaths,1735,3688,47.04
+218,Singapore,Often,talkAboutMaths,1042,3688,28.25
+219,Singapore,Always or almost always,talkAboutMaths,295,3688,8.0
+220,Slovak Republic,Never or rarely,talkAboutMaths,1308,2995,43.67
+221,Slovak Republic,Sometimes,talkAboutMaths,1322,2995,44.14
+222,Slovak Republic,Often,talkAboutMaths,270,2995,9.02
+223,Slovak Republic,Always or almost always,talkAboutMaths,95,2995,3.17
+224,Slovenia,Never or rarely,talkAboutMaths,1352,3737,36.18
+225,Slovenia,Sometimes,talkAboutMaths,1487,3737,39.79
+226,Slovenia,Often,talkAboutMaths,684,3737,18.3
+227,Slovenia,Always or almost always,talkAboutMaths,214,3737,5.73
+228,Spain,Never or rarely,talkAboutMaths,8443,16562,50.98
+229,Spain,Sometimes,talkAboutMaths,5714,16562,34.5
+230,Spain,Often,talkAboutMaths,1843,16562,11.13
+231,Spain,Always or almost always,talkAboutMaths,562,16562,3.39
+232,Sweden,Never or rarely,talkAboutMaths,1345,3062,43.93
+233,Sweden,Sometimes,talkAboutMaths,1214,3062,39.65
+234,Sweden,Often,talkAboutMaths,407,3062,13.29
+235,Sweden,Always or almost always,talkAboutMaths,96,3062,3.14
+236,Switzerland,Never or rarely,talkAboutMaths,2860,7405,38.62
+237,Switzerland,Sometimes,talkAboutMaths,3157,7405,42.63
+238,Switzerland,Often,talkAboutMaths,1124,7405,15.18
+239,Switzerland,Always or almost always,talkAboutMaths,264,7405,3.57
+240,Thailand,Never or rarely,talkAboutMaths,230,4405,5.22
+241,Thailand,Sometimes,talkAboutMaths,2044,4405,46.4
+242,Thailand,Often,talkAboutMaths,1636,4405,37.14
+243,Thailand,Always or almost always,talkAboutMaths,495,4405,11.24
+244,Tunisia,Never or rarely,talkAboutMaths,434,2785,15.58
+245,Tunisia,Sometimes,talkAboutMaths,1036,2785,37.2
+246,Tunisia,Often,talkAboutMaths,769,2785,27.61
+247,Tunisia,Always or almost always,talkAboutMaths,546,2785,19.61
+248,Turkey,Never or rarely,talkAboutMaths,884,3179,27.81
+249,Turkey,Sometimes,talkAboutMaths,1457,3179,45.83
+250,Turkey,Often,talkAboutMaths,565,3179,17.77
+251,Turkey,Always or almost always,talkAboutMaths,273,3179,8.59
+252,United Arab Emirates,Never or rarely,talkAboutMaths,1611,7371,21.86
+253,United Arab Emirates,Sometimes,talkAboutMaths,2603,7371,35.31
+254,United Arab Emirates,Often,talkAboutMaths,2061,7371,27.96
+255,United Arab Emirates,Always or almost always,talkAboutMaths,1096,7371,14.87
+256,United Kingdom,Never or rarely,talkAboutMaths,4264,8299,51.38
+257,United Kingdom,Sometimes,talkAboutMaths,2844,8299,34.27
+258,United Kingdom,Often,talkAboutMaths,964,8299,11.62
+259,United Kingdom,Always or almost always,talkAboutMaths,227,8299,2.74
+260,United States of America,Never or rarely,talkAboutMaths,1508,3213,46.93
+261,United States of America,Sometimes,talkAboutMaths,1112,3213,34.61
+262,United States of America,Often,talkAboutMaths,462,3213,14.38
+263,United States of America,Always or almost always,talkAboutMaths,131,3213,4.08
+264,Uruguay,Never or rarely,talkAboutMaths,1219,3364,36.24
+265,Uruguay,Sometimes,talkAboutMaths,1159,3364,34.45
+266,Uruguay,Often,talkAboutMaths,646,3364,19.2
+267,Uruguay,Always or almost always,talkAboutMaths,340,3364,10.11
+268,Vietnam,Never or rarely,talkAboutMaths,207,3258,6.35
+269,Vietnam,Sometimes,talkAboutMaths,2174,3258,66.73
+270,Vietnam,Often,talkAboutMaths,817,3258,25.08
+271,Vietnam,Always or almost always,talkAboutMaths,60,3258,1.84
+272,Albania,Never or rarely,helpFriendsMaths,289,2602,11.11
+273,Albania,Sometimes,helpFriendsMaths,973,2602,37.39
+274,Albania,Often,helpFriendsMaths,995,2602,38.24
+275,Albania,Always or almost always,helpFriendsMaths,345,2602,13.26
+276,Argentina,Never or rarely,helpFriendsMaths,1201,3647,32.93
+277,Argentina,Sometimes,helpFriendsMaths,1357,3647,37.21
+278,Argentina,Often,helpFriendsMaths,774,3647,21.22
+279,Argentina,Always or almost always,helpFriendsMaths,315,3647,8.64
+280,Australia,Never or rarely,helpFriendsMaths,2411,9403,25.64
+281,Australia,Sometimes,helpFriendsMaths,4262,9403,45.33
+282,Australia,Often,helpFriendsMaths,2174,9403,23.12
+283,Australia,Always or almost always,helpFriendsMaths,556,9403,5.91
+284,Austria,Never or rarely,helpFriendsMaths,866,3102,27.92
+285,Austria,Sometimes,helpFriendsMaths,1373,3102,44.26
+286,Austria,Often,helpFriendsMaths,681,3102,21.95
+287,Austria,Always or almost always,helpFriendsMaths,182,3102,5.87
+288,Belgium,Never or rarely,helpFriendsMaths,1550,5438,28.5
+289,Belgium,Sometimes,helpFriendsMaths,2645,5438,48.64
+290,Belgium,Often,helpFriendsMaths,1017,5438,18.7
+291,Belgium,Always or almost always,helpFriendsMaths,226,5438,4.16
+292,Brazil,Never or rarely,helpFriendsMaths,2426,12012,20.2
+293,Brazil,Sometimes,helpFriendsMaths,4859,12012,40.45
+294,Brazil,Often,helpFriendsMaths,3159,12012,26.3
+295,Brazil,Always or almost always,helpFriendsMaths,1568,12012,13.05
+296,Bulgaria,Never or rarely,helpFriendsMaths,1232,3334,36.95
+297,Bulgaria,Sometimes,helpFriendsMaths,1302,3334,39.05
+298,Bulgaria,Often,helpFriendsMaths,581,3334,17.43
+299,Bulgaria,Always or almost always,helpFriendsMaths,219,3334,6.57
+300,Canada,Never or rarely,helpFriendsMaths,3335,14014,23.8
+301,Canada,Sometimes,helpFriendsMaths,6274,14014,44.77
+302,Canada,Often,helpFriendsMaths,3442,14014,24.56
+303,Canada,Always or almost always,helpFriendsMaths,963,14014,6.87
+304,Chile,Never or rarely,helpFriendsMaths,1252,4508,27.77
+305,Chile,Sometimes,helpFriendsMaths,1833,4508,40.66
+306,Chile,Often,helpFriendsMaths,1018,4508,22.58
+307,Chile,Always or almost always,helpFriendsMaths,405,4508,8.98
+308,China-Shanghai,Never or rarely,helpFriendsMaths,787,3430,22.94
+309,China-Shanghai,Sometimes,helpFriendsMaths,1619,3430,47.2
+310,China-Shanghai,Often,helpFriendsMaths,819,3430,23.88
+311,China-Shanghai,Always or almost always,helpFriendsMaths,205,3430,5.98
+312,Chinese Taipei,Never or rarely,helpFriendsMaths,1050,4003,26.23
+313,Chinese Taipei,Sometimes,helpFriendsMaths,1725,4003,43.09
+314,Chinese Taipei,Often,helpFriendsMaths,951,4003,23.76
+315,Chinese Taipei,Always or almost always,helpFriendsMaths,277,4003,6.92
+316,Colombia,Never or rarely,helpFriendsMaths,1127,5564,20.26
+317,Colombia,Sometimes,helpFriendsMaths,2605,5564,46.82
+318,Colombia,Often,helpFriendsMaths,1322,5564,23.76
+319,Colombia,Always or almost always,helpFriendsMaths,510,5564,9.17
+320,Connecticut (USA),Never or rarely,helpFriendsMaths,239,1114,21.45
+321,Connecticut (USA),Sometimes,helpFriendsMaths,511,1114,45.87
+322,Connecticut (USA),Often,helpFriendsMaths,292,1114,26.21
+323,Connecticut (USA),Always or almost always,helpFriendsMaths,72,1114,6.46
+324,Costa Rica,Never or rarely,helpFriendsMaths,549,2874,19.1
+325,Costa Rica,Sometimes,helpFriendsMaths,1192,2874,41.48
+326,Costa Rica,Often,helpFriendsMaths,764,2874,26.58
+327,Costa Rica,Always or almost always,helpFriendsMaths,369,2874,12.84
+328,Croatia,Never or rarely,helpFriendsMaths,1055,3311,31.86
+329,Croatia,Sometimes,helpFriendsMaths,1533,3311,46.3
+330,Croatia,Often,helpFriendsMaths,577,3311,17.43
+331,Croatia,Always or almost always,helpFriendsMaths,146,3311,4.41
+332,Czech Republic,Never or rarely,helpFriendsMaths,1365,3457,39.49
+333,Czech Republic,Sometimes,helpFriendsMaths,1582,3457,45.76
+334,Czech Republic,Often,helpFriendsMaths,415,3457,12.0
+335,Czech Republic,Always or almost always,helpFriendsMaths,95,3457,2.75
+336,Denmark,Never or rarely,helpFriendsMaths,982,4787,20.51
+337,Denmark,Sometimes,helpFriendsMaths,2298,4787,48.01
+338,Denmark,Often,helpFriendsMaths,1284,4787,26.82
+339,Denmark,Always or almost always,helpFriendsMaths,223,4787,4.66
+340,Estonia,Never or rarely,helpFriendsMaths,761,3140,24.24
+341,Estonia,Sometimes,helpFriendsMaths,1625,3140,51.75
+342,Estonia,Often,helpFriendsMaths,656,3140,20.89
+343,Estonia,Always or almost always,helpFriendsMaths,98,3140,3.12
+344,Finland,Never or rarely,helpFriendsMaths,1764,5745,30.7
+345,Finland,Sometimes,helpFriendsMaths,2671,5745,46.49
+346,Finland,Often,helpFriendsMaths,1100,5745,19.15
+347,Finland,Always or almost always,helpFriendsMaths,210,5745,3.66
+348,Florida (USA),Never or rarely,helpFriendsMaths,325,1217,26.71
+349,Florida (USA),Sometimes,helpFriendsMaths,525,1217,43.14
+350,Florida (USA),Often,helpFriendsMaths,276,1217,22.68
+351,Florida (USA),Always or almost always,helpFriendsMaths,91,1217,7.48
+352,France,Never or rarely,helpFriendsMaths,1021,2948,34.63
+353,France,Sometimes,helpFriendsMaths,1284,2948,43.55
+354,France,Often,helpFriendsMaths,518,2948,17.57
+355,France,Always or almost always,helpFriendsMaths,125,2948,4.24
+356,Germany,Never or rarely,helpFriendsMaths,755,2791,27.05
+357,Germany,Sometimes,helpFriendsMaths,1272,2791,45.58
+358,Germany,Often,helpFriendsMaths,589,2791,21.1
+359,Germany,Always or almost always,helpFriendsMaths,175,2791,6.27
+360,Greece,Never or rarely,helpFriendsMaths,1150,3348,34.35
+361,Greece,Sometimes,helpFriendsMaths,1198,3348,35.78
+362,Greece,Often,helpFriendsMaths,797,3348,23.81
+363,Greece,Always or almost always,helpFriendsMaths,203,3348,6.06
+364,Hong Kong-China,Never or rarely,helpFriendsMaths,611,3063,19.95
+365,Hong Kong-China,Sometimes,helpFriendsMaths,1598,3063,52.17
+366,Hong Kong-China,Often,helpFriendsMaths,705,3063,23.02
+367,Hong Kong-China,Always or almost always,helpFriendsMaths,149,3063,4.86
+368,Hungary,Never or rarely,helpFriendsMaths,824,3165,26.03
+369,Hungary,Sometimes,helpFriendsMaths,1599,3165,50.52
+370,Hungary,Often,helpFriendsMaths,643,3165,20.32
+371,Hungary,Always or almost always,helpFriendsMaths,99,3165,3.13
+372,Iceland,Never or rarely,helpFriendsMaths,757,2207,34.3
+373,Iceland,Sometimes,helpFriendsMaths,995,2207,45.08
+374,Iceland,Often,helpFriendsMaths,370,2207,16.76
+375,Iceland,Always or almost always,helpFriendsMaths,85,2207,3.85
+376,Indonesia,Never or rarely,helpFriendsMaths,364,3646,9.98
+377,Indonesia,Sometimes,helpFriendsMaths,1968,3646,53.98
+378,Indonesia,Often,helpFriendsMaths,1087,3646,29.81
+379,Indonesia,Always or almost always,helpFriendsMaths,227,3646,6.23
+380,Ireland,Never or rarely,helpFriendsMaths,1161,3300,35.18
+381,Ireland,Sometimes,helpFriendsMaths,1508,3300,45.7
+382,Ireland,Often,helpFriendsMaths,536,3300,16.24
+383,Ireland,Always or almost always,helpFriendsMaths,95,3300,2.88
+384,Israel,Never or rarely,helpFriendsMaths,521,3158,16.5
+385,Israel,Sometimes,helpFriendsMaths,1281,3158,40.56
+386,Israel,Often,helpFriendsMaths,1005,3158,31.82
+387,Israel,Always or almost always,helpFriendsMaths,351,3158,11.11
+388,Italy,Never or rarely,helpFriendsMaths,7187,20476,35.1
+389,Italy,Sometimes,helpFriendsMaths,8858,20476,43.26
+390,Italy,Often,helpFriendsMaths,3624,20476,17.7
+391,Italy,Always or almost always,helpFriendsMaths,807,20476,3.94
+392,Japan,Never or rarely,helpFriendsMaths,1543,4156,37.13
+393,Japan,Sometimes,helpFriendsMaths,1768,4156,42.54
+394,Japan,Often,helpFriendsMaths,685,4156,16.48
+395,Japan,Always or almost always,helpFriendsMaths,160,4156,3.85
+396,Jordan,Never or rarely,helpFriendsMaths,477,4465,10.68
+397,Jordan,Sometimes,helpFriendsMaths,1102,4465,24.68
+398,Jordan,Often,helpFriendsMaths,1749,4465,39.17
+399,Jordan,Always or almost always,helpFriendsMaths,1137,4465,25.46
+400,Kazakhstan,Never or rarely,helpFriendsMaths,442,3817,11.58
+401,Kazakhstan,Sometimes,helpFriendsMaths,1483,3817,38.85
+402,Kazakhstan,Often,helpFriendsMaths,1420,3817,37.2
+403,Kazakhstan,Always or almost always,helpFriendsMaths,472,3817,12.37
+404,Korea,Never or rarely,helpFriendsMaths,912,3349,27.23
+405,Korea,Sometimes,helpFriendsMaths,1605,3349,47.92
+406,Korea,Often,helpFriendsMaths,702,3349,20.96
+407,Korea,Always or almost always,helpFriendsMaths,130,3349,3.88
+408,Latvia,Never or rarely,helpFriendsMaths,820,2866,28.61
+409,Latvia,Sometimes,helpFriendsMaths,1402,2866,48.92
+410,Latvia,Often,helpFriendsMaths,559,2866,19.5
+411,Latvia,Always or almost always,helpFriendsMaths,85,2866,2.97
+412,Liechtenstein,Never or rarely,helpFriendsMaths,41,194,21.13
+413,Liechtenstein,Sometimes,helpFriendsMaths,95,194,48.97
+414,Liechtenstein,Often,helpFriendsMaths,40,194,20.62
+415,Liechtenstein,Always or almost always,helpFriendsMaths,18,194,9.28
+416,Lithuania,Never or rarely,helpFriendsMaths,1203,3019,39.85
+417,Lithuania,Sometimes,helpFriendsMaths,1279,3019,42.37
+418,Lithuania,Often,helpFriendsMaths,445,3019,14.74
+419,Lithuania,Always or almost always,helpFriendsMaths,92,3019,3.05
+420,Luxembourg,Never or rarely,helpFriendsMaths,1063,3387,31.38
+421,Luxembourg,Sometimes,helpFriendsMaths,1441,3387,42.55
+422,Luxembourg,Often,helpFriendsMaths,685,3387,20.22
+423,Luxembourg,Always or almost always,helpFriendsMaths,198,3387,5.85
+424,Macao-China,Never or rarely,helpFriendsMaths,617,3536,17.45
+425,Macao-China,Sometimes,helpFriendsMaths,1833,3536,51.84
+426,Macao-China,Often,helpFriendsMaths,840,3536,23.76
+427,Macao-China,Always or almost always,helpFriendsMaths,246,3536,6.96
+428,Malaysia,Never or rarely,helpFriendsMaths,314,3360,9.35
+429,Malaysia,Sometimes,helpFriendsMaths,1548,3360,46.07
+430,Malaysia,Often,helpFriendsMaths,1086,3360,32.32
+431,Malaysia,Always or almost always,helpFriendsMaths,412,3360,12.26
+432,Massachusetts (USA),Never or rarely,helpFriendsMaths,254,1095,23.2
+433,Massachusetts (USA),Sometimes,helpFriendsMaths,541,1095,49.41
+434,Massachusetts (USA),Often,helpFriendsMaths,235,1095,21.46
+435,Massachusetts (USA),Always or almost always,helpFriendsMaths,65,1095,5.94
+436,Mexico,Never or rarely,helpFriendsMaths,4430,22131,20.02
+437,Mexico,Sometimes,helpFriendsMaths,10430,22131,47.13
+438,Mexico,Often,helpFriendsMaths,5224,22131,23.6
+439,Mexico,Always or almost always,helpFriendsMaths,2047,22131,9.25
+440,Montenegro,Never or rarely,helpFriendsMaths,814,3038,26.79
+441,Montenegro,Sometimes,helpFriendsMaths,1098,3038,36.14
+442,Montenegro,Often,helpFriendsMaths,786,3038,25.87
+443,Montenegro,Always or almost always,helpFriendsMaths,340,3038,11.19
+444,Netherlands,Never or rarely,helpFriendsMaths,951,2830,33.6
+445,Netherlands,Sometimes,helpFriendsMaths,1317,2830,46.54
+446,Netherlands,Often,helpFriendsMaths,480,2830,16.96
+447,Netherlands,Always or almost always,helpFriendsMaths,82,2830,2.9
+448,New Zealand,Never or rarely,helpFriendsMaths,791,2770,28.56
+449,New Zealand,Sometimes,helpFriendsMaths,1209,2770,43.65
+450,New Zealand,Often,helpFriendsMaths,627,2770,22.64
+451,New Zealand,Always or almost always,helpFriendsMaths,143,2770,5.16
+452,Norway,Never or rarely,helpFriendsMaths,1027,3028,33.92
+453,Norway,Sometimes,helpFriendsMaths,1463,3028,48.32
+454,Norway,Often,helpFriendsMaths,464,3028,15.32
+455,Norway,Always or almost always,helpFriendsMaths,74,3028,2.44
+456,Perm(Russian Federation),Never or rarely,helpFriendsMaths,197,1127,17.48
+457,Perm(Russian Federation),Sometimes,helpFriendsMaths,425,1127,37.71
+458,Perm(Russian Federation),Often,helpFriendsMaths,321,1127,28.48
+459,Perm(Russian Federation),Always or almost always,helpFriendsMaths,184,1127,16.33
+460,Peru,Never or rarely,helpFriendsMaths,612,3669,16.68
+461,Peru,Sometimes,helpFriendsMaths,1928,3669,52.55
+462,Peru,Often,helpFriendsMaths,765,3669,20.85
+463,Peru,Always or almost always,helpFriendsMaths,364,3669,9.92
+464,Poland,Never or rarely,helpFriendsMaths,1056,3053,34.59
+465,Poland,Sometimes,helpFriendsMaths,1402,3053,45.92
+466,Poland,Often,helpFriendsMaths,499,3053,16.34
+467,Poland,Always or almost always,helpFriendsMaths,96,3053,3.14
+468,Portugal,Never or rarely,helpFriendsMaths,1092,3700,29.51
+469,Portugal,Sometimes,helpFriendsMaths,1758,3700,47.51
+470,Portugal,Often,helpFriendsMaths,695,3700,18.78
+471,Portugal,Always or almost always,helpFriendsMaths,155,3700,4.19
+472,Qatar,Never or rarely,helpFriendsMaths,745,6610,11.27
+473,Qatar,Sometimes,helpFriendsMaths,1834,6610,27.75
+474,Qatar,Often,helpFriendsMaths,2665,6610,40.32
+475,Qatar,Always or almost always,helpFriendsMaths,1366,6610,20.67
+476,Romania,Never or rarely,helpFriendsMaths,828,3329,24.87
+477,Romania,Sometimes,helpFriendsMaths,1257,3329,37.76
+478,Romania,Often,helpFriendsMaths,855,3329,25.68
+479,Romania,Always or almost always,helpFriendsMaths,389,3329,11.69
+480,Russian Federation,Never or rarely,helpFriendsMaths,756,3443,21.96
+481,Russian Federation,Sometimes,helpFriendsMaths,1573,3443,45.69
+482,Russian Federation,Often,helpFriendsMaths,881,3443,25.59
+483,Russian Federation,Always or almost always,helpFriendsMaths,233,3443,6.77
+484,Serbia,Never or rarely,helpFriendsMaths,932,3012,30.94
+485,Serbia,Sometimes,helpFriendsMaths,1232,3012,40.9
+486,Serbia,Often,helpFriendsMaths,641,3012,21.28
+487,Serbia,Always or almost always,helpFriendsMaths,207,3012,6.87
+488,Singapore,Never or rarely,helpFriendsMaths,353,3688,9.57
+489,Singapore,Sometimes,helpFriendsMaths,1630,3688,44.2
+490,Singapore,Often,helpFriendsMaths,1296,3688,35.14
+491,Singapore,Always or almost always,helpFriendsMaths,409,3688,11.09
+492,Slovak Republic,Never or rarely,helpFriendsMaths,1080,2992,36.1
+493,Slovak Republic,Sometimes,helpFriendsMaths,1411,2992,47.16
+494,Slovak Republic,Often,helpFriendsMaths,416,2992,13.9
+495,Slovak Republic,Always or almost always,helpFriendsMaths,85,2992,2.84
+496,Slovenia,Never or rarely,helpFriendsMaths,856,3727,22.97
+497,Slovenia,Sometimes,helpFriendsMaths,1826,3727,48.99
+498,Slovenia,Often,helpFriendsMaths,828,3727,22.22
+499,Slovenia,Always or almost always,helpFriendsMaths,217,3727,5.82
+500,Spain,Never or rarely,helpFriendsMaths,5339,16558,32.24
+501,Spain,Sometimes,helpFriendsMaths,7645,16558,46.17
+502,Spain,Often,helpFriendsMaths,2889,16558,17.45
+503,Spain,Always or almost always,helpFriendsMaths,685,16558,4.14
+504,Sweden,Never or rarely,helpFriendsMaths,929,3062,30.34
+505,Sweden,Sometimes,helpFriendsMaths,1373,3062,44.84
+506,Sweden,Often,helpFriendsMaths,620,3062,20.25
+507,Sweden,Always or almost always,helpFriendsMaths,140,3062,4.57
+508,Switzerland,Never or rarely,helpFriendsMaths,1702,7395,23.02
+509,Switzerland,Sometimes,helpFriendsMaths,3382,7395,45.73
+510,Switzerland,Often,helpFriendsMaths,1854,7395,25.07
+511,Switzerland,Always or almost always,helpFriendsMaths,457,7395,6.18
+512,Thailand,Never or rarely,helpFriendsMaths,296,4401,6.73
+513,Thailand,Sometimes,helpFriendsMaths,2263,4401,51.42
+514,Thailand,Often,helpFriendsMaths,1481,4401,33.65
+515,Thailand,Always or almost always,helpFriendsMaths,361,4401,8.2
+516,Tunisia,Never or rarely,helpFriendsMaths,596,2784,21.41
+517,Tunisia,Sometimes,helpFriendsMaths,1109,2784,39.83
+518,Tunisia,Often,helpFriendsMaths,746,2784,26.8
+519,Tunisia,Always or almost always,helpFriendsMaths,333,2784,11.96
+520,Turkey,Never or rarely,helpFriendsMaths,740,3179,23.28
+521,Turkey,Sometimes,helpFriendsMaths,1428,3179,44.92
+522,Turkey,Often,helpFriendsMaths,700,3179,22.02
+523,Turkey,Always or almost always,helpFriendsMaths,311,3179,9.78
+524,United Arab Emirates,Never or rarely,helpFriendsMaths,727,7347,9.9
+525,United Arab Emirates,Sometimes,helpFriendsMaths,2319,7347,31.56
+526,United Arab Emirates,Often,helpFriendsMaths,2717,7347,36.98
+527,United Arab Emirates,Always or almost always,helpFriendsMaths,1584,7347,21.56
+528,United Kingdom,Never or rarely,helpFriendsMaths,2205,8295,26.58
+529,United Kingdom,Sometimes,helpFriendsMaths,3897,8295,46.98
+530,United Kingdom,Often,helpFriendsMaths,1818,8295,21.92
+531,United Kingdom,Always or almost always,helpFriendsMaths,375,8295,4.52
+532,United States of America,Never or rarely,helpFriendsMaths,715,3205,22.31
+533,United States of America,Sometimes,helpFriendsMaths,1409,3205,43.96
+534,United States of America,Often,helpFriendsMaths,834,3205,26.02
+535,United States of America,Always or almost always,helpFriendsMaths,247,3205,7.71
+536,Uruguay,Never or rarely,helpFriendsMaths,942,3347,28.14
+537,Uruguay,Sometimes,helpFriendsMaths,1260,3347,37.65
+538,Uruguay,Often,helpFriendsMaths,805,3347,24.05
+539,Uruguay,Always or almost always,helpFriendsMaths,340,3347,10.16
+540,Vietnam,Never or rarely,helpFriendsMaths,748,3257,22.97
+541,Vietnam,Sometimes,helpFriendsMaths,2006,3257,61.59
+542,Vietnam,Often,helpFriendsMaths,461,3257,14.15
+543,Vietnam,Always or almost always,helpFriendsMaths,42,3257,1.29
+544,Albania,Never or rarely,extracurricularActivity,811,2574,31.51
+545,Albania,Sometimes,extracurricularActivity,1012,2574,39.32
+546,Albania,Often,extracurricularActivity,529,2574,20.55
+547,Albania,Always or almost always,extracurricularActivity,222,2574,8.62
+548,Argentina,Never or rarely,extracurricularActivity,1645,3628,45.34
+549,Argentina,Sometimes,extracurricularActivity,1159,3628,31.95
+550,Argentina,Often,extracurricularActivity,578,3628,15.93
+551,Argentina,Always or almost always,extracurricularActivity,246,3628,6.78
+552,Australia,Never or rarely,extracurricularActivity,6891,9353,73.68
+553,Australia,Sometimes,extracurricularActivity,1703,9353,18.21
+554,Australia,Often,extracurricularActivity,568,9353,6.07
+555,Australia,Always or almost always,extracurricularActivity,191,9353,2.04
+556,Austria,Never or rarely,extracurricularActivity,1195,3097,38.59
+557,Austria,Sometimes,extracurricularActivity,1328,3097,42.88
+558,Austria,Often,extracurricularActivity,474,3097,15.31
+559,Austria,Always or almost always,extracurricularActivity,100,3097,3.23
+560,Belgium,Never or rarely,extracurricularActivity,4088,5423,75.38
+561,Belgium,Sometimes,extracurricularActivity,944,5423,17.41
+562,Belgium,Often,extracurricularActivity,278,5423,5.13
+563,Belgium,Always or almost always,extracurricularActivity,113,5423,2.08
+564,Brazil,Never or rarely,extracurricularActivity,3971,11876,33.44
+565,Brazil,Sometimes,extracurricularActivity,4381,11876,36.89
+566,Brazil,Often,extracurricularActivity,2412,11876,20.31
+567,Brazil,Always or almost always,extracurricularActivity,1112,11876,9.36
+568,Bulgaria,Never or rarely,extracurricularActivity,1840,3339,55.11
+569,Bulgaria,Sometimes,extracurricularActivity,962,3339,28.81
+570,Bulgaria,Often,extracurricularActivity,331,3339,9.91
+571,Bulgaria,Always or almost always,extracurricularActivity,206,3339,6.17
+572,Canada,Never or rarely,extracurricularActivity,11078,14025,78.99
+573,Canada,Sometimes,extracurricularActivity,2081,14025,14.84
+574,Canada,Often,extracurricularActivity,607,14025,4.33
+575,Canada,Always or almost always,extracurricularActivity,259,14025,1.85
+576,Chile,Never or rarely,extracurricularActivity,2321,4490,51.69
+577,Chile,Sometimes,extracurricularActivity,1437,4490,32.0
+578,Chile,Often,extracurricularActivity,552,4490,12.29
+579,Chile,Always or almost always,extracurricularActivity,180,4490,4.01
+580,China-Shanghai,Never or rarely,extracurricularActivity,1580,3431,46.05
+581,China-Shanghai,Sometimes,extracurricularActivity,1370,3431,39.93
+582,China-Shanghai,Often,extracurricularActivity,366,3431,10.67
+583,China-Shanghai,Always or almost always,extracurricularActivity,115,3431,3.35
+584,Chinese Taipei,Never or rarely,extracurricularActivity,2094,4002,52.32
+585,Chinese Taipei,Sometimes,extracurricularActivity,1400,4002,34.98
+586,Chinese Taipei,Often,extracurricularActivity,380,4002,9.5
+587,Chinese Taipei,Always or almost always,extracurricularActivity,128,4002,3.2
+588,Colombia,Never or rarely,extracurricularActivity,2064,5540,37.26
+589,Colombia,Sometimes,extracurricularActivity,2448,5540,44.19
+590,Colombia,Often,extracurricularActivity,739,5540,13.34
+591,Colombia,Always or almost always,extracurricularActivity,289,5540,5.22
+592,Connecticut (USA),Never or rarely,extracurricularActivity,846,1107,76.42
+593,Connecticut (USA),Sometimes,extracurricularActivity,163,1107,14.72
+594,Connecticut (USA),Often,extracurricularActivity,69,1107,6.23
+595,Connecticut (USA),Always or almost always,extracurricularActivity,29,1107,2.62
+596,Costa Rica,Never or rarely,extracurricularActivity,590,2870,20.56
+597,Costa Rica,Sometimes,extracurricularActivity,1213,2870,42.26
+598,Costa Rica,Often,extracurricularActivity,674,2870,23.48
+599,Costa Rica,Always or almost always,extracurricularActivity,393,2870,13.69
+600,Croatia,Never or rarely,extracurricularActivity,2466,3303,74.66
+601,Croatia,Sometimes,extracurricularActivity,601,3303,18.2
+602,Croatia,Often,extracurricularActivity,171,3303,5.18
+603,Croatia,Always or almost always,extracurricularActivity,65,3303,1.97
+604,Czech Republic,Never or rarely,extracurricularActivity,2783,3448,80.71
+605,Czech Republic,Sometimes,extracurricularActivity,342,3448,9.92
+606,Czech Republic,Often,extracurricularActivity,182,3448,5.28
+607,Czech Republic,Always or almost always,extracurricularActivity,141,3448,4.09
+608,Denmark,Never or rarely,extracurricularActivity,1387,4766,29.1
+609,Denmark,Sometimes,extracurricularActivity,2143,4766,44.96
+610,Denmark,Often,extracurricularActivity,1027,4766,21.55
+611,Denmark,Always or almost always,extracurricularActivity,209,4766,4.39
+612,Estonia,Never or rarely,extracurricularActivity,1099,3124,35.18
+613,Estonia,Sometimes,extracurricularActivity,1410,3124,45.13
+614,Estonia,Often,extracurricularActivity,533,3124,17.06
+615,Estonia,Always or almost always,extracurricularActivity,82,3124,2.62
+616,Finland,Never or rarely,extracurricularActivity,2006,5734,34.98
+617,Finland,Sometimes,extracurricularActivity,2416,5734,42.13
+618,Finland,Often,extracurricularActivity,1038,5734,18.1
+619,Finland,Always or almost always,extracurricularActivity,274,5734,4.78
+620,Florida (USA),Never or rarely,extracurricularActivity,919,1216,75.58
+621,Florida (USA),Sometimes,extracurricularActivity,191,1216,15.71
+622,Florida (USA),Often,extracurricularActivity,70,1216,5.76
+623,Florida (USA),Always or almost always,extracurricularActivity,36,1216,2.96
+624,France,Never or rarely,extracurricularActivity,2324,2953,78.7
+625,France,Sometimes,extracurricularActivity,400,2953,13.55
+626,France,Often,extracurricularActivity,163,2953,5.52
+627,France,Always or almost always,extracurricularActivity,66,2953,2.24
+628,Germany,Never or rarely,extracurricularActivity,870,2780,31.29
+629,Germany,Sometimes,extracurricularActivity,1262,2780,45.4
+630,Germany,Often,extracurricularActivity,520,2780,18.71
+631,Germany,Always or almost always,extracurricularActivity,128,2780,4.6
+632,Greece,Never or rarely,extracurricularActivity,1862,3337,55.8
+633,Greece,Sometimes,extracurricularActivity,643,3337,19.27
+634,Greece,Often,extracurricularActivity,532,3337,15.94
+635,Greece,Always or almost always,extracurricularActivity,300,3337,8.99
+636,Hong Kong-China,Never or rarely,extracurricularActivity,1599,3059,52.27
+637,Hong Kong-China,Sometimes,extracurricularActivity,1123,3059,36.71
+638,Hong Kong-China,Often,extracurricularActivity,276,3059,9.02
+639,Hong Kong-China,Always or almost always,extracurricularActivity,61,3059,1.99
+640,Hungary,Never or rarely,extracurricularActivity,1319,3154,41.82
+641,Hungary,Sometimes,extracurricularActivity,1330,3154,42.17
+642,Hungary,Often,extracurricularActivity,417,3154,13.22
+643,Hungary,Always or almost always,extracurricularActivity,88,3154,2.79
+644,Iceland,Never or rarely,extracurricularActivity,873,2205,39.59
+645,Iceland,Sometimes,extracurricularActivity,819,2205,37.14
+646,Iceland,Often,extracurricularActivity,398,2205,18.05
+647,Iceland,Always or almost always,extracurricularActivity,115,2205,5.22
+648,Indonesia,Never or rarely,extracurricularActivity,1144,3634,31.48
+649,Indonesia,Sometimes,extracurricularActivity,1472,3634,40.51
+650,Indonesia,Often,extracurricularActivity,781,3634,21.49
+651,Indonesia,Always or almost always,extracurricularActivity,237,3634,6.52
+652,Ireland,Never or rarely,extracurricularActivity,2713,3300,82.21
+653,Ireland,Sometimes,extracurricularActivity,404,3300,12.24
+654,Ireland,Often,extracurricularActivity,131,3300,3.97
+655,Ireland,Always or almost always,extracurricularActivity,52,3300,1.58
+656,Israel,Never or rarely,extracurricularActivity,1864,3148,59.21
+657,Israel,Sometimes,extracurricularActivity,641,3148,20.36
+658,Israel,Often,extracurricularActivity,396,3148,12.58
+659,Israel,Always or almost always,extracurricularActivity,247,3148,7.85
+660,Italy,Never or rarely,extracurricularActivity,13897,20436,68.0
+661,Italy,Sometimes,extracurricularActivity,4380,20436,21.43
+662,Italy,Often,extracurricularActivity,1630,20436,7.98
+663,Italy,Always or almost always,extracurricularActivity,529,20436,2.59
+664,Japan,Never or rarely,extracurricularActivity,2726,4152,65.66
+665,Japan,Sometimes,extracurricularActivity,979,4152,23.58
+666,Japan,Often,extracurricularActivity,345,4152,8.31
+667,Japan,Always or almost always,extracurricularActivity,102,4152,2.46
+668,Jordan,Never or rarely,extracurricularActivity,693,4443,15.6
+669,Jordan,Sometimes,extracurricularActivity,1224,4443,27.55
+670,Jordan,Often,extracurricularActivity,1397,4443,31.44
+671,Jordan,Always or almost always,extracurricularActivity,1129,4443,25.41
+672,Kazakhstan,Never or rarely,extracurricularActivity,644,3805,16.93
+673,Kazakhstan,Sometimes,extracurricularActivity,1593,3805,41.87
+674,Kazakhstan,Often,extracurricularActivity,1112,3805,29.22
+675,Kazakhstan,Always or almost always,extracurricularActivity,456,3805,11.98
+676,Korea,Never or rarely,extracurricularActivity,1376,3347,41.11
+677,Korea,Sometimes,extracurricularActivity,830,3347,24.8
+678,Korea,Often,extracurricularActivity,800,3347,23.9
+679,Korea,Always or almost always,extracurricularActivity,341,3347,10.19
+680,Latvia,Never or rarely,extracurricularActivity,1613,2863,56.34
+681,Latvia,Sometimes,extracurricularActivity,826,2863,28.85
+682,Latvia,Often,extracurricularActivity,334,2863,11.67
+683,Latvia,Always or almost always,extracurricularActivity,90,2863,3.14
+684,Liechtenstein,Never or rarely,extracurricularActivity,62,192,32.29
+685,Liechtenstein,Sometimes,extracurricularActivity,93,192,48.44
+686,Liechtenstein,Often,extracurricularActivity,29,192,15.1
+687,Liechtenstein,Always or almost always,extracurricularActivity,8,192,4.17
+688,Lithuania,Never or rarely,extracurricularActivity,2148,3019,71.15
+689,Lithuania,Sometimes,extracurricularActivity,473,3019,15.67
+690,Lithuania,Often,extracurricularActivity,237,3019,7.85
+691,Lithuania,Always or almost always,extracurricularActivity,161,3019,5.33
+692,Luxembourg,Never or rarely,extracurricularActivity,2669,3379,78.99
+693,Luxembourg,Sometimes,extracurricularActivity,441,3379,13.05
+694,Luxembourg,Often,extracurricularActivity,180,3379,5.33
+695,Luxembourg,Always or almost always,extracurricularActivity,89,3379,2.63
+696,Macao-China,Never or rarely,extracurricularActivity,2189,3533,61.96
+697,Macao-China,Sometimes,extracurricularActivity,1083,3533,30.65
+698,Macao-China,Often,extracurricularActivity,210,3533,5.94
+699,Macao-China,Always or almost always,extracurricularActivity,51,3533,1.44
+700,Malaysia,Never or rarely,extracurricularActivity,839,3356,25.0
+701,Malaysia,Sometimes,extracurricularActivity,1615,3356,48.12
+702,Malaysia,Often,extracurricularActivity,651,3356,19.4
+703,Malaysia,Always or almost always,extracurricularActivity,251,3356,7.48
+704,Massachusetts (USA),Never or rarely,extracurricularActivity,883,1093,80.79
+705,Massachusetts (USA),Sometimes,extracurricularActivity,127,1093,11.62
+706,Massachusetts (USA),Often,extracurricularActivity,48,1093,4.39
+707,Massachusetts (USA),Always or almost always,extracurricularActivity,35,1093,3.2
+708,Mexico,Never or rarely,extracurricularActivity,8032,22123,36.31
+709,Mexico,Sometimes,extracurricularActivity,9452,22123,42.72
+710,Mexico,Often,extracurricularActivity,3290,22123,14.87
+711,Mexico,Always or almost always,extracurricularActivity,1349,22123,6.1
+712,Montenegro,Never or rarely,extracurricularActivity,1422,3009,47.26
+713,Montenegro,Sometimes,extracurricularActivity,979,3009,32.54
+714,Montenegro,Often,extracurricularActivity,407,3009,13.53
+715,Montenegro,Always or almost always,extracurricularActivity,201,3009,6.68
+716,Netherlands,Never or rarely,extracurricularActivity,2195,2828,77.62
+717,Netherlands,Sometimes,extracurricularActivity,476,2828,16.83
+718,Netherlands,Often,extracurricularActivity,123,2828,4.35
+719,Netherlands,Always or almost always,extracurricularActivity,34,2828,1.2
+720,New Zealand,Never or rarely,extracurricularActivity,1973,2768,71.28
+721,New Zealand,Sometimes,extracurricularActivity,517,2768,18.68
+722,New Zealand,Often,extracurricularActivity,197,2768,7.12
+723,New Zealand,Always or almost always,extracurricularActivity,81,2768,2.93
+724,Norway,Never or rarely,extracurricularActivity,2527,3025,83.54
+725,Norway,Sometimes,extracurricularActivity,389,3025,12.86
+726,Norway,Often,extracurricularActivity,73,3025,2.41
+727,Norway,Always or almost always,extracurricularActivity,36,3025,1.19
+728,Perm(Russian Federation),Never or rarely,extracurricularActivity,319,1125,28.36
+729,Perm(Russian Federation),Sometimes,extracurricularActivity,381,1125,33.87
+730,Perm(Russian Federation),Often,extracurricularActivity,240,1125,21.33
+731,Perm(Russian Federation),Always or almost always,extracurricularActivity,185,1125,16.44
+732,Peru,Never or rarely,extracurricularActivity,1323,3640,36.35
+733,Peru,Sometimes,extracurricularActivity,1454,3640,39.95
+734,Peru,Often,extracurricularActivity,583,3640,16.02
+735,Peru,Always or almost always,extracurricularActivity,280,3640,7.69
+736,Poland,Never or rarely,extracurricularActivity,1317,3049,43.19
+737,Poland,Sometimes,extracurricularActivity,1037,3049,34.01
+738,Poland,Often,extracurricularActivity,500,3049,16.4
+739,Poland,Always or almost always,extracurricularActivity,195,3049,6.4
+740,Portugal,Never or rarely,extracurricularActivity,2326,3691,63.02
+741,Portugal,Sometimes,extracurricularActivity,692,3691,18.75
+742,Portugal,Often,extracurricularActivity,495,3691,13.41
+743,Portugal,Always or almost always,extracurricularActivity,178,3691,4.82
+744,Qatar,Never or rarely,extracurricularActivity,1665,6564,25.37
+745,Qatar,Sometimes,extracurricularActivity,1924,6564,29.31
+746,Qatar,Often,extracurricularActivity,1852,6564,28.21
+747,Qatar,Always or almost always,extracurricularActivity,1123,6564,17.11
+748,Romania,Never or rarely,extracurricularActivity,1422,3339,42.59
+749,Romania,Sometimes,extracurricularActivity,945,3339,28.3
+750,Romania,Often,extracurricularActivity,600,3339,17.97
+751,Romania,Always or almost always,extracurricularActivity,372,3339,11.14
+752,Russian Federation,Never or rarely,extracurricularActivity,1233,3432,35.93
+753,Russian Federation,Sometimes,extracurricularActivity,1349,3432,39.31
+754,Russian Federation,Often,extracurricularActivity,588,3432,17.13
+755,Russian Federation,Always or almost always,extracurricularActivity,262,3432,7.63
+756,Serbia,Never or rarely,extracurricularActivity,1935,2991,64.69
+757,Serbia,Sometimes,extracurricularActivity,794,2991,26.55
+758,Serbia,Often,extracurricularActivity,188,2991,6.29
+759,Serbia,Always or almost always,extracurricularActivity,74,2991,2.47
+760,Singapore,Never or rarely,extracurricularActivity,2156,3683,58.54
+761,Singapore,Sometimes,extracurricularActivity,1029,3683,27.94
+762,Singapore,Often,extracurricularActivity,379,3683,10.29
+763,Singapore,Always or almost always,extracurricularActivity,119,3683,3.23
+764,Slovak Republic,Never or rarely,extracurricularActivity,1662,2990,55.59
+765,Slovak Republic,Sometimes,extracurricularActivity,1090,2990,36.45
+766,Slovak Republic,Often,extracurricularActivity,196,2990,6.56
+767,Slovak Republic,Always or almost always,extracurricularActivity,42,2990,1.4
+768,Slovenia,Never or rarely,extracurricularActivity,2071,3719,55.69
+769,Slovenia,Sometimes,extracurricularActivity,1087,3719,29.23
+770,Slovenia,Often,extracurricularActivity,430,3719,11.56
+771,Slovenia,Always or almost always,extracurricularActivity,131,3719,3.52
+772,Spain,Never or rarely,extracurricularActivity,9484,16527,57.38
+773,Spain,Sometimes,extracurricularActivity,3501,16527,21.18
+774,Spain,Often,extracurricularActivity,2282,16527,13.81
+775,Spain,Always or almost always,extracurricularActivity,1260,16527,7.62
+776,Sweden,Never or rarely,extracurricularActivity,1246,3056,40.77
+777,Sweden,Sometimes,extracurricularActivity,1263,3056,41.33
+778,Sweden,Often,extracurricularActivity,426,3056,13.94
+779,Sweden,Always or almost always,extracurricularActivity,121,3056,3.96
+780,Switzerland,Never or rarely,extracurricularActivity,3986,7379,54.02
+781,Switzerland,Sometimes,extracurricularActivity,2349,7379,31.83
+782,Switzerland,Often,extracurricularActivity,823,7379,11.15
+783,Switzerland,Always or almost always,extracurricularActivity,221,7379,2.99
+784,Thailand,Never or rarely,extracurricularActivity,632,4394,14.38
+785,Thailand,Sometimes,extracurricularActivity,2192,4394,49.89
+786,Thailand,Often,extracurricularActivity,1251,4394,28.47
+787,Thailand,Always or almost always,extracurricularActivity,319,4394,7.26
+788,Tunisia,Never or rarely,extracurricularActivity,1083,2764,39.18
+789,Tunisia,Sometimes,extracurricularActivity,830,2764,30.03
+790,Tunisia,Often,extracurricularActivity,530,2764,19.18
+791,Tunisia,Always or almost always,extracurricularActivity,321,2764,11.61
+792,Turkey,Never or rarely,extracurricularActivity,1336,3172,42.12
+793,Turkey,Sometimes,extracurricularActivity,1175,3172,37.04
+794,Turkey,Often,extracurricularActivity,426,3172,13.43
+795,Turkey,Always or almost always,extracurricularActivity,235,3172,7.41
+796,United Arab Emirates,Never or rarely,extracurricularActivity,2046,7315,27.97
+797,United Arab Emirates,Sometimes,extracurricularActivity,2287,7315,31.26
+798,United Arab Emirates,Often,extracurricularActivity,1812,7315,24.77
+799,United Arab Emirates,Always or almost always,extracurricularActivity,1170,7315,15.99
+800,United Kingdom,Never or rarely,extracurricularActivity,5833,8285,70.4
+801,United Kingdom,Sometimes,extracurricularActivity,1588,8285,19.17
+802,United Kingdom,Often,extracurricularActivity,615,8285,7.42
+803,United Kingdom,Always or almost always,extracurricularActivity,249,8285,3.01
+804,United States of America,Never or rarely,extracurricularActivity,2412,3204,75.28
+805,United States of America,Sometimes,extracurricularActivity,539,3204,16.82
+806,United States of America,Often,extracurricularActivity,182,3204,5.68
+807,United States of America,Always or almost always,extracurricularActivity,71,3204,2.22
+808,Uruguay,Never or rarely,extracurricularActivity,1886,3324,56.74
+809,Uruguay,Sometimes,extracurricularActivity,861,3324,25.9
+810,Uruguay,Often,extracurricularActivity,406,3324,12.21
+811,Uruguay,Always or almost always,extracurricularActivity,171,3324,5.14
+812,Vietnam,Never or rarely,extracurricularActivity,789,3238,24.37
+813,Vietnam,Sometimes,extracurricularActivity,1668,3238,51.51
+814,Vietnam,Often,extracurricularActivity,727,3238,22.45
+815,Vietnam,Always or almost always,extracurricularActivity,54,3238,1.67
+816,Albania,Never or rarely,participateInCompetitions,1016,2594,39.17
+817,Albania,Sometimes,participateInCompetitions,854,2594,32.92
+818,Albania,Often,participateInCompetitions,455,2594,17.54
+819,Albania,Always or almost always,participateInCompetitions,269,2594,10.37
+820,Argentina,Never or rarely,participateInCompetitions,2895,3639,79.55
+821,Argentina,Sometimes,participateInCompetitions,367,3639,10.09
+822,Argentina,Often,participateInCompetitions,216,3639,5.94
+823,Argentina,Always or almost always,participateInCompetitions,161,3639,4.42
+824,Australia,Never or rarely,participateInCompetitions,6918,9386,73.71
+825,Australia,Sometimes,participateInCompetitions,1594,9386,16.98
+826,Australia,Often,participateInCompetitions,607,9386,6.47
+827,Australia,Always or almost always,participateInCompetitions,267,9386,2.84
+828,Austria,Never or rarely,participateInCompetitions,2868,3100,92.52
+829,Austria,Sometimes,participateInCompetitions,165,3100,5.32
+830,Austria,Often,participateInCompetitions,39,3100,1.26
+831,Austria,Always or almost always,participateInCompetitions,28,3100,0.9
+832,Belgium,Never or rarely,participateInCompetitions,4685,5430,86.28
+833,Belgium,Sometimes,participateInCompetitions,524,5430,9.65
+834,Belgium,Often,participateInCompetitions,147,5430,2.71
+835,Belgium,Always or almost always,participateInCompetitions,74,5430,1.36
+836,Brazil,Never or rarely,participateInCompetitions,6940,11920,58.22
+837,Brazil,Sometimes,participateInCompetitions,2795,11920,23.45
+838,Brazil,Often,participateInCompetitions,1308,11920,10.97
+839,Brazil,Always or almost always,participateInCompetitions,877,11920,7.36
+840,Bulgaria,Never or rarely,participateInCompetitions,1916,3329,57.55
+841,Bulgaria,Sometimes,participateInCompetitions,879,3329,26.4
+842,Bulgaria,Often,participateInCompetitions,328,3329,9.85
+843,Bulgaria,Always or almost always,participateInCompetitions,206,3329,6.19
+844,Canada,Never or rarely,participateInCompetitions,11914,14020,84.98
+845,Canada,Sometimes,participateInCompetitions,1371,14020,9.78
+846,Canada,Often,participateInCompetitions,495,14020,3.53
+847,Canada,Always or almost always,participateInCompetitions,240,14020,1.71
+848,Chile,Never or rarely,participateInCompetitions,3585,4486,79.92
+849,Chile,Sometimes,participateInCompetitions,573,4486,12.77
+850,Chile,Often,participateInCompetitions,208,4486,4.64
+851,Chile,Always or almost always,participateInCompetitions,120,4486,2.67
+852,China-Shanghai,Never or rarely,participateInCompetitions,2274,3430,66.3
+853,China-Shanghai,Sometimes,participateInCompetitions,840,3430,24.49
+854,China-Shanghai,Often,participateInCompetitions,197,3430,5.74
+855,China-Shanghai,Always or almost always,participateInCompetitions,119,3430,3.47
+856,Chinese Taipei,Never or rarely,participateInCompetitions,3128,4003,78.14
+857,Chinese Taipei,Sometimes,participateInCompetitions,668,4003,16.69
+858,Chinese Taipei,Often,participateInCompetitions,139,4003,3.47
+859,Chinese Taipei,Always or almost always,participateInCompetitions,68,4003,1.7
+860,Colombia,Never or rarely,participateInCompetitions,2700,5541,48.73
+861,Colombia,Sometimes,participateInCompetitions,1794,5541,32.38
+862,Colombia,Often,participateInCompetitions,699,5541,12.62
+863,Colombia,Always or almost always,participateInCompetitions,348,5541,6.28
+864,Connecticut (USA),Never or rarely,participateInCompetitions,928,1107,83.83
+865,Connecticut (USA),Sometimes,participateInCompetitions,98,1107,8.85
+866,Connecticut (USA),Often,participateInCompetitions,58,1107,5.24
+867,Connecticut (USA),Always or almost always,participateInCompetitions,23,1107,2.08
+868,Costa Rica,Never or rarely,participateInCompetitions,1887,2866,65.84
+869,Costa Rica,Sometimes,participateInCompetitions,581,2866,20.27
+870,Costa Rica,Often,participateInCompetitions,232,2866,8.09
+871,Costa Rica,Always or almost always,participateInCompetitions,166,2866,5.79
+872,Croatia,Never or rarely,participateInCompetitions,2791,3297,84.65
+873,Croatia,Sometimes,participateInCompetitions,328,3297,9.95
+874,Croatia,Often,participateInCompetitions,116,3297,3.52
+875,Croatia,Always or almost always,participateInCompetitions,62,3297,1.88
+876,Czech Republic,Never or rarely,participateInCompetitions,2235,3451,64.76
+877,Czech Republic,Sometimes,participateInCompetitions,823,3451,23.85
+878,Czech Republic,Often,participateInCompetitions,250,3451,7.24
+879,Czech Republic,Always or almost always,participateInCompetitions,143,3451,4.14
+880,Denmark,Never or rarely,participateInCompetitions,4305,4784,89.99
+881,Denmark,Sometimes,participateInCompetitions,311,4784,6.5
+882,Denmark,Often,participateInCompetitions,130,4784,2.72
+883,Denmark,Always or almost always,participateInCompetitions,38,4784,0.79
+884,Estonia,Never or rarely,participateInCompetitions,2219,3139,70.69
+885,Estonia,Sometimes,participateInCompetitions,649,3139,20.68
+886,Estonia,Often,participateInCompetitions,175,3139,5.58
+887,Estonia,Always or almost always,participateInCompetitions,96,3139,3.06
+888,Finland,Never or rarely,participateInCompetitions,4734,5738,82.5
+889,Finland,Sometimes,participateInCompetitions,683,5738,11.9
+890,Finland,Often,participateInCompetitions,198,5738,3.45
+891,Finland,Always or almost always,participateInCompetitions,123,5738,2.14
+892,Florida (USA),Never or rarely,participateInCompetitions,1044,1215,85.93
+893,Florida (USA),Sometimes,participateInCompetitions,105,1215,8.64
+894,Florida (USA),Often,participateInCompetitions,45,1215,3.7
+895,Florida (USA),Always or almost always,participateInCompetitions,21,1215,1.73
+896,France,Never or rarely,participateInCompetitions,2692,2954,91.13
+897,France,Sometimes,participateInCompetitions,196,2954,6.64
+898,France,Often,participateInCompetitions,38,2954,1.29
+899,France,Always or almost always,participateInCompetitions,28,2954,0.95
+900,Germany,Never or rarely,participateInCompetitions,2369,2789,84.94
+901,Germany,Sometimes,participateInCompetitions,275,2789,9.86
+902,Germany,Often,participateInCompetitions,100,2789,3.59
+903,Germany,Always or almost always,participateInCompetitions,45,2789,1.61
+904,Greece,Never or rarely,participateInCompetitions,2492,3341,74.59
+905,Greece,Sometimes,participateInCompetitions,474,3341,14.19
+906,Greece,Often,participateInCompetitions,241,3341,7.21
+907,Greece,Always or almost always,participateInCompetitions,134,3341,4.01
+908,Hong Kong-China,Never or rarely,participateInCompetitions,2431,3059,79.47
+909,Hong Kong-China,Sometimes,participateInCompetitions,504,3059,16.48
+910,Hong Kong-China,Often,participateInCompetitions,75,3059,2.45
+911,Hong Kong-China,Always or almost always,participateInCompetitions,49,3059,1.6
+912,Hungary,Never or rarely,participateInCompetitions,2267,3159,71.76
+913,Hungary,Sometimes,participateInCompetitions,602,3159,19.06
+914,Hungary,Often,participateInCompetitions,208,3159,6.58
+915,Hungary,Always or almost always,participateInCompetitions,82,3159,2.6
+916,Iceland,Never or rarely,participateInCompetitions,1769,2202,80.34
+917,Iceland,Sometimes,participateInCompetitions,271,2202,12.31
+918,Iceland,Often,participateInCompetitions,86,2202,3.91
+919,Iceland,Always or almost always,participateInCompetitions,76,2202,3.45
+920,Indonesia,Never or rarely,participateInCompetitions,2285,3630,62.95
+921,Indonesia,Sometimes,participateInCompetitions,806,3630,22.2
+922,Indonesia,Often,participateInCompetitions,401,3630,11.05
+923,Indonesia,Always or almost always,participateInCompetitions,138,3630,3.8
+924,Ireland,Never or rarely,participateInCompetitions,3015,3298,91.42
+925,Ireland,Sometimes,participateInCompetitions,201,3298,6.09
+926,Ireland,Often,participateInCompetitions,47,3298,1.43
+927,Ireland,Always or almost always,participateInCompetitions,35,3298,1.06
+928,Israel,Never or rarely,participateInCompetitions,2491,3149,79.1
+929,Israel,Sometimes,participateInCompetitions,361,3149,11.46
+930,Israel,Often,participateInCompetitions,180,3149,5.72
+931,Israel,Always or almost always,participateInCompetitions,117,3149,3.72
+932,Italy,Never or rarely,participateInCompetitions,16356,20441,80.02
+933,Italy,Sometimes,participateInCompetitions,2794,20441,13.67
+934,Italy,Often,participateInCompetitions,921,20441,4.51
+935,Italy,Always or almost always,participateInCompetitions,370,20441,1.81
+936,Japan,Never or rarely,participateInCompetitions,3969,4152,95.59
+937,Japan,Sometimes,participateInCompetitions,140,4152,3.37
+938,Japan,Often,participateInCompetitions,25,4152,0.6
+939,Japan,Always or almost always,participateInCompetitions,18,4152,0.43
+940,Jordan,Never or rarely,participateInCompetitions,987,4430,22.28
+941,Jordan,Sometimes,participateInCompetitions,1094,4430,24.7
+942,Jordan,Often,participateInCompetitions,1264,4430,28.53
+943,Jordan,Always or almost always,participateInCompetitions,1085,4430,24.49
+944,Kazakhstan,Never or rarely,participateInCompetitions,1318,3811,34.58
+945,Kazakhstan,Sometimes,participateInCompetitions,1337,3811,35.08
+946,Kazakhstan,Often,participateInCompetitions,801,3811,21.02
+947,Kazakhstan,Always or almost always,participateInCompetitions,355,3811,9.32
+948,Korea,Never or rarely,participateInCompetitions,2576,3349,76.92
+949,Korea,Sometimes,participateInCompetitions,570,3349,17.02
+950,Korea,Often,participateInCompetitions,134,3349,4.0
+951,Korea,Always or almost always,participateInCompetitions,69,3349,2.06
+952,Latvia,Never or rarely,participateInCompetitions,2144,2863,74.89
+953,Latvia,Sometimes,participateInCompetitions,441,2863,15.4
+954,Latvia,Often,participateInCompetitions,147,2863,5.13
+955,Latvia,Always or almost always,participateInCompetitions,131,2863,4.58
+956,Liechtenstein,Never or rarely,participateInCompetitions,185,194,95.36
+957,Liechtenstein,Sometimes,participateInCompetitions,6,194,3.09
+958,Liechtenstein,Often,participateInCompetitions,1,194,0.52
+959,Liechtenstein,Always or almost always,participateInCompetitions,2,194,1.03
+960,Lithuania,Never or rarely,participateInCompetitions,1833,3020,60.7
+961,Lithuania,Sometimes,participateInCompetitions,769,3020,25.46
+962,Lithuania,Often,participateInCompetitions,282,3020,9.34
+963,Lithuania,Always or almost always,participateInCompetitions,136,3020,4.5
+964,Luxembourg,Never or rarely,participateInCompetitions,2830,3369,84.0
+965,Luxembourg,Sometimes,participateInCompetitions,328,3369,9.74
+966,Luxembourg,Often,participateInCompetitions,130,3369,3.86
+967,Luxembourg,Always or almost always,participateInCompetitions,81,3369,2.4
+968,Macao-China,Never or rarely,participateInCompetitions,2539,3534,71.84
+969,Macao-China,Sometimes,participateInCompetitions,768,3534,21.73
+970,Macao-China,Often,participateInCompetitions,155,3534,4.39
+971,Macao-China,Always or almost always,participateInCompetitions,72,3534,2.04
+972,Malaysia,Never or rarely,participateInCompetitions,1623,3358,48.33
+973,Malaysia,Sometimes,participateInCompetitions,1166,3358,34.72
+974,Malaysia,Often,participateInCompetitions,402,3358,11.97
+975,Malaysia,Always or almost always,participateInCompetitions,167,3358,4.97
+976,Massachusetts (USA),Never or rarely,participateInCompetitions,955,1092,87.45
+977,Massachusetts (USA),Sometimes,participateInCompetitions,79,1092,7.23
+978,Massachusetts (USA),Often,participateInCompetitions,33,1092,3.02
+979,Massachusetts (USA),Always or almost always,participateInCompetitions,25,1092,2.29
+980,Mexico,Never or rarely,participateInCompetitions,14372,22128,64.95
+981,Mexico,Sometimes,participateInCompetitions,5099,22128,23.04
+982,Mexico,Often,participateInCompetitions,1766,22128,7.98
+983,Mexico,Always or almost always,participateInCompetitions,891,22128,4.03
+984,Montenegro,Never or rarely,participateInCompetitions,2347,3017,77.79
+985,Montenegro,Sometimes,participateInCompetitions,358,3017,11.87
+986,Montenegro,Often,participateInCompetitions,177,3017,5.87
+987,Montenegro,Always or almost always,participateInCompetitions,135,3017,4.47
+988,Netherlands,Never or rarely,participateInCompetitions,2515,2826,89.0
+989,Netherlands,Sometimes,participateInCompetitions,198,2826,7.01
+990,Netherlands,Often,participateInCompetitions,83,2826,2.94
+991,Netherlands,Always or almost always,participateInCompetitions,30,2826,1.06
+992,New Zealand,Never or rarely,participateInCompetitions,2135,2771,77.05
+993,New Zealand,Sometimes,participateInCompetitions,412,2771,14.87
+994,New Zealand,Often,participateInCompetitions,155,2771,5.59
+995,New Zealand,Always or almost always,participateInCompetitions,69,2771,2.49
+996,Norway,Never or rarely,participateInCompetitions,2805,3027,92.67
+997,Norway,Sometimes,participateInCompetitions,158,3027,5.22
+998,Norway,Often,participateInCompetitions,42,3027,1.39
+999,Norway,Always or almost always,participateInCompetitions,22,3027,0.73
+1000,Perm(Russian Federation),Never or rarely,participateInCompetitions,408,1122,36.36
+1001,Perm(Russian Federation),Sometimes,participateInCompetitions,313,1122,27.9
+1002,Perm(Russian Federation),Often,participateInCompetitions,226,1122,20.14
+1003,Perm(Russian Federation),Always or almost always,participateInCompetitions,175,1122,15.6
+1004,Peru,Never or rarely,participateInCompetitions,1770,3647,48.53
+1005,Peru,Sometimes,participateInCompetitions,1211,3647,33.21
+1006,Peru,Often,participateInCompetitions,398,3647,10.91
+1007,Peru,Always or almost always,participateInCompetitions,268,3647,7.35
+1008,Poland,Never or rarely,participateInCompetitions,2046,3039,67.32
+1009,Poland,Sometimes,participateInCompetitions,583,3039,19.18
+1010,Poland,Often,participateInCompetitions,242,3039,7.96
+1011,Poland,Always or almost always,participateInCompetitions,168,3039,5.53
+1012,Portugal,Never or rarely,participateInCompetitions,2471,3695,66.87
+1013,Portugal,Sometimes,participateInCompetitions,859,3695,23.25
+1014,Portugal,Often,participateInCompetitions,256,3695,6.93
+1015,Portugal,Always or almost always,participateInCompetitions,109,3695,2.95
+1016,Qatar,Never or rarely,participateInCompetitions,2111,6587,32.05
+1017,Qatar,Sometimes,participateInCompetitions,1626,6587,24.68
+1018,Qatar,Often,participateInCompetitions,1646,6587,24.99
+1019,Qatar,Always or almost always,participateInCompetitions,1204,6587,18.28
+1020,Romania,Never or rarely,participateInCompetitions,1351,3334,40.52
+1021,Romania,Sometimes,participateInCompetitions,916,3334,27.47
+1022,Romania,Often,participateInCompetitions,610,3334,18.3
+1023,Romania,Always or almost always,participateInCompetitions,457,3334,13.71
+1024,Russian Federation,Never or rarely,participateInCompetitions,1741,3432,50.73
+1025,Russian Federation,Sometimes,participateInCompetitions,1016,3432,29.6
+1026,Russian Federation,Often,participateInCompetitions,414,3432,12.06
+1027,Russian Federation,Always or almost always,participateInCompetitions,261,3432,7.6
+1028,Serbia,Never or rarely,participateInCompetitions,2328,2999,77.63
+1029,Serbia,Sometimes,participateInCompetitions,418,2999,13.94
+1030,Serbia,Often,participateInCompetitions,159,2999,5.3
+1031,Serbia,Always or almost always,participateInCompetitions,94,2999,3.13
+1032,Singapore,Never or rarely,participateInCompetitions,2653,3686,71.98
+1033,Singapore,Sometimes,participateInCompetitions,743,3686,20.16
+1034,Singapore,Often,participateInCompetitions,205,3686,5.56
+1035,Singapore,Always or almost always,participateInCompetitions,85,3686,2.31
+1036,Slovak Republic,Never or rarely,participateInCompetitions,2021,2983,67.75
+1037,Slovak Republic,Sometimes,participateInCompetitions,667,2983,22.36
+1038,Slovak Republic,Often,participateInCompetitions,191,2983,6.4
+1039,Slovak Republic,Always or almost always,participateInCompetitions,104,2983,3.49
+1040,Slovenia,Never or rarely,participateInCompetitions,1880,3727,50.44
+1041,Slovenia,Sometimes,participateInCompetitions,962,3727,25.81
+1042,Slovenia,Often,participateInCompetitions,524,3727,14.06
+1043,Slovenia,Always or almost always,participateInCompetitions,361,3727,9.69
+1044,Spain,Never or rarely,participateInCompetitions,13668,16542,82.63
+1045,Spain,Sometimes,participateInCompetitions,1856,16542,11.22
+1046,Spain,Often,participateInCompetitions,703,16542,4.25
+1047,Spain,Always or almost always,participateInCompetitions,315,16542,1.9
+1048,Sweden,Never or rarely,participateInCompetitions,2541,3062,82.98
+1049,Sweden,Sometimes,participateInCompetitions,343,3062,11.2
+1050,Sweden,Often,participateInCompetitions,126,3062,4.11
+1051,Sweden,Always or almost always,participateInCompetitions,52,3062,1.7
+1052,Switzerland,Never or rarely,participateInCompetitions,6718,7388,90.93
+1053,Switzerland,Sometimes,participateInCompetitions,433,7388,5.86
+1054,Switzerland,Often,participateInCompetitions,169,7388,2.29
+1055,Switzerland,Always or almost always,participateInCompetitions,68,7388,0.92
+1056,Thailand,Never or rarely,participateInCompetitions,1646,4403,37.38
+1057,Thailand,Sometimes,participateInCompetitions,1796,4403,40.79
+1058,Thailand,Often,participateInCompetitions,749,4403,17.01
+1059,Thailand,Always or almost always,participateInCompetitions,212,4403,4.81
+1060,Tunisia,Never or rarely,participateInCompetitions,1528,2774,55.08
+1061,Tunisia,Sometimes,participateInCompetitions,666,2774,24.01
+1062,Tunisia,Often,participateInCompetitions,352,2774,12.69
+1063,Tunisia,Always or almost always,participateInCompetitions,228,2774,8.22
+1064,Turkey,Never or rarely,participateInCompetitions,2182,3171,68.81
+1065,Turkey,Sometimes,participateInCompetitions,667,3171,21.03
+1066,Turkey,Often,participateInCompetitions,202,3171,6.37
+1067,Turkey,Always or almost always,participateInCompetitions,120,3171,3.78
+1068,United Arab Emirates,Never or rarely,participateInCompetitions,3166,7292,43.42
+1069,United Arab Emirates,Sometimes,participateInCompetitions,1935,7292,26.54
+1070,United Arab Emirates,Often,participateInCompetitions,1312,7292,17.99
+1071,United Arab Emirates,Always or almost always,participateInCompetitions,879,7292,12.05
+1072,United Kingdom,Never or rarely,participateInCompetitions,7225,8283,87.23
+1073,United Kingdom,Sometimes,participateInCompetitions,761,8283,9.19
+1074,United Kingdom,Often,participateInCompetitions,219,8283,2.64
+1075,United Kingdom,Always or almost always,participateInCompetitions,78,8283,0.94
+1076,United States of America,Never or rarely,participateInCompetitions,2659,3193,83.28
+1077,United States of America,Sometimes,participateInCompetitions,314,3193,9.83
+1078,United States of America,Often,participateInCompetitions,149,3193,4.67
+1079,United States of America,Always or almost always,participateInCompetitions,71,3193,2.22
+1080,Uruguay,Never or rarely,participateInCompetitions,2699,3324,81.2
+1081,Uruguay,Sometimes,participateInCompetitions,343,3324,10.32
+1082,Uruguay,Often,participateInCompetitions,170,3324,5.11
+1083,Uruguay,Always or almost always,participateInCompetitions,112,3324,3.37
+1084,Vietnam,Never or rarely,participateInCompetitions,1188,3257,36.48
+1085,Vietnam,Sometimes,participateInCompetitions,1236,3257,37.95
+1086,Vietnam,Often,participateInCompetitions,626,3257,19.22
+1087,Vietnam,Always or almost always,participateInCompetitions,207,3257,6.36
+1088,Albania,Never or rarely,studyMoreThan2ExtraHoursADay,1030,2600,39.62
+1089,Albania,Sometimes,studyMoreThan2ExtraHoursADay,803,2600,30.88
+1090,Albania,Often,studyMoreThan2ExtraHoursADay,482,2600,18.54
+1091,Albania,Always or almost always,studyMoreThan2ExtraHoursADay,285,2600,10.96
+1092,Argentina,Never or rarely,studyMoreThan2ExtraHoursADay,2218,3628,61.14
+1093,Argentina,Sometimes,studyMoreThan2ExtraHoursADay,893,3628,24.61
+1094,Argentina,Often,studyMoreThan2ExtraHoursADay,345,3628,9.51
+1095,Argentina,Always or almost always,studyMoreThan2ExtraHoursADay,172,3628,4.74
+1096,Australia,Never or rarely,studyMoreThan2ExtraHoursADay,6905,9393,73.51
+1097,Australia,Sometimes,studyMoreThan2ExtraHoursADay,1860,9393,19.8
+1098,Australia,Often,studyMoreThan2ExtraHoursADay,445,9393,4.74
+1099,Australia,Always or almost always,studyMoreThan2ExtraHoursADay,183,9393,1.95
+1100,Austria,Never or rarely,studyMoreThan2ExtraHoursADay,2354,3104,75.84
+1101,Austria,Sometimes,studyMoreThan2ExtraHoursADay,613,3104,19.75
+1102,Austria,Often,studyMoreThan2ExtraHoursADay,97,3104,3.12
+1103,Austria,Always or almost always,studyMoreThan2ExtraHoursADay,40,3104,1.29
+1104,Belgium,Never or rarely,studyMoreThan2ExtraHoursADay,3769,5427,69.45
+1105,Belgium,Sometimes,studyMoreThan2ExtraHoursADay,1352,5427,24.91
+1106,Belgium,Often,studyMoreThan2ExtraHoursADay,217,5427,4.0
+1107,Belgium,Always or almost always,studyMoreThan2ExtraHoursADay,89,5427,1.64
+1108,Brazil,Never or rarely,studyMoreThan2ExtraHoursADay,6049,11954,50.6
+1109,Brazil,Sometimes,studyMoreThan2ExtraHoursADay,3676,11954,30.75
+1110,Brazil,Often,studyMoreThan2ExtraHoursADay,1415,11954,11.84
+1111,Brazil,Always or almost always,studyMoreThan2ExtraHoursADay,814,11954,6.81
+1112,Bulgaria,Never or rarely,studyMoreThan2ExtraHoursADay,1859,3321,55.98
+1113,Bulgaria,Sometimes,studyMoreThan2ExtraHoursADay,920,3321,27.7
+1114,Bulgaria,Often,studyMoreThan2ExtraHoursADay,342,3321,10.3
+1115,Bulgaria,Always or almost always,studyMoreThan2ExtraHoursADay,200,3321,6.02
+1116,Canada,Never or rarely,studyMoreThan2ExtraHoursADay,10035,14009,71.63
+1117,Canada,Sometimes,studyMoreThan2ExtraHoursADay,2969,14009,21.19
+1118,Canada,Often,studyMoreThan2ExtraHoursADay,702,14009,5.01
+1119,Canada,Always or almost always,studyMoreThan2ExtraHoursADay,303,14009,2.16
+1120,Chile,Never or rarely,studyMoreThan2ExtraHoursADay,2701,4487,60.2
+1121,Chile,Sometimes,studyMoreThan2ExtraHoursADay,1304,4487,29.06
+1122,Chile,Often,studyMoreThan2ExtraHoursADay,328,4487,7.31
+1123,Chile,Always or almost always,studyMoreThan2ExtraHoursADay,154,4487,3.43
+1124,China-Shanghai,Never or rarely,studyMoreThan2ExtraHoursADay,1226,3427,35.77
+1125,China-Shanghai,Sometimes,studyMoreThan2ExtraHoursADay,1242,3427,36.24
+1126,China-Shanghai,Often,studyMoreThan2ExtraHoursADay,613,3427,17.89
+1127,China-Shanghai,Always or almost always,studyMoreThan2ExtraHoursADay,346,3427,10.1
+1128,Chinese Taipei,Never or rarely,studyMoreThan2ExtraHoursADay,2557,4002,63.89
+1129,Chinese Taipei,Sometimes,studyMoreThan2ExtraHoursADay,1190,4002,29.74
+1130,Chinese Taipei,Often,studyMoreThan2ExtraHoursADay,184,4002,4.6
+1131,Chinese Taipei,Always or almost always,studyMoreThan2ExtraHoursADay,71,4002,1.77
+1132,Colombia,Never or rarely,studyMoreThan2ExtraHoursADay,3035,5545,54.73
+1133,Colombia,Sometimes,studyMoreThan2ExtraHoursADay,1809,5545,32.62
+1134,Colombia,Often,studyMoreThan2ExtraHoursADay,441,5545,7.95
+1135,Colombia,Always or almost always,studyMoreThan2ExtraHoursADay,260,5545,4.69
+1136,Connecticut (USA),Never or rarely,studyMoreThan2ExtraHoursADay,793,1112,71.31
+1137,Connecticut (USA),Sometimes,studyMoreThan2ExtraHoursADay,241,1112,21.67
+1138,Connecticut (USA),Often,studyMoreThan2ExtraHoursADay,60,1112,5.4
+1139,Connecticut (USA),Always or almost always,studyMoreThan2ExtraHoursADay,18,1112,1.62
+1140,Costa Rica,Never or rarely,studyMoreThan2ExtraHoursADay,1607,2874,55.92
+1141,Costa Rica,Sometimes,studyMoreThan2ExtraHoursADay,904,2874,31.45
+1142,Costa Rica,Often,studyMoreThan2ExtraHoursADay,208,2874,7.24
+1143,Costa Rica,Always or almost always,studyMoreThan2ExtraHoursADay,155,2874,5.39
+1144,Croatia,Never or rarely,studyMoreThan2ExtraHoursADay,2266,3308,68.5
+1145,Croatia,Sometimes,studyMoreThan2ExtraHoursADay,798,3308,24.12
+1146,Croatia,Often,studyMoreThan2ExtraHoursADay,189,3308,5.71
+1147,Croatia,Always or almost always,studyMoreThan2ExtraHoursADay,55,3308,1.66
+1148,Czech Republic,Never or rarely,studyMoreThan2ExtraHoursADay,2524,3457,73.01
+1149,Czech Republic,Sometimes,studyMoreThan2ExtraHoursADay,756,3457,21.87
+1150,Czech Republic,Often,studyMoreThan2ExtraHoursADay,140,3457,4.05
+1151,Czech Republic,Always or almost always,studyMoreThan2ExtraHoursADay,37,3457,1.07
+1152,Denmark,Never or rarely,studyMoreThan2ExtraHoursADay,3272,4775,68.52
+1153,Denmark,Sometimes,studyMoreThan2ExtraHoursADay,1262,4775,26.43
+1154,Denmark,Often,studyMoreThan2ExtraHoursADay,181,4775,3.79
+1155,Denmark,Always or almost always,studyMoreThan2ExtraHoursADay,60,4775,1.26
+1156,Estonia,Never or rarely,studyMoreThan2ExtraHoursADay,2013,3135,64.21
+1157,Estonia,Sometimes,studyMoreThan2ExtraHoursADay,908,3135,28.96
+1158,Estonia,Often,studyMoreThan2ExtraHoursADay,174,3135,5.55
+1159,Estonia,Always or almost always,studyMoreThan2ExtraHoursADay,40,3135,1.28
+1160,Finland,Never or rarely,studyMoreThan2ExtraHoursADay,4847,5744,84.38
+1161,Finland,Sometimes,studyMoreThan2ExtraHoursADay,713,5744,12.41
+1162,Finland,Often,studyMoreThan2ExtraHoursADay,130,5744,2.26
+1163,Finland,Always or almost always,studyMoreThan2ExtraHoursADay,54,5744,0.94
+1164,Florida (USA),Never or rarely,studyMoreThan2ExtraHoursADay,861,1218,70.69
+1165,Florida (USA),Sometimes,studyMoreThan2ExtraHoursADay,245,1218,20.11
+1166,Florida (USA),Often,studyMoreThan2ExtraHoursADay,76,1218,6.24
+1167,Florida (USA),Always or almost always,studyMoreThan2ExtraHoursADay,36,1218,2.96
+1168,France,Never or rarely,studyMoreThan2ExtraHoursADay,2203,2955,74.55
+1169,France,Sometimes,studyMoreThan2ExtraHoursADay,579,2955,19.59
+1170,France,Often,studyMoreThan2ExtraHoursADay,117,2955,3.96
+1171,France,Always or almost always,studyMoreThan2ExtraHoursADay,56,2955,1.9
+1172,Germany,Never or rarely,studyMoreThan2ExtraHoursADay,1991,2791,71.34
+1173,Germany,Sometimes,studyMoreThan2ExtraHoursADay,642,2791,23.0
+1174,Germany,Often,studyMoreThan2ExtraHoursADay,112,2791,4.01
+1175,Germany,Always or almost always,studyMoreThan2ExtraHoursADay,46,2791,1.65
+1176,Greece,Never or rarely,studyMoreThan2ExtraHoursADay,1612,3345,48.19
+1177,Greece,Sometimes,studyMoreThan2ExtraHoursADay,937,3345,28.01
+1178,Greece,Often,studyMoreThan2ExtraHoursADay,557,3345,16.65
+1179,Greece,Always or almost always,studyMoreThan2ExtraHoursADay,239,3345,7.14
+1180,Hong Kong-China,Never or rarely,studyMoreThan2ExtraHoursADay,1805,3061,58.97
+1181,Hong Kong-China,Sometimes,studyMoreThan2ExtraHoursADay,1064,3061,34.76
+1182,Hong Kong-China,Often,studyMoreThan2ExtraHoursADay,142,3061,4.64
+1183,Hong Kong-China,Always or almost always,studyMoreThan2ExtraHoursADay,50,3061,1.63
+1184,Hungary,Never or rarely,studyMoreThan2ExtraHoursADay,1756,3166,55.46
+1185,Hungary,Sometimes,studyMoreThan2ExtraHoursADay,1034,3166,32.66
+1186,Hungary,Often,studyMoreThan2ExtraHoursADay,294,3166,9.29
+1187,Hungary,Always or almost always,studyMoreThan2ExtraHoursADay,82,3166,2.59
+1188,Iceland,Never or rarely,studyMoreThan2ExtraHoursADay,1562,2207,70.77
+1189,Iceland,Sometimes,studyMoreThan2ExtraHoursADay,488,2207,22.11
+1190,Iceland,Often,studyMoreThan2ExtraHoursADay,101,2207,4.58
+1191,Iceland,Always or almost always,studyMoreThan2ExtraHoursADay,56,2207,2.54
+1192,Indonesia,Never or rarely,studyMoreThan2ExtraHoursADay,1153,3635,31.72
+1193,Indonesia,Sometimes,studyMoreThan2ExtraHoursADay,1639,3635,45.09
+1194,Indonesia,Often,studyMoreThan2ExtraHoursADay,676,3635,18.6
+1195,Indonesia,Always or almost always,studyMoreThan2ExtraHoursADay,167,3635,4.59
+1196,Ireland,Never or rarely,studyMoreThan2ExtraHoursADay,2621,3300,79.42
+1197,Ireland,Sometimes,studyMoreThan2ExtraHoursADay,541,3300,16.39
+1198,Ireland,Often,studyMoreThan2ExtraHoursADay,91,3300,2.76
+1199,Ireland,Always or almost always,studyMoreThan2ExtraHoursADay,47,3300,1.42
+1200,Israel,Never or rarely,studyMoreThan2ExtraHoursADay,1563,3151,49.6
+1201,Israel,Sometimes,studyMoreThan2ExtraHoursADay,964,3151,30.59
+1202,Israel,Often,studyMoreThan2ExtraHoursADay,382,3151,12.12
+1203,Israel,Always or almost always,studyMoreThan2ExtraHoursADay,242,3151,7.68
+1204,Italy,Never or rarely,studyMoreThan2ExtraHoursADay,10872,20473,53.1
+1205,Italy,Sometimes,studyMoreThan2ExtraHoursADay,6588,20473,32.18
+1206,Italy,Often,studyMoreThan2ExtraHoursADay,2270,20473,11.09
+1207,Italy,Always or almost always,studyMoreThan2ExtraHoursADay,743,20473,3.63
+1208,Japan,Never or rarely,studyMoreThan2ExtraHoursADay,2858,4154,68.8
+1209,Japan,Sometimes,studyMoreThan2ExtraHoursADay,1062,4154,25.57
+1210,Japan,Often,studyMoreThan2ExtraHoursADay,159,4154,3.83
+1211,Japan,Always or almost always,studyMoreThan2ExtraHoursADay,75,4154,1.81
+1212,Jordan,Never or rarely,studyMoreThan2ExtraHoursADay,892,4444,20.07
+1213,Jordan,Sometimes,studyMoreThan2ExtraHoursADay,1385,4444,31.17
+1214,Jordan,Often,studyMoreThan2ExtraHoursADay,1191,4444,26.8
+1215,Jordan,Always or almost always,studyMoreThan2ExtraHoursADay,976,4444,21.96
+1216,Kazakhstan,Never or rarely,studyMoreThan2ExtraHoursADay,850,3809,22.32
+1217,Kazakhstan,Sometimes,studyMoreThan2ExtraHoursADay,1449,3809,38.04
+1218,Kazakhstan,Often,studyMoreThan2ExtraHoursADay,1063,3809,27.91
+1219,Kazakhstan,Always or almost always,studyMoreThan2ExtraHoursADay,447,3809,11.74
+1220,Korea,Never or rarely,studyMoreThan2ExtraHoursADay,1417,3350,42.3
+1221,Korea,Sometimes,studyMoreThan2ExtraHoursADay,1007,3350,30.06
+1222,Korea,Often,studyMoreThan2ExtraHoursADay,636,3350,18.99
+1223,Korea,Always or almost always,studyMoreThan2ExtraHoursADay,290,3350,8.66
+1224,Latvia,Never or rarely,studyMoreThan2ExtraHoursADay,1874,2865,65.41
+1225,Latvia,Sometimes,studyMoreThan2ExtraHoursADay,746,2865,26.04
+1226,Latvia,Often,studyMoreThan2ExtraHoursADay,184,2865,6.42
+1227,Latvia,Always or almost always,studyMoreThan2ExtraHoursADay,61,2865,2.13
+1228,Liechtenstein,Never or rarely,studyMoreThan2ExtraHoursADay,157,194,80.93
+1229,Liechtenstein,Sometimes,studyMoreThan2ExtraHoursADay,30,194,15.46
+1230,Liechtenstein,Often,studyMoreThan2ExtraHoursADay,5,194,2.58
+1231,Liechtenstein,Always or almost always,studyMoreThan2ExtraHoursADay,2,194,1.03
+1232,Lithuania,Never or rarely,studyMoreThan2ExtraHoursADay,2031,3020,67.25
+1233,Lithuania,Sometimes,studyMoreThan2ExtraHoursADay,759,3020,25.13
+1234,Lithuania,Often,studyMoreThan2ExtraHoursADay,158,3020,5.23
+1235,Lithuania,Always or almost always,studyMoreThan2ExtraHoursADay,72,3020,2.38
+1236,Luxembourg,Never or rarely,studyMoreThan2ExtraHoursADay,2369,3385,69.99
+1237,Luxembourg,Sometimes,studyMoreThan2ExtraHoursADay,763,3385,22.54
+1238,Luxembourg,Often,studyMoreThan2ExtraHoursADay,175,3385,5.17
+1239,Luxembourg,Always or almost always,studyMoreThan2ExtraHoursADay,78,3385,2.3
+1240,Macao-China,Never or rarely,studyMoreThan2ExtraHoursADay,2195,3535,62.09
+1241,Macao-China,Sometimes,studyMoreThan2ExtraHoursADay,1074,3535,30.38
+1242,Macao-China,Often,studyMoreThan2ExtraHoursADay,194,3535,5.49
+1243,Macao-China,Always or almost always,studyMoreThan2ExtraHoursADay,72,3535,2.04
+1244,Malaysia,Never or rarely,studyMoreThan2ExtraHoursADay,1012,3356,30.15
+1245,Malaysia,Sometimes,studyMoreThan2ExtraHoursADay,1502,3356,44.76
+1246,Malaysia,Often,studyMoreThan2ExtraHoursADay,603,3356,17.97
+1247,Malaysia,Always or almost always,studyMoreThan2ExtraHoursADay,239,3356,7.12
+1248,Massachusetts (USA),Never or rarely,studyMoreThan2ExtraHoursADay,780,1095,71.23
+1249,Massachusetts (USA),Sometimes,studyMoreThan2ExtraHoursADay,226,1095,20.64
+1250,Massachusetts (USA),Often,studyMoreThan2ExtraHoursADay,56,1095,5.11
+1251,Massachusetts (USA),Always or almost always,studyMoreThan2ExtraHoursADay,33,1095,3.01
+1252,Mexico,Never or rarely,studyMoreThan2ExtraHoursADay,13877,22135,62.69
+1253,Mexico,Sometimes,studyMoreThan2ExtraHoursADay,6029,22135,27.24
+1254,Mexico,Often,studyMoreThan2ExtraHoursADay,1494,22135,6.75
+1255,Mexico,Always or almost always,studyMoreThan2ExtraHoursADay,735,22135,3.32
+1256,Montenegro,Never or rarely,studyMoreThan2ExtraHoursADay,1491,3026,49.27
+1257,Montenegro,Sometimes,studyMoreThan2ExtraHoursADay,980,3026,32.39
+1258,Montenegro,Often,studyMoreThan2ExtraHoursADay,347,3026,11.47
+1259,Montenegro,Always or almost always,studyMoreThan2ExtraHoursADay,208,3026,6.87
+1260,Netherlands,Never or rarely,studyMoreThan2ExtraHoursADay,2171,2828,76.77
+1261,Netherlands,Sometimes,studyMoreThan2ExtraHoursADay,527,2828,18.64
+1262,Netherlands,Often,studyMoreThan2ExtraHoursADay,90,2828,3.18
+1263,Netherlands,Always or almost always,studyMoreThan2ExtraHoursADay,40,2828,1.41
+1264,New Zealand,Never or rarely,studyMoreThan2ExtraHoursADay,2100,2769,75.84
+1265,New Zealand,Sometimes,studyMoreThan2ExtraHoursADay,501,2769,18.09
+1266,New Zealand,Often,studyMoreThan2ExtraHoursADay,119,2769,4.3
+1267,New Zealand,Always or almost always,studyMoreThan2ExtraHoursADay,49,2769,1.77
+1268,Norway,Never or rarely,studyMoreThan2ExtraHoursADay,2372,3030,78.28
+1269,Norway,Sometimes,studyMoreThan2ExtraHoursADay,543,3030,17.92
+1270,Norway,Often,studyMoreThan2ExtraHoursADay,89,3030,2.94
+1271,Norway,Always or almost always,studyMoreThan2ExtraHoursADay,26,3030,0.86
+1272,Perm(Russian Federation),Never or rarely,studyMoreThan2ExtraHoursADay,391,1124,34.79
+1273,Perm(Russian Federation),Sometimes,studyMoreThan2ExtraHoursADay,365,1124,32.47
+1274,Perm(Russian Federation),Often,studyMoreThan2ExtraHoursADay,211,1124,18.77
+1275,Perm(Russian Federation),Always or almost always,studyMoreThan2ExtraHoursADay,157,1124,13.97
+1276,Peru,Never or rarely,studyMoreThan2ExtraHoursADay,1362,3636,37.46
+1277,Peru,Sometimes,studyMoreThan2ExtraHoursADay,1554,3636,42.74
+1278,Peru,Often,studyMoreThan2ExtraHoursADay,473,3636,13.01
+1279,Peru,Always or almost always,studyMoreThan2ExtraHoursADay,247,3636,6.79
+1280,Poland,Never or rarely,studyMoreThan2ExtraHoursADay,1836,3052,60.16
+1281,Poland,Sometimes,studyMoreThan2ExtraHoursADay,926,3052,30.34
+1282,Poland,Often,studyMoreThan2ExtraHoursADay,208,3052,6.82
+1283,Poland,Always or almost always,studyMoreThan2ExtraHoursADay,82,3052,2.69
+1284,Portugal,Never or rarely,studyMoreThan2ExtraHoursADay,1768,3697,47.82
+1285,Portugal,Sometimes,studyMoreThan2ExtraHoursADay,1346,3697,36.41
+1286,Portugal,Often,studyMoreThan2ExtraHoursADay,423,3697,11.44
+1287,Portugal,Always or almost always,studyMoreThan2ExtraHoursADay,160,3697,4.33
+1288,Qatar,Never or rarely,studyMoreThan2ExtraHoursADay,1811,6578,27.53
+1289,Qatar,Sometimes,studyMoreThan2ExtraHoursADay,2049,6578,31.15
+1290,Qatar,Often,studyMoreThan2ExtraHoursADay,1638,6578,24.9
+1291,Qatar,Always or almost always,studyMoreThan2ExtraHoursADay,1080,6578,16.42
+1292,Romania,Never or rarely,studyMoreThan2ExtraHoursADay,1546,3327,46.47
+1293,Romania,Sometimes,studyMoreThan2ExtraHoursADay,879,3327,26.42
+1294,Romania,Often,studyMoreThan2ExtraHoursADay,552,3327,16.59
+1295,Romania,Always or almost always,studyMoreThan2ExtraHoursADay,350,3327,10.52
+1296,Russian Federation,Never or rarely,studyMoreThan2ExtraHoursADay,1586,3437,46.14
+1297,Russian Federation,Sometimes,studyMoreThan2ExtraHoursADay,1277,3437,37.15
+1298,Russian Federation,Often,studyMoreThan2ExtraHoursADay,414,3437,12.05
+1299,Russian Federation,Always or almost always,studyMoreThan2ExtraHoursADay,160,3437,4.66
+1300,Serbia,Never or rarely,studyMoreThan2ExtraHoursADay,1580,3001,52.65
+1301,Serbia,Sometimes,studyMoreThan2ExtraHoursADay,996,3001,33.19
+1302,Serbia,Often,studyMoreThan2ExtraHoursADay,315,3001,10.5
+1303,Serbia,Always or almost always,studyMoreThan2ExtraHoursADay,110,3001,3.67
+1304,Singapore,Never or rarely,studyMoreThan2ExtraHoursADay,1185,3685,32.16
+1305,Singapore,Sometimes,studyMoreThan2ExtraHoursADay,1640,3685,44.5
+1306,Singapore,Often,studyMoreThan2ExtraHoursADay,605,3685,16.42
+1307,Singapore,Always or almost always,studyMoreThan2ExtraHoursADay,255,3685,6.92
+1308,Slovak Republic,Never or rarely,studyMoreThan2ExtraHoursADay,2049,2985,68.64
+1309,Slovak Republic,Sometimes,studyMoreThan2ExtraHoursADay,751,2985,25.16
+1310,Slovak Republic,Often,studyMoreThan2ExtraHoursADay,135,2985,4.52
+1311,Slovak Republic,Always or almost always,studyMoreThan2ExtraHoursADay,50,2985,1.68
+1312,Slovenia,Never or rarely,studyMoreThan2ExtraHoursADay,2112,3728,56.65
+1313,Slovenia,Sometimes,studyMoreThan2ExtraHoursADay,1158,3728,31.06
+1314,Slovenia,Often,studyMoreThan2ExtraHoursADay,320,3728,8.58
+1315,Slovenia,Always or almost always,studyMoreThan2ExtraHoursADay,138,3728,3.7
+1316,Spain,Never or rarely,studyMoreThan2ExtraHoursADay,9531,16550,57.59
+1317,Spain,Sometimes,studyMoreThan2ExtraHoursADay,4695,16550,28.37
+1318,Spain,Often,studyMoreThan2ExtraHoursADay,1573,16550,9.5
+1319,Spain,Always or almost always,studyMoreThan2ExtraHoursADay,751,16550,4.54
+1320,Sweden,Never or rarely,studyMoreThan2ExtraHoursADay,2372,3065,77.39
+1321,Sweden,Sometimes,studyMoreThan2ExtraHoursADay,540,3065,17.62
+1322,Sweden,Often,studyMoreThan2ExtraHoursADay,109,3065,3.56
+1323,Sweden,Always or almost always,studyMoreThan2ExtraHoursADay,44,3065,1.44
+1324,Switzerland,Never or rarely,studyMoreThan2ExtraHoursADay,5716,7377,77.48
+1325,Switzerland,Sometimes,studyMoreThan2ExtraHoursADay,1343,7377,18.21
+1326,Switzerland,Often,studyMoreThan2ExtraHoursADay,229,7377,3.1
+1327,Switzerland,Always or almost always,studyMoreThan2ExtraHoursADay,89,7377,1.21
+1328,Thailand,Never or rarely,studyMoreThan2ExtraHoursADay,1862,4399,42.33
+1329,Thailand,Sometimes,studyMoreThan2ExtraHoursADay,1487,4399,33.8
+1330,Thailand,Often,studyMoreThan2ExtraHoursADay,726,4399,16.5
+1331,Thailand,Always or almost always,studyMoreThan2ExtraHoursADay,324,4399,7.37
+1332,Tunisia,Never or rarely,studyMoreThan2ExtraHoursADay,958,2765,34.65
+1333,Tunisia,Sometimes,studyMoreThan2ExtraHoursADay,979,2765,35.41
+1334,Tunisia,Often,studyMoreThan2ExtraHoursADay,492,2765,17.79
+1335,Tunisia,Always or almost always,studyMoreThan2ExtraHoursADay,336,2765,12.15
+1336,Turkey,Never or rarely,studyMoreThan2ExtraHoursADay,1213,3168,38.29
+1337,Turkey,Sometimes,studyMoreThan2ExtraHoursADay,1338,3168,42.23
+1338,Turkey,Often,studyMoreThan2ExtraHoursADay,413,3168,13.04
+1339,Turkey,Always or almost always,studyMoreThan2ExtraHoursADay,204,3168,6.44
+1340,United Arab Emirates,Never or rarely,studyMoreThan2ExtraHoursADay,2047,7332,27.92
+1341,United Arab Emirates,Sometimes,studyMoreThan2ExtraHoursADay,2555,7332,34.85
+1342,United Arab Emirates,Often,studyMoreThan2ExtraHoursADay,1592,7332,21.71
+1343,United Arab Emirates,Always or almost always,studyMoreThan2ExtraHoursADay,1138,7332,15.52
+1344,United Kingdom,Never or rarely,studyMoreThan2ExtraHoursADay,5851,8293,70.55
+1345,United Kingdom,Sometimes,studyMoreThan2ExtraHoursADay,1875,8293,22.61
+1346,United Kingdom,Often,studyMoreThan2ExtraHoursADay,412,8293,4.97
+1347,United Kingdom,Always or almost always,studyMoreThan2ExtraHoursADay,155,8293,1.87
+1348,United States of America,Never or rarely,studyMoreThan2ExtraHoursADay,2201,3194,68.91
+1349,United States of America,Sometimes,studyMoreThan2ExtraHoursADay,729,3194,22.82
+1350,United States of America,Often,studyMoreThan2ExtraHoursADay,192,3194,6.01
+1351,United States of America,Always or almost always,studyMoreThan2ExtraHoursADay,72,3194,2.25
+1352,Uruguay,Never or rarely,studyMoreThan2ExtraHoursADay,2252,3337,67.49
+1353,Uruguay,Sometimes,studyMoreThan2ExtraHoursADay,703,3337,21.07
+1354,Uruguay,Often,studyMoreThan2ExtraHoursADay,230,3337,6.89
+1355,Uruguay,Always or almost always,studyMoreThan2ExtraHoursADay,152,3337,4.55
+1356,Vietnam,Never or rarely,studyMoreThan2ExtraHoursADay,679,3253,20.87
+1357,Vietnam,Sometimes,studyMoreThan2ExtraHoursADay,1628,3253,50.05
+1358,Vietnam,Often,studyMoreThan2ExtraHoursADay,805,3253,24.75
+1359,Vietnam,Always or almost always,studyMoreThan2ExtraHoursADay,141,3253,4.33
+1360,Albania,Never or rarely,playChess,1202,2602,46.2
+1361,Albania,Sometimes,playChess,619,2602,23.79
+1362,Albania,Often,playChess,492,2602,18.91
+1363,Albania,Always or almost always,playChess,289,2602,11.11
+1364,Argentina,Never or rarely,playChess,2186,3651,59.87
+1365,Argentina,Sometimes,playChess,713,3651,19.53
+1366,Argentina,Often,playChess,443,3651,12.13
+1367,Argentina,Always or almost always,playChess,309,3651,8.46
+1368,Australia,Never or rarely,playChess,6372,9389,67.87
+1369,Australia,Sometimes,playChess,2014,9389,21.45
+1370,Australia,Often,playChess,738,9389,7.86
+1371,Australia,Always or almost always,playChess,265,9389,2.82
+1372,Austria,Never or rarely,playChess,1938,3100,62.52
+1373,Austria,Sometimes,playChess,740,3100,23.87
+1374,Austria,Often,playChess,285,3100,9.19
+1375,Austria,Always or almost always,playChess,137,3100,4.42
+1376,Belgium,Never or rarely,playChess,4002,5422,73.81
+1377,Belgium,Sometimes,playChess,1021,5422,18.83
+1378,Belgium,Often,playChess,289,5422,5.33
+1379,Belgium,Always or almost always,playChess,110,5422,2.03
+1380,Brazil,Never or rarely,playChess,6668,11932,55.88
+1381,Brazil,Sometimes,playChess,2631,11932,22.05
+1382,Brazil,Often,playChess,1511,11932,12.66
+1383,Brazil,Always or almost always,playChess,1122,11932,9.4
+1384,Bulgaria,Never or rarely,playChess,1492,3334,44.75
+1385,Bulgaria,Sometimes,playChess,965,3334,28.94
+1386,Bulgaria,Often,playChess,554,3334,16.62
+1387,Bulgaria,Always or almost always,playChess,323,3334,9.69
+1388,Canada,Never or rarely,playChess,8681,14001,62.0
+1389,Canada,Sometimes,playChess,3457,14001,24.69
+1390,Canada,Often,playChess,1265,14001,9.04
+1391,Canada,Always or almost always,playChess,598,14001,4.27
+1392,Chile,Never or rarely,playChess,2991,4506,66.38
+1393,Chile,Sometimes,playChess,912,4506,20.24
+1394,Chile,Often,playChess,386,4506,8.57
+1395,Chile,Always or almost always,playChess,217,4506,4.82
+1396,China-Shanghai,Never or rarely,playChess,999,3428,29.14
+1397,China-Shanghai,Sometimes,playChess,1284,3428,37.46
+1398,China-Shanghai,Often,playChess,741,3428,21.62
+1399,China-Shanghai,Always or almost always,playChess,404,3428,11.79
+1400,Chinese Taipei,Never or rarely,playChess,1865,4003,46.59
+1401,Chinese Taipei,Sometimes,playChess,1410,4003,35.22
+1402,Chinese Taipei,Often,playChess,519,4003,12.97
+1403,Chinese Taipei,Always or almost always,playChess,209,4003,5.22
+1404,Colombia,Never or rarely,playChess,2614,5540,47.18
+1405,Colombia,Sometimes,playChess,1693,5540,30.56
+1406,Colombia,Often,playChess,802,5540,14.48
+1407,Colombia,Always or almost always,playChess,431,5540,7.78
+1408,Connecticut (USA),Never or rarely,playChess,707,1110,63.69
+1409,Connecticut (USA),Sometimes,playChess,262,1110,23.6
+1410,Connecticut (USA),Often,playChess,92,1110,8.29
+1411,Connecticut (USA),Always or almost always,playChess,49,1110,4.41
+1412,Costa Rica,Never or rarely,playChess,1879,2873,65.4
+1413,Costa Rica,Sometimes,playChess,591,2873,20.57
+1414,Costa Rica,Often,playChess,225,2873,7.83
+1415,Costa Rica,Always or almost always,playChess,178,2873,6.2
+1416,Croatia,Never or rarely,playChess,1871,3304,56.63
+1417,Croatia,Sometimes,playChess,902,3304,27.3
+1418,Croatia,Often,playChess,373,3304,11.29
+1419,Croatia,Always or almost always,playChess,158,3304,4.78
+1420,Czech Republic,Never or rarely,playChess,2155,3456,62.36
+1421,Czech Republic,Sometimes,playChess,884,3456,25.58
+1422,Czech Republic,Often,playChess,294,3456,8.51
+1423,Czech Republic,Always or almost always,playChess,123,3456,3.56
+1424,Denmark,Never or rarely,playChess,3795,4779,79.41
+1425,Denmark,Sometimes,playChess,700,4779,14.65
+1426,Denmark,Often,playChess,209,4779,4.37
+1427,Denmark,Always or almost always,playChess,75,4779,1.57
+1428,Estonia,Never or rarely,playChess,1926,3138,61.38
+1429,Estonia,Sometimes,playChess,837,3138,26.67
+1430,Estonia,Often,playChess,287,3138,9.15
+1431,Estonia,Always or almost always,playChess,88,3138,2.8
+1432,Finland,Never or rarely,playChess,3795,5740,66.11
+1433,Finland,Sometimes,playChess,1490,5740,25.96
+1434,Finland,Often,playChess,355,5740,6.18
+1435,Finland,Always or almost always,playChess,100,5740,1.74
+1436,Florida (USA),Never or rarely,playChess,827,1216,68.01
+1437,Florida (USA),Sometimes,playChess,232,1216,19.08
+1438,Florida (USA),Often,playChess,99,1216,8.14
+1439,Florida (USA),Always or almost always,playChess,58,1216,4.77
+1440,France,Never or rarely,playChess,2044,2957,69.12
+1441,France,Sometimes,playChess,609,2957,20.6
+1442,France,Often,playChess,213,2957,7.2
+1443,France,Always or almost always,playChess,91,2957,3.08
+1444,Germany,Never or rarely,playChess,1829,2787,65.63
+1445,Germany,Sometimes,playChess,643,2787,23.07
+1446,Germany,Often,playChess,210,2787,7.53
+1447,Germany,Always or almost always,playChess,105,2787,3.77
+1448,Greece,Never or rarely,playChess,1774,3348,52.99
+1449,Greece,Sometimes,playChess,775,3348,23.15
+1450,Greece,Often,playChess,527,3348,15.74
+1451,Greece,Always or almost always,playChess,272,3348,8.12
+1452,Hong Kong-China,Never or rarely,playChess,1470,3062,48.01
+1453,Hong Kong-China,Sometimes,playChess,1106,3062,36.12
+1454,Hong Kong-China,Often,playChess,350,3062,11.43
+1455,Hong Kong-China,Always or almost always,playChess,136,3062,4.44
+1456,Hungary,Never or rarely,playChess,1921,3162,60.75
+1457,Hungary,Sometimes,playChess,760,3162,24.04
+1458,Hungary,Often,playChess,350,3162,11.07
+1459,Hungary,Always or almost always,playChess,131,3162,4.14
+1460,Iceland,Never or rarely,playChess,1533,2204,69.56
+1461,Iceland,Sometimes,playChess,446,2204,20.24
+1462,Iceland,Often,playChess,153,2204,6.94
+1463,Iceland,Always or almost always,playChess,72,2204,3.27
+1464,Indonesia,Never or rarely,playChess,1869,3635,51.42
+1465,Indonesia,Sometimes,playChess,961,3635,26.44
+1466,Indonesia,Often,playChess,610,3635,16.78
+1467,Indonesia,Always or almost always,playChess,195,3635,5.36
+1468,Ireland,Never or rarely,playChess,2392,3296,72.57
+1469,Ireland,Sometimes,playChess,593,3296,17.99
+1470,Ireland,Often,playChess,217,3296,6.58
+1471,Ireland,Always or almost always,playChess,94,3296,2.85
+1472,Israel,Never or rarely,playChess,2138,3147,67.94
+1473,Israel,Sometimes,playChess,581,3147,18.46
+1474,Israel,Often,playChess,284,3147,9.02
+1475,Israel,Always or almost always,playChess,144,3147,4.58
+1476,Italy,Never or rarely,playChess,12886,20457,62.99
+1477,Italy,Sometimes,playChess,4981,20457,24.35
+1478,Italy,Often,playChess,1939,20457,9.48
+1479,Italy,Always or almost always,playChess,651,20457,3.18
+1480,Japan,Never or rarely,playChess,2846,4153,68.53
+1481,Japan,Sometimes,playChess,851,4153,20.49
+1482,Japan,Often,playChess,317,4153,7.63
+1483,Japan,Always or almost always,playChess,139,4153,3.35
+1484,Jordan,Never or rarely,playChess,1807,4455,40.56
+1485,Jordan,Sometimes,playChess,861,4455,19.33
+1486,Jordan,Often,playChess,880,4455,19.75
+1487,Jordan,Always or almost always,playChess,907,4455,20.36
+1488,Kazakhstan,Never or rarely,playChess,1174,3815,30.77
+1489,Kazakhstan,Sometimes,playChess,1083,3815,28.39
+1490,Kazakhstan,Often,playChess,1022,3815,26.79
+1491,Kazakhstan,Always or almost always,playChess,536,3815,14.05
+1492,Korea,Never or rarely,playChess,2282,3349,68.14
+1493,Korea,Sometimes,playChess,811,3349,24.22
+1494,Korea,Often,playChess,198,3349,5.91
+1495,Korea,Always or almost always,playChess,58,3349,1.73
+1496,Latvia,Never or rarely,playChess,1708,2867,59.57
+1497,Latvia,Sometimes,playChess,773,2867,26.96
+1498,Latvia,Often,playChess,275,2867,9.59
+1499,Latvia,Always or almost always,playChess,111,2867,3.87
+1500,Liechtenstein,Never or rarely,playChess,129,194,66.49
+1501,Liechtenstein,Sometimes,playChess,45,194,23.2
+1502,Liechtenstein,Often,playChess,11,194,5.67
+1503,Liechtenstein,Always or almost always,playChess,9,194,4.64
+1504,Lithuania,Never or rarely,playChess,1703,3021,56.37
+1505,Lithuania,Sometimes,playChess,835,3021,27.64
+1506,Lithuania,Often,playChess,362,3021,11.98
+1507,Lithuania,Always or almost always,playChess,121,3021,4.01
+1508,Luxembourg,Never or rarely,playChess,2225,3382,65.79
+1509,Luxembourg,Sometimes,playChess,737,3382,21.79
+1510,Luxembourg,Often,playChess,286,3382,8.46
+1511,Luxembourg,Always or almost always,playChess,134,3382,3.96
+1512,Macao-China,Never or rarely,playChess,1627,3535,46.03
+1513,Macao-China,Sometimes,playChess,1323,3535,37.43
+1514,Macao-China,Often,playChess,443,3535,12.53
+1515,Macao-China,Always or almost always,playChess,142,3535,4.02
+1516,Malaysia,Never or rarely,playChess,1476,3355,43.99
+1517,Malaysia,Sometimes,playChess,1087,3355,32.4
+1518,Malaysia,Often,playChess,532,3355,15.86
+1519,Malaysia,Always or almost always,playChess,260,3355,7.75
+1520,Massachusetts (USA),Never or rarely,playChess,749,1094,68.46
+1521,Massachusetts (USA),Sometimes,playChess,226,1094,20.66
+1522,Massachusetts (USA),Often,playChess,73,1094,6.67
+1523,Massachusetts (USA),Always or almost always,playChess,46,1094,4.2
+1524,Mexico,Never or rarely,playChess,13183,22125,59.58
+1525,Mexico,Sometimes,playChess,4977,22125,22.49
+1526,Mexico,Often,playChess,2510,22125,11.34
+1527,Mexico,Always or almost always,playChess,1455,22125,6.58
+1528,Montenegro,Never or rarely,playChess,1465,3030,48.35
+1529,Montenegro,Sometimes,playChess,701,3030,23.14
+1530,Montenegro,Often,playChess,532,3030,17.56
+1531,Montenegro,Always or almost always,playChess,332,3030,10.96
+1532,Netherlands,Never or rarely,playChess,2307,2827,81.61
+1533,Netherlands,Sometimes,playChess,370,2827,13.09
+1534,Netherlands,Often,playChess,112,2827,3.96
+1535,Netherlands,Always or almost always,playChess,38,2827,1.34
+1536,New Zealand,Never or rarely,playChess,1888,2768,68.21
+1537,New Zealand,Sometimes,playChess,583,2768,21.06
+1538,New Zealand,Often,playChess,193,2768,6.97
+1539,New Zealand,Always or almost always,playChess,104,2768,3.76
+1540,Norway,Never or rarely,playChess,2258,3026,74.62
+1541,Norway,Sometimes,playChess,594,3026,19.63
+1542,Norway,Often,playChess,128,3026,4.23
+1543,Norway,Always or almost always,playChess,46,3026,1.52
+1544,Perm(Russian Federation),Never or rarely,playChess,410,1124,36.48
+1545,Perm(Russian Federation),Sometimes,playChess,340,1124,30.25
+1546,Perm(Russian Federation),Often,playChess,214,1124,19.04
+1547,Perm(Russian Federation),Always or almost always,playChess,160,1124,14.23
+1548,Peru,Never or rarely,playChess,1530,3624,42.22
+1549,Peru,Sometimes,playChess,1138,3624,31.4
+1550,Peru,Often,playChess,556,3624,15.34
+1551,Peru,Always or almost always,playChess,400,3624,11.04
+1552,Poland,Never or rarely,playChess,1780,3055,58.27
+1553,Poland,Sometimes,playChess,875,3055,28.64
+1554,Poland,Often,playChess,288,3055,9.43
+1555,Poland,Always or almost always,playChess,112,3055,3.67
+1556,Portugal,Never or rarely,playChess,2341,3698,63.3
+1557,Portugal,Sometimes,playChess,915,3698,24.74
+1558,Portugal,Often,playChess,315,3698,8.52
+1559,Portugal,Always or almost always,playChess,127,3698,3.43
+1560,Qatar,Never or rarely,playChess,2641,6584,40.11
+1561,Qatar,Sometimes,playChess,1486,6584,22.57
+1562,Qatar,Often,playChess,1506,6584,22.87
+1563,Qatar,Always or almost always,playChess,951,6584,14.44
+1564,Romania,Never or rarely,playChess,1370,3333,41.1
+1565,Romania,Sometimes,playChess,854,3333,25.62
+1566,Romania,Often,playChess,646,3333,19.38
+1567,Romania,Always or almost always,playChess,463,3333,13.89
+1568,Russian Federation,Never or rarely,playChess,1773,3438,51.57
+1569,Russian Federation,Sometimes,playChess,966,3438,28.1
+1570,Russian Federation,Often,playChess,469,3438,13.64
+1571,Russian Federation,Always or almost always,playChess,230,3438,6.69
+1572,Serbia,Never or rarely,playChess,1584,2985,53.07
+1573,Serbia,Sometimes,playChess,780,2985,26.13
+1574,Serbia,Often,playChess,383,2985,12.83
+1575,Serbia,Always or almost always,playChess,238,2985,7.97
+1576,Singapore,Never or rarely,playChess,2266,3688,61.44
+1577,Singapore,Sometimes,playChess,924,3688,25.05
+1578,Singapore,Often,playChess,323,3688,8.76
+1579,Singapore,Always or almost always,playChess,175,3688,4.75
+1580,Slovak Republic,Never or rarely,playChess,1656,2990,55.38
+1581,Slovak Republic,Sometimes,playChess,856,2990,28.63
+1582,Slovak Republic,Often,playChess,331,2990,11.07
+1583,Slovak Republic,Always or almost always,playChess,147,2990,4.92
+1584,Slovenia,Never or rarely,playChess,2122,3732,56.86
+1585,Slovenia,Sometimes,playChess,980,3732,26.26
+1586,Slovenia,Often,playChess,439,3732,11.76
+1587,Slovenia,Always or almost always,playChess,191,3732,5.12
+1588,Spain,Never or rarely,playChess,10518,16541,63.59
+1589,Spain,Sometimes,playChess,3839,16541,23.21
+1590,Spain,Often,playChess,1557,16541,9.41
+1591,Spain,Always or almost always,playChess,627,16541,3.79
+1592,Sweden,Never or rarely,playChess,2285,3058,74.72
+1593,Sweden,Sometimes,playChess,569,3058,18.61
+1594,Sweden,Often,playChess,137,3058,4.48
+1595,Sweden,Always or almost always,playChess,67,3058,2.19
+1596,Switzerland,Never or rarely,playChess,4927,7391,66.66
+1597,Switzerland,Sometimes,playChess,1698,7391,22.97
+1598,Switzerland,Often,playChess,550,7391,7.44
+1599,Switzerland,Always or almost always,playChess,216,7391,2.92
+1600,Thailand,Never or rarely,playChess,1709,4402,38.82
+1601,Thailand,Sometimes,playChess,1508,4402,34.26
+1602,Thailand,Often,playChess,872,4402,19.81
+1603,Thailand,Always or almost always,playChess,313,4402,7.11
+1604,Tunisia,Never or rarely,playChess,1390,2765,50.27
+1605,Tunisia,Sometimes,playChess,633,2765,22.89
+1606,Tunisia,Often,playChess,404,2765,14.61
+1607,Tunisia,Always or almost always,playChess,338,2765,12.22
+1608,Turkey,Never or rarely,playChess,932,3176,29.35
+1609,Turkey,Sometimes,playChess,1068,3176,33.63
+1610,Turkey,Often,playChess,632,3176,19.9
+1611,Turkey,Always or almost always,playChess,544,3176,17.13
+1612,United Arab Emirates,Never or rarely,playChess,3576,7336,48.75
+1613,United Arab Emirates,Sometimes,playChess,1655,7336,22.56
+1614,United Arab Emirates,Often,playChess,1233,7336,16.81
+1615,United Arab Emirates,Always or almost always,playChess,872,7336,11.89
+1616,United Kingdom,Never or rarely,playChess,6258,8285,75.53
+1617,United Kingdom,Sometimes,playChess,1392,8285,16.8
+1618,United Kingdom,Often,playChess,479,8285,5.78
+1619,United Kingdom,Always or almost always,playChess,156,8285,1.88
+1620,United States of America,Never or rarely,playChess,2102,3201,65.67
+1621,United States of America,Sometimes,playChess,698,3201,21.81
+1622,United States of America,Often,playChess,258,3201,8.06
+1623,United States of America,Always or almost always,playChess,143,3201,4.47
+1624,Uruguay,Never or rarely,playChess,2116,3338,63.39
+1625,Uruguay,Sometimes,playChess,624,3338,18.69
+1626,Uruguay,Often,playChess,365,3338,10.93
+1627,Uruguay,Always or almost always,playChess,233,3338,6.98
+1628,Vietnam,Never or rarely,playChess,1328,3252,40.84
+1629,Vietnam,Sometimes,playChess,1350,3252,41.51
+1630,Vietnam,Often,playChess,498,3252,15.31
+1631,Vietnam,Always or almost always,playChess,76,3252,2.34
+1632,Albania,Never or rarely,computerProgramming,1051,2603,40.38
+1633,Albania,Sometimes,computerProgramming,675,2603,25.93
+1634,Albania,Often,computerProgramming,551,2603,21.17
+1635,Albania,Always or almost always,computerProgramming,326,2603,12.52
+1636,Argentina,Never or rarely,computerProgramming,2133,3645,58.52
+1637,Argentina,Sometimes,computerProgramming,719,3645,19.73
+1638,Argentina,Often,computerProgramming,450,3645,12.35
+1639,Argentina,Always or almost always,computerProgramming,343,3645,9.41
+1640,Australia,Never or rarely,computerProgramming,6866,9389,73.13
+1641,Australia,Sometimes,computerProgramming,1542,9389,16.42
+1642,Australia,Often,computerProgramming,682,9389,7.26
+1643,Australia,Always or almost always,computerProgramming,299,9389,3.18
+1644,Austria,Never or rarely,computerProgramming,2122,3109,68.25
+1645,Austria,Sometimes,computerProgramming,559,3109,17.98
+1646,Austria,Often,computerProgramming,282,3109,9.07
+1647,Austria,Always or almost always,computerProgramming,146,3109,4.7
+1648,Belgium,Never or rarely,computerProgramming,3900,5428,71.85
+1649,Belgium,Sometimes,computerProgramming,970,5428,17.87
+1650,Belgium,Often,computerProgramming,398,5428,7.33
+1651,Belgium,Always or almost always,computerProgramming,160,5428,2.95
+1652,Brazil,Never or rarely,computerProgramming,8131,11916,68.24
+1653,Brazil,Sometimes,computerProgramming,1854,11916,15.56
+1654,Brazil,Often,computerProgramming,1088,11916,9.13
+1655,Brazil,Always or almost always,computerProgramming,843,11916,7.07
+1656,Bulgaria,Never or rarely,computerProgramming,1545,3325,46.47
+1657,Bulgaria,Sometimes,computerProgramming,895,3325,26.92
+1658,Bulgaria,Often,computerProgramming,544,3325,16.36
+1659,Bulgaria,Always or almost always,computerProgramming,341,3325,10.26
+1660,Canada,Never or rarely,computerProgramming,9621,14017,68.64
+1661,Canada,Sometimes,computerProgramming,2635,14017,18.8
+1662,Canada,Often,computerProgramming,1155,14017,8.24
+1663,Canada,Always or almost always,computerProgramming,606,14017,4.32
+1664,Chile,Never or rarely,computerProgramming,2662,4496,59.21
+1665,Chile,Sometimes,computerProgramming,975,4496,21.69
+1666,Chile,Often,computerProgramming,566,4496,12.59
+1667,Chile,Always or almost always,computerProgramming,293,4496,6.52
+1668,China-Shanghai,Never or rarely,computerProgramming,2360,3427,68.86
+1669,China-Shanghai,Sometimes,computerProgramming,744,3427,21.71
+1670,China-Shanghai,Often,computerProgramming,223,3427,6.51
+1671,China-Shanghai,Always or almost always,computerProgramming,100,3427,2.92
+1672,Chinese Taipei,Never or rarely,computerProgramming,3248,4004,81.12
+1673,Chinese Taipei,Sometimes,computerProgramming,549,4004,13.71
+1674,Chinese Taipei,Often,computerProgramming,154,4004,3.85
+1675,Chinese Taipei,Always or almost always,computerProgramming,53,4004,1.32
+1676,Colombia,Never or rarely,computerProgramming,2754,5532,49.78
+1677,Colombia,Sometimes,computerProgramming,1601,5532,28.94
+1678,Colombia,Often,computerProgramming,796,5532,14.39
+1679,Colombia,Always or almost always,computerProgramming,381,5532,6.89
+1680,Connecticut (USA),Never or rarely,computerProgramming,821,1110,73.96
+1681,Connecticut (USA),Sometimes,computerProgramming,160,1110,14.41
+1682,Connecticut (USA),Often,computerProgramming,78,1110,7.03
+1683,Connecticut (USA),Always or almost always,computerProgramming,51,1110,4.59
+1684,Costa Rica,Never or rarely,computerProgramming,2106,2874,73.28
+1685,Costa Rica,Sometimes,computerProgramming,395,2874,13.74
+1686,Costa Rica,Often,computerProgramming,217,2874,7.55
+1687,Costa Rica,Always or almost always,computerProgramming,156,2874,5.43
+1688,Croatia,Never or rarely,computerProgramming,1859,3305,56.25
+1689,Croatia,Sometimes,computerProgramming,798,3305,24.15
+1690,Croatia,Often,computerProgramming,422,3305,12.77
+1691,Croatia,Always or almost always,computerProgramming,226,3305,6.84
+1692,Czech Republic,Never or rarely,computerProgramming,1657,3455,47.96
+1693,Czech Republic,Sometimes,computerProgramming,1037,3455,30.01
+1694,Czech Republic,Often,computerProgramming,525,3455,15.2
+1695,Czech Republic,Always or almost always,computerProgramming,236,3455,6.83
+1696,Denmark,Never or rarely,computerProgramming,3815,4783,79.76
+1697,Denmark,Sometimes,computerProgramming,596,4783,12.46
+1698,Denmark,Often,computerProgramming,260,4783,5.44
+1699,Denmark,Always or almost always,computerProgramming,112,4783,2.34
+1700,Estonia,Never or rarely,computerProgramming,2142,3136,68.3
+1701,Estonia,Sometimes,computerProgramming,664,3136,21.17
+1702,Estonia,Often,computerProgramming,234,3136,7.46
+1703,Estonia,Always or almost always,computerProgramming,96,3136,3.06
+1704,Finland,Never or rarely,computerProgramming,2820,5734,49.18
+1705,Finland,Sometimes,computerProgramming,1835,5734,32.0
+1706,Finland,Often,computerProgramming,828,5734,14.44
+1707,Finland,Always or almost always,computerProgramming,251,5734,4.38
+1708,Florida (USA),Never or rarely,computerProgramming,853,1214,70.26
+1709,Florida (USA),Sometimes,computerProgramming,206,1214,16.97
+1710,Florida (USA),Often,computerProgramming,107,1214,8.81
+1711,Florida (USA),Always or almost always,computerProgramming,48,1214,3.95
+1712,France,Never or rarely,computerProgramming,1890,2952,64.02
+1713,France,Sometimes,computerProgramming,652,2952,22.09
+1714,France,Often,computerProgramming,289,2952,9.79
+1715,France,Always or almost always,computerProgramming,121,2952,4.1
+1716,Germany,Never or rarely,computerProgramming,1888,2790,67.67
+1717,Germany,Sometimes,computerProgramming,516,2790,18.49
+1718,Germany,Often,computerProgramming,257,2790,9.21
+1719,Germany,Always or almost always,computerProgramming,129,2790,4.62
+1720,Greece,Never or rarely,computerProgramming,1377,3344,41.18
+1721,Greece,Sometimes,computerProgramming,832,3344,24.88
+1722,Greece,Often,computerProgramming,681,3344,20.36
+1723,Greece,Always or almost always,computerProgramming,454,3344,13.58
+1724,Hong Kong-China,Never or rarely,computerProgramming,2438,3060,79.67
+1725,Hong Kong-China,Sometimes,computerProgramming,452,3060,14.77
+1726,Hong Kong-China,Often,computerProgramming,113,3060,3.69
+1727,Hong Kong-China,Always or almost always,computerProgramming,57,3060,1.86
+1728,Hungary,Never or rarely,computerProgramming,1705,3157,54.01
+1729,Hungary,Sometimes,computerProgramming,816,3157,25.85
+1730,Hungary,Often,computerProgramming,444,3157,14.06
+1731,Hungary,Always or almost always,computerProgramming,192,3157,6.08
+1732,Iceland,Never or rarely,computerProgramming,1528,2206,69.27
+1733,Iceland,Sometimes,computerProgramming,414,2206,18.77
+1734,Iceland,Often,computerProgramming,174,2206,7.89
+1735,Iceland,Always or almost always,computerProgramming,90,2206,4.08
+1736,Indonesia,Never or rarely,computerProgramming,2311,3630,63.66
+1737,Indonesia,Sometimes,computerProgramming,767,3630,21.13
+1738,Indonesia,Often,computerProgramming,433,3630,11.93
+1739,Indonesia,Always or almost always,computerProgramming,119,3630,3.28
+1740,Ireland,Never or rarely,computerProgramming,2237,3296,67.87
+1741,Ireland,Sometimes,computerProgramming,648,3296,19.66
+1742,Ireland,Often,computerProgramming,285,3296,8.65
+1743,Ireland,Always or almost always,computerProgramming,126,3296,3.82
+1744,Israel,Never or rarely,computerProgramming,1905,3148,60.51
+1745,Israel,Sometimes,computerProgramming,520,3148,16.52
+1746,Israel,Often,computerProgramming,395,3148,12.55
+1747,Israel,Always or almost always,computerProgramming,328,3148,10.42
+1748,Italy,Never or rarely,computerProgramming,11745,20445,57.45
+1749,Italy,Sometimes,computerProgramming,4644,20445,22.71
+1750,Italy,Often,computerProgramming,2780,20445,13.6
+1751,Italy,Always or almost always,computerProgramming,1276,20445,6.24
+1752,Japan,Never or rarely,computerProgramming,3340,4156,80.37
+1753,Japan,Sometimes,computerProgramming,529,4156,12.73
+1754,Japan,Often,computerProgramming,214,4156,5.15
+1755,Japan,Always or almost always,computerProgramming,73,4156,1.76
+1756,Jordan,Never or rarely,computerProgramming,1267,4457,28.43
+1757,Jordan,Sometimes,computerProgramming,967,4457,21.7
+1758,Jordan,Often,computerProgramming,984,4457,22.08
+1759,Jordan,Always or almost always,computerProgramming,1239,4457,27.8
+1760,Kazakhstan,Never or rarely,computerProgramming,1180,3812,30.95
+1761,Kazakhstan,Sometimes,computerProgramming,1226,3812,32.16
+1762,Kazakhstan,Often,computerProgramming,918,3812,24.08
+1763,Kazakhstan,Always or almost always,computerProgramming,488,3812,12.8
+1764,Korea,Never or rarely,computerProgramming,2310,3349,68.98
+1765,Korea,Sometimes,computerProgramming,727,3349,21.71
+1766,Korea,Often,computerProgramming,236,3349,7.05
+1767,Korea,Always or almost always,computerProgramming,76,3349,2.27
+1768,Latvia,Never or rarely,computerProgramming,1901,2865,66.35
+1769,Latvia,Sometimes,computerProgramming,600,2865,20.94
+1770,Latvia,Often,computerProgramming,262,2865,9.14
+1771,Latvia,Always or almost always,computerProgramming,102,2865,3.56
+1772,Liechtenstein,Never or rarely,computerProgramming,131,194,67.53
+1773,Liechtenstein,Sometimes,computerProgramming,34,194,17.53
+1774,Liechtenstein,Often,computerProgramming,19,194,9.79
+1775,Liechtenstein,Always or almost always,computerProgramming,10,194,5.15
+1776,Lithuania,Never or rarely,computerProgramming,1585,3019,52.5
+1777,Lithuania,Sometimes,computerProgramming,745,3019,24.68
+1778,Lithuania,Often,computerProgramming,414,3019,13.71
+1779,Lithuania,Always or almost always,computerProgramming,275,3019,9.11
+1780,Luxembourg,Never or rarely,computerProgramming,2135,3379,63.18
+1781,Luxembourg,Sometimes,computerProgramming,691,3379,20.45
+1782,Luxembourg,Often,computerProgramming,359,3379,10.62
+1783,Luxembourg,Always or almost always,computerProgramming,194,3379,5.74
+1784,Macao-China,Never or rarely,computerProgramming,2219,3535,62.77
+1785,Macao-China,Sometimes,computerProgramming,939,3535,26.56
+1786,Macao-China,Often,computerProgramming,270,3535,7.64
+1787,Macao-China,Always or almost always,computerProgramming,107,3535,3.03
+1788,Malaysia,Never or rarely,computerProgramming,1156,3358,34.43
+1789,Malaysia,Sometimes,computerProgramming,1040,3358,30.97
+1790,Malaysia,Often,computerProgramming,756,3358,22.51
+1791,Malaysia,Always or almost always,computerProgramming,406,3358,12.09
+1792,Massachusetts (USA),Never or rarely,computerProgramming,797,1092,72.99
+1793,Massachusetts (USA),Sometimes,computerProgramming,174,1092,15.93
+1794,Massachusetts (USA),Often,computerProgramming,65,1092,5.95
+1795,Massachusetts (USA),Always or almost always,computerProgramming,56,1092,5.13
+1796,Mexico,Never or rarely,computerProgramming,14037,22090,63.54
+1797,Mexico,Sometimes,computerProgramming,4707,22090,21.31
+1798,Mexico,Often,computerProgramming,2179,22090,9.86
+1799,Mexico,Always or almost always,computerProgramming,1167,22090,5.28
+1800,Montenegro,Never or rarely,computerProgramming,1621,3018,53.71
+1801,Montenegro,Sometimes,computerProgramming,751,3018,24.88
+1802,Montenegro,Often,computerProgramming,387,3018,12.82
+1803,Montenegro,Always or almost always,computerProgramming,259,3018,8.58
+1804,Netherlands,Never or rarely,computerProgramming,2355,2831,83.19
+1805,Netherlands,Sometimes,computerProgramming,297,2831,10.49
+1806,Netherlands,Often,computerProgramming,120,2831,4.24
+1807,Netherlands,Always or almost always,computerProgramming,59,2831,2.08
+1808,New Zealand,Never or rarely,computerProgramming,1974,2771,71.24
+1809,New Zealand,Sometimes,computerProgramming,473,2771,17.07
+1810,New Zealand,Often,computerProgramming,205,2771,7.4
+1811,New Zealand,Always or almost always,computerProgramming,119,2771,4.29
+1812,Norway,Never or rarely,computerProgramming,2226,3026,73.56
+1813,Norway,Sometimes,computerProgramming,493,3026,16.29
+1814,Norway,Often,computerProgramming,224,3026,7.4
+1815,Norway,Always or almost always,computerProgramming,83,3026,2.74
+1816,Perm(Russian Federation),Never or rarely,computerProgramming,328,1125,29.16
+1817,Perm(Russian Federation),Sometimes,computerProgramming,328,1125,29.16
+1818,Perm(Russian Federation),Often,computerProgramming,264,1125,23.47
+1819,Perm(Russian Federation),Always or almost always,computerProgramming,205,1125,18.22
+1820,Peru,Never or rarely,computerProgramming,1831,3615,50.65
+1821,Peru,Sometimes,computerProgramming,1026,3615,28.38
+1822,Peru,Often,computerProgramming,475,3615,13.14
+1823,Peru,Always or almost always,computerProgramming,283,3615,7.83
+1824,Poland,Never or rarely,computerProgramming,2246,3050,73.64
+1825,Poland,Sometimes,computerProgramming,515,3050,16.89
+1826,Poland,Often,computerProgramming,199,3050,6.52
+1827,Poland,Always or almost always,computerProgramming,90,3050,2.95
+1828,Portugal,Never or rarely,computerProgramming,2108,3699,56.99
+1829,Portugal,Sometimes,computerProgramming,966,3699,26.12
+1830,Portugal,Often,computerProgramming,429,3699,11.6
+1831,Portugal,Always or almost always,computerProgramming,196,3699,5.3
+1832,Qatar,Never or rarely,computerProgramming,1810,6575,27.53
+1833,Qatar,Sometimes,computerProgramming,1584,6575,24.09
+1834,Qatar,Often,computerProgramming,1704,6575,25.92
+1835,Qatar,Always or almost always,computerProgramming,1477,6575,22.46
+1836,Romania,Never or rarely,computerProgramming,1373,3334,41.18
+1837,Romania,Sometimes,computerProgramming,844,3334,25.31
+1838,Romania,Often,computerProgramming,692,3334,20.76
+1839,Romania,Always or almost always,computerProgramming,425,3334,12.75
+1840,Russian Federation,Never or rarely,computerProgramming,1338,3429,39.02
+1841,Russian Federation,Sometimes,computerProgramming,1116,3429,32.55
+1842,Russian Federation,Often,computerProgramming,683,3429,19.92
+1843,Russian Federation,Always or almost always,computerProgramming,292,3429,8.52
+1844,Serbia,Never or rarely,computerProgramming,1236,2998,41.23
+1845,Serbia,Sometimes,computerProgramming,848,2998,28.29
+1846,Serbia,Often,computerProgramming,549,2998,18.31
+1847,Serbia,Always or almost always,computerProgramming,365,2998,12.17
+1848,Singapore,Never or rarely,computerProgramming,2319,3685,62.93
+1849,Singapore,Sometimes,computerProgramming,751,3685,20.38
+1850,Singapore,Often,computerProgramming,426,3685,11.56
+1851,Singapore,Always or almost always,computerProgramming,189,3685,5.13
+1852,Slovak Republic,Never or rarely,computerProgramming,1554,2989,51.99
+1853,Slovak Republic,Sometimes,computerProgramming,798,2989,26.7
+1854,Slovak Republic,Often,computerProgramming,415,2989,13.88
+1855,Slovak Republic,Always or almost always,computerProgramming,222,2989,7.43
+1856,Slovenia,Never or rarely,computerProgramming,2094,3733,56.09
+1857,Slovenia,Sometimes,computerProgramming,899,3733,24.08
+1858,Slovenia,Often,computerProgramming,497,3733,13.31
+1859,Slovenia,Always or almost always,computerProgramming,243,3733,6.51
+1860,Spain,Never or rarely,computerProgramming,9715,16532,58.76
+1861,Spain,Sometimes,computerProgramming,4026,16532,24.35
+1862,Spain,Often,computerProgramming,1921,16532,11.62
+1863,Spain,Always or almost always,computerProgramming,870,16532,5.26
+1864,Sweden,Never or rarely,computerProgramming,2147,3057,70.23
+1865,Sweden,Sometimes,computerProgramming,557,3057,18.22
+1866,Sweden,Often,computerProgramming,240,3057,7.85
+1867,Sweden,Always or almost always,computerProgramming,113,3057,3.7
+1868,Switzerland,Never or rarely,computerProgramming,4815,7386,65.19
+1869,Switzerland,Sometimes,computerProgramming,1537,7386,20.81
+1870,Switzerland,Often,computerProgramming,739,7386,10.01
+1871,Switzerland,Always or almost always,computerProgramming,295,7386,3.99
+1872,Thailand,Never or rarely,computerProgramming,1600,4398,36.38
+1873,Thailand,Sometimes,computerProgramming,1585,4398,36.04
+1874,Thailand,Often,computerProgramming,883,4398,20.08
+1875,Thailand,Always or almost always,computerProgramming,330,4398,7.5
+1876,Tunisia,Never or rarely,computerProgramming,659,2766,23.83
+1877,Tunisia,Sometimes,computerProgramming,762,2766,27.55
+1878,Tunisia,Often,computerProgramming,642,2766,23.21
+1879,Tunisia,Always or almost always,computerProgramming,703,2766,25.42
+1880,Turkey,Never or rarely,computerProgramming,1776,3174,55.95
+1881,Turkey,Sometimes,computerProgramming,726,3174,22.87
+1882,Turkey,Often,computerProgramming,373,3174,11.75
+1883,Turkey,Always or almost always,computerProgramming,299,3174,9.42
+1884,United Arab Emirates,Never or rarely,computerProgramming,2416,7330,32.96
+1885,United Arab Emirates,Sometimes,computerProgramming,1863,7330,25.42
+1886,United Arab Emirates,Often,computerProgramming,1662,7330,22.67
+1887,United Arab Emirates,Always or almost always,computerProgramming,1389,7330,18.95
+1888,United Kingdom,Never or rarely,computerProgramming,5868,8280,70.87
+1889,United Kingdom,Sometimes,computerProgramming,1481,8280,17.89
+1890,United Kingdom,Often,computerProgramming,664,8280,8.02
+1891,United Kingdom,Always or almost always,computerProgramming,267,8280,3.22
+1892,United States of America,Never or rarely,computerProgramming,2306,3197,72.13
+1893,United States of America,Sometimes,computerProgramming,523,3197,16.36
+1894,United States of America,Often,computerProgramming,252,3197,7.88
+1895,United States of America,Always or almost always,computerProgramming,116,3197,3.63
+1896,Uruguay,Never or rarely,computerProgramming,2089,3337,62.6
+1897,Uruguay,Sometimes,computerProgramming,640,3337,19.18
+1898,Uruguay,Often,computerProgramming,347,3337,10.4
+1899,Uruguay,Always or almost always,computerProgramming,261,3337,7.82
+1900,Vietnam,Never or rarely,computerProgramming,1905,3254,58.54
+1901,Vietnam,Sometimes,computerProgramming,1003,3254,30.82
+1902,Vietnam,Often,computerProgramming,294,3254,9.04
+1903,Vietnam,Always or almost always,computerProgramming,52,3254,1.6
+1904,Albania,Never or rarely,participateInMathClub,1459,2596,56.2
+1905,Albania,Sometimes,participateInMathClub,596,2596,22.96
+1906,Albania,Often,participateInMathClub,338,2596,13.02
+1907,Albania,Always or almost always,participateInMathClub,203,2596,7.82
+1908,Argentina,Never or rarely,participateInMathClub,3178,3658,86.88
+1909,Argentina,Sometimes,participateInMathClub,210,3658,5.74
+1910,Argentina,Often,participateInMathClub,158,3658,4.32
+1911,Argentina,Always or almost always,participateInMathClub,112,3658,3.06
+1912,Australia,Never or rarely,participateInMathClub,8905,9385,94.89
+1913,Australia,Sometimes,participateInMathClub,296,9385,3.15
+1914,Australia,Often,participateInMathClub,116,9385,1.24
+1915,Australia,Always or almost always,participateInMathClub,68,9385,0.72
+1916,Austria,Never or rarely,participateInMathClub,3031,3106,97.59
+1917,Austria,Sometimes,participateInMathClub,34,3106,1.09
+1918,Austria,Often,participateInMathClub,21,3106,0.68
+1919,Austria,Always or almost always,participateInMathClub,20,3106,0.64
+1920,Belgium,Never or rarely,participateInMathClub,5276,5429,97.18
+1921,Belgium,Sometimes,participateInMathClub,73,5429,1.34
+1922,Belgium,Often,participateInMathClub,42,5429,0.77
+1923,Belgium,Always or almost always,participateInMathClub,38,5429,0.7
+1924,Brazil,Never or rarely,participateInMathClub,10198,11966,85.22
+1925,Brazil,Sometimes,participateInMathClub,828,11966,6.92
+1926,Brazil,Often,participateInMathClub,510,11966,4.26
+1927,Brazil,Always or almost always,participateInMathClub,430,11966,3.59
+1928,Bulgaria,Never or rarely,participateInMathClub,2664,3325,80.12
+1929,Bulgaria,Sometimes,participateInMathClub,317,3325,9.53
+1930,Bulgaria,Often,participateInMathClub,179,3325,5.38
+1931,Bulgaria,Always or almost always,participateInMathClub,165,3325,4.96
+1932,Canada,Never or rarely,participateInMathClub,13301,14015,94.91
+1933,Canada,Sometimes,participateInMathClub,402,14015,2.87
+1934,Canada,Often,participateInMathClub,204,14015,1.46
+1935,Canada,Always or almost always,participateInMathClub,108,14015,0.77
+1936,Chile,Never or rarely,participateInMathClub,4250,4509,94.26
+1937,Chile,Sometimes,participateInMathClub,155,4509,3.44
+1938,Chile,Often,participateInMathClub,58,4509,1.29
+1939,Chile,Always or almost always,participateInMathClub,46,4509,1.02
+1940,China-Shanghai,Never or rarely,participateInMathClub,2560,3431,74.61
+1941,China-Shanghai,Sometimes,participateInMathClub,624,3431,18.19
+1942,China-Shanghai,Often,participateInMathClub,158,3431,4.61
+1943,China-Shanghai,Always or almost always,participateInMathClub,89,3431,2.59
+1944,Chinese Taipei,Never or rarely,participateInMathClub,3676,4004,91.81
+1945,Chinese Taipei,Sometimes,participateInMathClub,244,4004,6.09
+1946,Chinese Taipei,Often,participateInMathClub,63,4004,1.57
+1947,Chinese Taipei,Always or almost always,participateInMathClub,21,4004,0.52
+1948,Colombia,Never or rarely,participateInMathClub,4818,5535,87.05
+1949,Colombia,Sometimes,participateInMathClub,467,5535,8.44
+1950,Colombia,Often,participateInMathClub,150,5535,2.71
+1951,Colombia,Always or almost always,participateInMathClub,100,5535,1.81
+1952,Connecticut (USA),Never or rarely,participateInMathClub,1000,1110,90.09
+1953,Connecticut (USA),Sometimes,participateInMathClub,55,1110,4.95
+1954,Connecticut (USA),Often,participateInMathClub,37,1110,3.33
+1955,Connecticut (USA),Always or almost always,participateInMathClub,18,1110,1.62
+1956,Costa Rica,Never or rarely,participateInMathClub,2623,2874,91.27
+1957,Costa Rica,Sometimes,participateInMathClub,138,2874,4.8
+1958,Costa Rica,Often,participateInMathClub,58,2874,2.02
+1959,Costa Rica,Always or almost always,participateInMathClub,55,2874,1.91
+1960,Croatia,Never or rarely,participateInMathClub,3181,3307,96.19
+1961,Croatia,Sometimes,participateInMathClub,56,3307,1.69
+1962,Croatia,Often,participateInMathClub,48,3307,1.45
+1963,Croatia,Always or almost always,participateInMathClub,22,3307,0.67
+1964,Czech Republic,Never or rarely,participateInMathClub,3213,3458,92.91
+1965,Czech Republic,Sometimes,participateInMathClub,141,3458,4.08
+1966,Czech Republic,Often,participateInMathClub,59,3458,1.71
+1967,Czech Republic,Always or almost always,participateInMathClub,45,3458,1.3
+1968,Denmark,Never or rarely,participateInMathClub,4644,4792,96.91
+1969,Denmark,Sometimes,participateInMathClub,60,4792,1.25
+1970,Denmark,Often,participateInMathClub,52,4792,1.09
+1971,Denmark,Always or almost always,participateInMathClub,36,4792,0.75
+1972,Estonia,Never or rarely,participateInMathClub,2925,3139,93.18
+1973,Estonia,Sometimes,participateInMathClub,159,3139,5.07
+1974,Estonia,Often,participateInMathClub,37,3139,1.18
+1975,Estonia,Always or almost always,participateInMathClub,18,3139,0.57
+1976,Finland,Never or rarely,participateInMathClub,5543,5743,96.52
+1977,Finland,Sometimes,participateInMathClub,103,5743,1.79
+1978,Finland,Often,participateInMathClub,56,5743,0.98
+1979,Finland,Always or almost always,participateInMathClub,41,5743,0.71
+1980,Florida (USA),Never or rarely,participateInMathClub,1113,1215,91.6
+1981,Florida (USA),Sometimes,participateInMathClub,46,1215,3.79
+1982,Florida (USA),Often,participateInMathClub,34,1215,2.8
+1983,Florida (USA),Always or almost always,participateInMathClub,22,1215,1.81
+1984,France,Never or rarely,participateInMathClub,2861,2960,96.66
+1985,France,Sometimes,participateInMathClub,43,2960,1.45
+1986,France,Often,participateInMathClub,34,2960,1.15
+1987,France,Always or almost always,participateInMathClub,22,2960,0.74
+1988,Germany,Never or rarely,participateInMathClub,2653,2790,95.09
+1989,Germany,Sometimes,participateInMathClub,77,2790,2.76
+1990,Germany,Often,participateInMathClub,24,2790,0.86
+1991,Germany,Always or almost always,participateInMathClub,36,2790,1.29
+1992,Greece,Never or rarely,participateInMathClub,2928,3349,87.43
+1993,Greece,Sometimes,participateInMathClub,207,3349,6.18
+1994,Greece,Often,participateInMathClub,127,3349,3.79
+1995,Greece,Always or almost always,participateInMathClub,87,3349,2.6
+1996,Hong Kong-China,Never or rarely,participateInMathClub,2702,3061,88.27
+1997,Hong Kong-China,Sometimes,participateInMathClub,230,3061,7.51
+1998,Hong Kong-China,Often,participateInMathClub,80,3061,2.61
+1999,Hong Kong-China,Always or almost always,participateInMathClub,49,3061,1.6
+2000,Hungary,Never or rarely,participateInMathClub,2661,3159,84.24
+2001,Hungary,Sometimes,participateInMathClub,314,3159,9.94
+2002,Hungary,Often,participateInMathClub,128,3159,4.05
+2003,Hungary,Always or almost always,participateInMathClub,56,3159,1.77
+2004,Iceland,Never or rarely,participateInMathClub,2097,2203,95.19
+2005,Iceland,Sometimes,participateInMathClub,53,2203,2.41
+2006,Iceland,Often,participateInMathClub,22,2203,1.0
+2007,Iceland,Always or almost always,participateInMathClub,31,2203,1.41
+2008,Indonesia,Never or rarely,participateInMathClub,2378,3635,65.42
+2009,Indonesia,Sometimes,participateInMathClub,742,3635,20.41
+2010,Indonesia,Often,participateInMathClub,377,3635,10.37
+2011,Indonesia,Always or almost always,participateInMathClub,138,3635,3.8
+2012,Ireland,Never or rarely,participateInMathClub,3213,3301,97.33
+2013,Ireland,Sometimes,participateInMathClub,55,3301,1.67
+2014,Ireland,Often,participateInMathClub,19,3301,0.58
+2015,Ireland,Always or almost always,participateInMathClub,14,3301,0.42
+2016,Israel,Never or rarely,participateInMathClub,2735,3147,86.91
+2017,Israel,Sometimes,participateInMathClub,196,3147,6.23
+2018,Israel,Often,participateInMathClub,117,3147,3.72
+2019,Israel,Always or almost always,participateInMathClub,99,3147,3.15
+2020,Italy,Never or rarely,participateInMathClub,19348,20469,94.52
+2021,Italy,Sometimes,participateInMathClub,565,20469,2.76
+2022,Italy,Often,participateInMathClub,314,20469,1.53
+2023,Italy,Always or almost always,participateInMathClub,242,20469,1.18
+2024,Japan,Never or rarely,participateInMathClub,4069,4156,97.91
+2025,Japan,Sometimes,participateInMathClub,64,4156,1.54
+2026,Japan,Often,participateInMathClub,11,4156,0.26
+2027,Japan,Always or almost always,participateInMathClub,12,4156,0.29
+2028,Jordan,Never or rarely,participateInMathClub,2090,4478,46.67
+2029,Jordan,Sometimes,participateInMathClub,925,4478,20.66
+2030,Jordan,Often,participateInMathClub,745,4478,16.64
+2031,Jordan,Always or almost always,participateInMathClub,718,4478,16.03
+2032,Kazakhstan,Never or rarely,participateInMathClub,1964,3809,51.56
+2033,Kazakhstan,Sometimes,participateInMathClub,946,3809,24.84
+2034,Kazakhstan,Often,participateInMathClub,608,3809,15.96
+2035,Kazakhstan,Always or almost always,participateInMathClub,291,3809,7.64
+2036,Korea,Never or rarely,participateInMathClub,2995,3350,89.4
+2037,Korea,Sometimes,participateInMathClub,229,3350,6.84
+2038,Korea,Often,participateInMathClub,65,3350,1.94
+2039,Korea,Always or almost always,participateInMathClub,61,3350,1.82
+2040,Latvia,Never or rarely,participateInMathClub,2524,2865,88.1
+2041,Latvia,Sometimes,participateInMathClub,205,2865,7.16
+2042,Latvia,Often,participateInMathClub,97,2865,3.39
+2043,Latvia,Always or almost always,participateInMathClub,39,2865,1.36
+2044,Liechtenstein,Never or rarely,participateInMathClub,191,194,98.45
+2045,Liechtenstein,Sometimes,participateInMathClub,2,194,1.03
+2046,Liechtenstein,Often,participateInMathClub,1,194,0.52
+2047,Liechtenstein,Always or almost always,participateInMathClub,0,194,0.0
+2048,Lithuania,Never or rarely,participateInMathClub,2570,3020,85.1
+2049,Lithuania,Sometimes,participateInMathClub,247,3020,8.18
+2050,Lithuania,Often,participateInMathClub,121,3020,4.01
+2051,Lithuania,Always or almost always,participateInMathClub,82,3020,2.72
+2052,Luxembourg,Never or rarely,participateInMathClub,3144,3382,92.96
+2053,Luxembourg,Sometimes,participateInMathClub,103,3382,3.05
+2054,Luxembourg,Often,participateInMathClub,83,3382,2.45
+2055,Luxembourg,Always or almost always,participateInMathClub,52,3382,1.54
+2056,Macao-China,Never or rarely,participateInMathClub,3098,3534,87.66
+2057,Macao-China,Sometimes,participateInMathClub,321,3534,9.08
+2058,Macao-China,Often,participateInMathClub,74,3534,2.09
+2059,Macao-China,Always or almost always,participateInMathClub,41,3534,1.16
+2060,Malaysia,Never or rarely,participateInMathClub,2010,3357,59.87
+2061,Malaysia,Sometimes,participateInMathClub,790,3357,23.53
+2062,Malaysia,Often,participateInMathClub,372,3357,11.08
+2063,Malaysia,Always or almost always,participateInMathClub,185,3357,5.51
+2064,Massachusetts (USA),Never or rarely,participateInMathClub,1009,1091,92.48
+2065,Massachusetts (USA),Sometimes,participateInMathClub,38,1091,3.48
+2066,Massachusetts (USA),Often,participateInMathClub,24,1091,2.2
+2067,Massachusetts (USA),Always or almost always,participateInMathClub,20,1091,1.83
+2068,Mexico,Never or rarely,participateInMathClub,19358,22134,87.46
+2069,Mexico,Sometimes,participateInMathClub,1703,22134,7.69
+2070,Mexico,Often,participateInMathClub,651,22134,2.94
+2071,Mexico,Always or almost always,participateInMathClub,422,22134,1.91
+2072,Montenegro,Never or rarely,participateInMathClub,2412,3029,79.63
+2073,Montenegro,Sometimes,participateInMathClub,352,3029,11.62
+2074,Montenegro,Often,participateInMathClub,143,3029,4.72
+2075,Montenegro,Always or almost always,participateInMathClub,122,3029,4.03
+2076,Netherlands,Never or rarely,participateInMathClub,2698,2832,95.27
+2077,Netherlands,Sometimes,participateInMathClub,63,2832,2.22
+2078,Netherlands,Often,participateInMathClub,46,2832,1.62
+2079,Netherlands,Always or almost always,participateInMathClub,25,2832,0.88
+2080,New Zealand,Never or rarely,participateInMathClub,2605,2770,94.04
+2081,New Zealand,Sometimes,participateInMathClub,97,2770,3.5
+2082,New Zealand,Often,participateInMathClub,43,2770,1.55
+2083,New Zealand,Always or almost always,participateInMathClub,25,2770,0.9
+2084,Norway,Never or rarely,participateInMathClub,2928,3031,96.6
+2085,Norway,Sometimes,participateInMathClub,52,3031,1.72
+2086,Norway,Often,participateInMathClub,27,3031,0.89
+2087,Norway,Always or almost always,participateInMathClub,24,3031,0.79
+2088,Perm(Russian Federation),Never or rarely,participateInMathClub,383,1124,34.07
+2089,Perm(Russian Federation),Sometimes,participateInMathClub,244,1124,21.71
+2090,Perm(Russian Federation),Often,participateInMathClub,280,1124,24.91
+2091,Perm(Russian Federation),Always or almost always,participateInMathClub,217,1124,19.31
+2092,Peru,Never or rarely,participateInMathClub,2781,3629,76.63
+2093,Peru,Sometimes,participateInMathClub,514,3629,14.16
+2094,Peru,Often,participateInMathClub,200,3629,5.51
+2095,Peru,Always or almost always,participateInMathClub,134,3629,3.69
+2096,Poland,Never or rarely,participateInMathClub,1717,3049,56.31
+2097,Poland,Sometimes,participateInMathClub,711,3049,23.32
+2098,Poland,Often,participateInMathClub,375,3049,12.3
+2099,Poland,Always or almost always,participateInMathClub,246,3049,8.07
+2100,Portugal,Never or rarely,participateInMathClub,3450,3699,93.27
+2101,Portugal,Sometimes,participateInMathClub,132,3699,3.57
+2102,Portugal,Often,participateInMathClub,84,3699,2.27
+2103,Portugal,Always or almost always,participateInMathClub,33,3699,0.89
+2104,Qatar,Never or rarely,participateInMathClub,3504,6601,53.08
+2105,Qatar,Sometimes,participateInMathClub,1172,6601,17.75
+2106,Qatar,Often,participateInMathClub,1132,6601,17.15
+2107,Qatar,Always or almost always,participateInMathClub,793,6601,12.01
+2108,Romania,Never or rarely,participateInMathClub,2380,3334,71.39
+2109,Romania,Sometimes,participateInMathClub,326,3334,9.78
+2110,Romania,Often,participateInMathClub,340,3334,10.2
+2111,Romania,Always or almost always,participateInMathClub,288,3334,8.64
+2112,Russian Federation,Never or rarely,participateInMathClub,1836,3431,53.51
+2113,Russian Federation,Sometimes,participateInMathClub,690,3431,20.11
+2114,Russian Federation,Often,participateInMathClub,587,3431,17.11
+2115,Russian Federation,Always or almost always,participateInMathClub,318,3431,9.27
+2116,Serbia,Never or rarely,participateInMathClub,2719,3000,90.63
+2117,Serbia,Sometimes,participateInMathClub,167,3000,5.57
+2118,Serbia,Often,participateInMathClub,79,3000,2.63
+2119,Serbia,Always or almost always,participateInMathClub,35,3000,1.17
+2120,Singapore,Never or rarely,participateInMathClub,3357,3689,91.0
+2121,Singapore,Sometimes,participateInMathClub,239,3689,6.48
+2122,Singapore,Often,participateInMathClub,52,3689,1.41
+2123,Singapore,Always or almost always,participateInMathClub,41,3689,1.11
+2124,Slovak Republic,Never or rarely,participateInMathClub,2307,2986,77.26
+2125,Slovak Republic,Sometimes,participateInMathClub,400,2986,13.4
+2126,Slovak Republic,Often,participateInMathClub,170,2986,5.69
+2127,Slovak Republic,Always or almost always,participateInMathClub,109,2986,3.65
+2128,Slovenia,Never or rarely,participateInMathClub,2970,3734,79.54
+2129,Slovenia,Sometimes,participateInMathClub,450,3734,12.05
+2130,Slovenia,Often,participateInMathClub,215,3734,5.76
+2131,Slovenia,Always or almost always,participateInMathClub,99,3734,2.65
+2132,Spain,Never or rarely,participateInMathClub,15644,16527,94.66
+2133,Spain,Sometimes,participateInMathClub,415,16527,2.51
+2134,Spain,Often,participateInMathClub,277,16527,1.68
+2135,Spain,Always or almost always,participateInMathClub,191,16527,1.16
+2136,Sweden,Never or rarely,participateInMathClub,2944,3070,95.9
+2137,Sweden,Sometimes,participateInMathClub,61,3070,1.99
+2138,Sweden,Often,participateInMathClub,35,3070,1.14
+2139,Sweden,Always or almost always,participateInMathClub,30,3070,0.98
+2140,Switzerland,Never or rarely,participateInMathClub,7138,7394,96.54
+2141,Switzerland,Sometimes,participateInMathClub,118,7394,1.6
+2142,Switzerland,Often,participateInMathClub,74,7394,1.0
+2143,Switzerland,Always or almost always,participateInMathClub,64,7394,0.87
+2144,Thailand,Never or rarely,participateInMathClub,1916,4403,43.52
+2145,Thailand,Sometimes,participateInMathClub,1613,4403,36.63
+2146,Thailand,Often,participateInMathClub,639,4403,14.51
+2147,Thailand,Always or almost always,participateInMathClub,235,4403,5.34
+2148,Tunisia,Never or rarely,participateInMathClub,2190,2775,78.92
+2149,Tunisia,Sometimes,participateInMathClub,239,2775,8.61
+2150,Tunisia,Often,participateInMathClub,188,2775,6.77
+2151,Tunisia,Always or almost always,participateInMathClub,158,2775,5.69
+2152,Turkey,Never or rarely,participateInMathClub,2428,3178,76.4
+2153,Turkey,Sometimes,participateInMathClub,480,3178,15.1
+2154,Turkey,Often,participateInMathClub,166,3178,5.22
+2155,Turkey,Always or almost always,participateInMathClub,104,3178,3.27
+2156,United Arab Emirates,Never or rarely,participateInMathClub,4738,7355,64.42
+2157,United Arab Emirates,Sometimes,participateInMathClub,1249,7355,16.98
+2158,United Arab Emirates,Often,participateInMathClub,782,7355,10.63
+2159,United Arab Emirates,Always or almost always,participateInMathClub,586,7355,7.97
+2160,United Kingdom,Never or rarely,participateInMathClub,7447,8286,89.87
+2161,United Kingdom,Sometimes,participateInMathClub,506,8286,6.11
+2162,United Kingdom,Often,participateInMathClub,212,8286,2.56
+2163,United Kingdom,Always or almost always,participateInMathClub,121,8286,1.46
+2164,United States of America,Never or rarely,participateInMathClub,2931,3191,91.85
+2165,United States of America,Sometimes,participateInMathClub,136,3191,4.26
+2166,United States of America,Often,participateInMathClub,78,3191,2.44
+2167,United States of America,Always or almost always,participateInMathClub,46,3191,1.44
+2168,Uruguay,Never or rarely,participateInMathClub,3115,3335,93.4
+2169,Uruguay,Sometimes,participateInMathClub,99,3335,2.97
+2170,Uruguay,Often,participateInMathClub,62,3335,1.86
+2171,Uruguay,Always or almost always,participateInMathClub,59,3335,1.77
+2172,Vietnam,Never or rarely,participateInMathClub,2415,3259,74.1
+2173,Vietnam,Sometimes,participateInMathClub,645,3259,19.79
+2174,Vietnam,Often,participateInMathClub,165,3259,5.06
+2175,Vietnam,Always or almost always,participateInMathClub,34,3259,1.04
