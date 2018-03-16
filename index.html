@@ -4,13 +4,97 @@
   <meta charset="utf-8">
   <script src="http://d3js.org/d3.v3.min.js"></script>
     <style>
+      .y.axis {
+        padding: 10px;
+      }
+
+      .axis text {
+        font: 10px sans-serif;
+      }
+
+      .axis path,
+      .axis line {
+        fill: none;
+        stroke: #000;
+        shape-rendering: crispEdges;
+      }
     </style>
-    <script type="text/javascript">  
+    <script type="text/javascript">
+      function draw(data) {
+
+        "use strict";
+        var margin = {top: 100, right: 0, bottom: 0, left: 100},
+            width = 1100 - margin.left - margin.right,
+            height = 600 - margin.top - margin.bottom;
+
+        var frequency_list = d3.map(data, function(d) {
+          return d.frequency;
+        }).keys();
+
+        var svg = d3.select('body')
+            .append('svg')
+            .attr('width', width + margin.left + margin.right)
+            .attr('height', height + margin.top + margin.bottom)
+            .append('g')
+            .attr('class', 'chart');
+
+        d3.select('svg')
+            .selectAll('circle')
+            .data(data)
+            .enter()
+            .append('circle');
+
+        var frequency_scale = d3.scale.ordinal()
+            .rangeBands([margin.left, width])
+            .domain(frequency_list);
+
+        var percent_scale = d3.scale.linear()
+            .range([height, margin.top])
+            .domain([0,100]);
+
+        var frequency_axis = d3.svg.axis()
+            .scale(frequency_scale)
+            .orient("bottom")
+            .tickPadding(5);
+
+        d3.select('svg')
+          .append('g')
+          .attr('class', 'x axis')
+          .attr('transform', "translate(0," + height + ')')
+          .call(frequency_axis);
+
+        var percent_axis = d3.svg.axis()
+            .scale(percent_scale)
+            .orient('left');
+
+        d3.select('svg')
+          .append('g')
+          .attr('class', 'y axis')
+          .attr('transform', 'translate(' + margin.left + ',0)')
+          .call(percent_axis);
+
+        d3.selectAll('circle')
+          .attr('cx', function(d) {
+              return frequency_scale(d['frequency']) + frequency_scale.rangeBand()/2;
+          })
+          .attr('cy', function(d) {
+              return percent_scale(d['count_percent']);
+          })
+          .attr('r', function(d) {
+              return 2;
+          })
+          .attr('fill', function(d) {
+              return 'black';
+          })
+
+        debugger;
+
+      }
     </script>
   </head>
 <body>
   <script type="text/javascript">    
-    d3.json("world_countries.json", draw);
+    d3.csv("PISA_Math_Behavior.csv", draw);
   </script>
 </body>
 </html>
