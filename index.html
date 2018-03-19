@@ -4,10 +4,6 @@
   <meta charset="utf-8">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.13.0/d3.min.js"></script>
     <style>
-      .y.axis {
-        padding: 10px;
-      }
-
       .axis text {
         font: 10px sans-serif;
       }
@@ -17,6 +13,28 @@
         fill: none;
         stroke: #000;
         shape-rendering: crispEdges;
+      }
+
+      .line {
+        fill: none;
+        stroke: #999999;
+        stroke-width: 2px;
+      }
+
+      circle {
+        fill: #bfbfbf;
+        stroke: #999999;
+      }
+
+      .selected-circle {
+        fill: #a9a9ff;
+        stroke: #4f4fff;
+        r: 5;
+      }
+
+      .selected-line {
+        stroke: #4f4fff;
+        stroke-width: 4px;
       }
     </style>
     <script type="text/javascript">
@@ -38,12 +56,12 @@
                 percent_list.push(d.count_percent);
             });
 
-            var variable = d3.nest().key(function(d) {
-                return d.variable;
+            var country = d3.nest().key(function(d) {
+                return d.country;
             }).entries(leaves);
 
             return {
-              'variable': variable,
+              'country': country,
               'frequency_list': frequency_list,
               'percent_list': percent_list
             };
@@ -51,7 +69,7 @@
 
         // Aggregating data by Country and Behavior Variable
         var countries = d3.nest()
-            .key(function(d) { return d.country })
+            .key(function(d) { return d.variable })
             .rollup(agg_country_var)
             .entries(data);
         
@@ -101,46 +119,138 @@
             .call(yAxis);
 
         var frequency_axis = g.append('g')
-          .attr('transform', 'translate(0,' + innerHeight + ')')
-          .call(xAxis);
+            .attr('transform', 'translate(0,' + innerHeight + ')')
+            .call(xAxis);
 
-        var country = g.selectAll(".country")
-          .data(countries)
-          .enter().append("g")
-            .attr("class", "country");
+        function generate_dropdown(menu, data, split="False") {
+          menu
+          .append("select")
+          .selectAll("option")
+              .data(data)
+              .enter()
+              .append("option")
+              .attr("value", function(d){
+                  return d;
+              })
+              .text(function(d){
+                  if(split) {
+                    return d.replace(/([A-Z])/g, ' $1')
+                          .replace(/^./, function(str){ return str.toUpperCase(); })
+                  }
+                  return d;
+              })
+        }
 
-        country.selectAll(".line")
-          .data(function(d) { return d.value.variable; })
-          .enter().append("path")
-            .attr("class", "line")
-            .attr("d", function(l) { return line(l.values); })
-            .style("stroke", function(d) { return color_scale(d.values[0].country); });
+        // Creating dropdowns
+        var countryMenu = d3.select("#countryMenu");
+        generate_dropdown(countryMenu, countries_list);
+
+        var variables_list = d3.map(data, function(d) {
+          return d['variable'];
+        }).keys();
+
+        var variableMenu = d3.select("#variableMenu");
+        generate_dropdown(variableMenu, variables_list);
+
+        function draw_lines_dots(variable) {
+            var selectVariable = countries.filter(function(d) {
+                return d.key == variable;
+            });
+
+            var selectCountries = g.selectAll(".country")
+              .data(selectVariable, function(d){
+                return d ? d.key : this.key;
+              })
+              .enter()
+              .append("g")
+              .attr("class", "country")
+
+            var selectLines = selectCountries.selectAll(".line")
+              .data(function(d) { return d.value.country; })
+
+            selectLines.exit().remove();
+            
+            selectLines.enter()
+              .append("path")
+              .attr("class", "line")
+              .attr("d", function(d) { return line(d.values) })
+              .style("fill", "none");
+
+            // Draw circles
+            var circles = g.selectAll('circle')
+              .data(data.filter(function(d) {
+                  return d.variable == variable;
+              }))
+              .enter()
+              .append('circle')
+              .attr('cx', function(d) {
+                  return frequency_scale(d['frequency']) + frequency_scale.bandwidth() / 2;
+              })
+              .attr('cy', function(d) {
+                  return percent_scale(d['count_percent']);
+              })
+              .attr('r', function(d) {
+                  return 2;
+              })
+              // .attr('fill', function(d) {
+              //     return 'black';
+              // })
+        }
+
+        draw_lines_dots('talkAboutMaths');
+
+        // Run update function when dropdown selection changes
+        countryMenu.on('change', function(){
+          // Find which year was selected
+          var selectedCountry = d3.select(this)
+            .select("select")
+            .property("value")
+
+          // Change the class of the matching line to "selected"
+          var selLine = g.selectAll(".line")
+                  // de-select all the lines
+                  .classed("selected-line", false)
+                  .filter(function(d) {
+                      return d.key === selectedCountry
+                  })
+                  // Set class to selected for matching line
+                  .classed("selected-line", true)
+                  .raise()
+
+          // Change the class of the matching circle to "selected"
+          var selLine = g.selectAll("circle")
+                  // de-select all the lines
+                  .classed("selected-circle", false)
+                  .filter(function(d) {
+                      return d.country === selectedCountry
+                  })
+                  // Set class to selected for matching line
+                  .classed("selected-circle", true)
+                  .raise()
+        })
+
+        // Run update function when dropdown selection changes
+        variableMenu.on('change', function(){
+
+          // Find which variable was selected from the dropdown
+          var selectedVariable = d3.select(this)
+                  .select("select")
+                  .property("value")
+
+              // Run update function with the selected variable
+              draw_lines_dots(selectedVariable)
+
+          });
 
         // https://bl.ocks.org/ProQuestionAsker/b8f8c2ab12c4f21e882aeb68728216c2
-
-        // Draw circles
-        var circles = g.selectAll('circle')
-            .data(data)
-            .enter()
-            .append('circle')
-            .attr('cx', function(d) {
-                return frequency_scale(d['frequency']) + frequency_scale.bandwidth() / 2;
-            })
-            .attr('cy', function(d) {
-                return percent_scale(d['count_percent']);
-            })
-            .attr('r', function(d) {
-                return 2;
-            })
-            .attr('fill', function(d) {
-                return 'black';
-            })
 
 
       }
     </script>
   </head>
 <body>
+  <div id="countryMenu"> </div>
+  <div id="variableMenu"> </div>
   <script type="text/javascript">
 
     // Change the datatype of some features
