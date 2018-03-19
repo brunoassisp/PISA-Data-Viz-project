@@ -28,9 +28,37 @@
             innerWidth = width - margin.left - margin.right,
             innerHeight = height - margin.top - margin.bottom;
 
+        // Aggregate function
+        function agg_country_var(leaves) {
+            var frequency_list = [],
+                percent_list = [];
+
+            leaves.forEach(function(d) {
+                frequency_list.push(d.frequency);
+                percent_list.push(d.count_percent);
+            });
+
+            return {
+              'frequency_list': frequency_list,
+              'percent_list': percent_list
+            };
+        }
+
+        // Aggregating data by Country and Behavior Variable
+        var countries = d3.nest()
+            .key(function(d) { return d.country })
+            .key(function(d) { return d.variable })
+            .rollup(agg_country_var)
+            .entries(data);
+
         // x-axis labels
         var frequency_list = d3.map(data, function(d) {
-          return d.frequency;
+          return d['frequency'];
+        }).keys();
+
+        // z-axis labels
+        var countries_list = d3.map(data, function(d) {
+          return d['country'];
         }).keys();
 
         var svg = d3.select('body')
@@ -52,17 +80,42 @@
             .range([innerHeight, 0])
             .domain([0, 100]);
 
+        var color_scale = d3.scaleOrdinal(d3.schemeCategory10)
+            .domain(countries_list);
+
         // Create axis generators
         var xAxis = d3.axisBottom(frequency_scale);
-        var yAxis = d3.axisLeft(percent_scale)
+        var yAxis = d3.axisLeft(percent_scale);
 
-        // Append axises
+        // Create line generator
+        var line = d3.line()
+            .x(function(d) { debugger; return frequency_scale(d["frequency_list"]); })
+            .y(function(d) { debugger; return percent_scale(d["percent_list"]); });
+
+        // Append axes
         var percent_axis = g.append('g')
             .call(yAxis);
 
         var frequency_axis = g.append('g')
           .attr('transform', 'translate(0,' + innerHeight + ')')
           .call(xAxis);
+
+        var country = g.selectAll(".country")
+          .data(countries)
+          .enter().append("g")
+            .attr("class", "country");
+
+        country.selectAll(".line")
+          .data(function(d) { return d.values; })
+          .enter().append("path")
+            .attr("class", "line")
+            .attr("d", function(l) { return line(l.value); })
+            .style("stroke", function(d) { return color_scale(d['country']); });
+
+        // country.append("path")
+        //   .attr("class", "line")
+        //   .attr("d", function(d) { return d.values.forEach(function(l) { return line(l.value); }); })
+        //   .style("stroke", function(d) { return color_scale(d['country']); });
 
         // Draw circles
         var circles = g.selectAll('circle')
@@ -92,8 +145,8 @@
     // Change the datatype of some features
     function type(d) {
       d.count_percent = +d.count_percent;
-      // TODO Change the other types
-
+      d.value_x = +d.value_x;
+      d.value_y = +d.value_y;
       return d;
     }
 
