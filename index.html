@@ -32,13 +32,18 @@
         function agg_country_var(leaves) {
             var frequency_list = [],
                 percent_list = [];
-
+            
             leaves.forEach(function(d) {
                 frequency_list.push(d.frequency);
                 percent_list.push(d.count_percent);
             });
 
+            var variable = d3.nest().key(function(d) {
+                return d.variable;
+            }).entries(leaves);
+
             return {
+              'variable': variable,
               'frequency_list': frequency_list,
               'percent_list': percent_list
             };
@@ -47,10 +52,9 @@
         // Aggregating data by Country and Behavior Variable
         var countries = d3.nest()
             .key(function(d) { return d.country })
-            .key(function(d) { return d.variable })
             .rollup(agg_country_var)
             .entries(data);
-
+        
         // x-axis labels
         var frequency_list = d3.map(data, function(d) {
           return d['frequency'];
@@ -89,8 +93,8 @@
 
         // Create line generator
         var line = d3.line()
-            .x(function(d) { debugger; return frequency_scale(d["frequency_list"]); })
-            .y(function(d) { debugger; return percent_scale(d["percent_list"]); });
+            .x(function(d) { return frequency_scale(d["frequency"]) + frequency_scale.bandwidth() / 2; })
+            .y(function(d) { return percent_scale(d["count_percent"]); });
 
         // Append axes
         var percent_axis = g.append('g')
@@ -106,16 +110,13 @@
             .attr("class", "country");
 
         country.selectAll(".line")
-          .data(function(d) { return d.values; })
+          .data(function(d) { return d.value.variable; })
           .enter().append("path")
             .attr("class", "line")
-            .attr("d", function(l) { return line(l.value); })
-            .style("stroke", function(d) { return color_scale(d['country']); });
+            .attr("d", function(l) { return line(l.values); })
+            .style("stroke", function(d) { return color_scale(d.values[0].country); });
 
-        // country.append("path")
-        //   .attr("class", "line")
-        //   .attr("d", function(d) { return d.values.forEach(function(l) { return line(l.value); }); })
-        //   .style("stroke", function(d) { return color_scale(d['country']); });
+        // https://bl.ocks.org/ProQuestionAsker/b8f8c2ab12c4f21e882aeb68728216c2
 
         // Draw circles
         var circles = g.selectAll('circle')
