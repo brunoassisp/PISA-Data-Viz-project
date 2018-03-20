@@ -54,14 +54,14 @@
         stroke: #999999;
         stroke-width: 2px;
         stroke-opacity: .1;
-        transition: stroke .5s, stroke-width .5s, stroke-opacity .5s;
       }
 
       circle {
-        fill: none;
+        fill: #999999;
         stroke: #999999;
         stroke-opacity: .1;
         opacity: .1;
+        r: 0.2;
       }
 
       .selectedCircle {
@@ -70,12 +70,14 @@
         stroke-opacity: 1;
         opacity: 1;
         r: 5;
+        transition: fill 1s, opacity .5s, r .5s;
       }
 
       .selectedLine {
         stroke: #4f4fff;
         stroke-width: 4px;
         stroke-opacity: 1;
+        transition: stroke 1s, stroke-width 1s, stroke-opacity 1s;
       }
 
       table {
@@ -93,6 +95,12 @@
       .tableCell {
         font-size: 11px;
         text-align: center;
+      }
+
+      .maxValue {
+        font-size: 14px;
+        font-weight: bold;
+        background: #ececec;
       }
 
       .colHeader {
@@ -283,9 +291,15 @@
               .attr('cy', function(d) {
                   return percent_scale(d['count_percent']);
               })
-              .attr('r', function(d) {
-                  return 1;
-              });
+        }
+
+
+        function getMaxValue(data) {
+          var percent_list = [];
+          data.forEach(function(d) {
+              return percent_list.push(d.count_percent);
+          });
+          return d3.max(percent_list);
         }
 
 
@@ -297,7 +311,9 @@
           var country = data[0].country,
               variable = data[0].variable;
 
-          variable = variable.replace(/([A-Z])/g, ' $1')
+          var maxPercent = getMaxValue(data);
+
+          var variable_text = variable.replace(/([A-Z])/g, ' $1')
                   .replace(/^./, function(str){ return str.toUpperCase(); })
 
           var headerRow = thead.append("tr");
@@ -314,30 +330,71 @@
           // create a row for each object in the data
           var bodyRow = tbody.append("tr");
 
-          bodyRow.append("td").attr("class", "colHeader").text(variable);
+          bodyRow.append("td").attr("class", "colHeader").text(variable_text);
 
           bodyRow.selectAll(".tableCell")
               .data(data).enter()
               .append("td")
-              .attr("class", "tableCell")
+              .attr("class", function(d){
+                return d.count_percent == maxPercent ? "tableCell maxValue" : "tableCell";
+              })
                 .text(function(d) { return d.count_percent + '%' })
         }
 
-        // function updateTable(data) {
+        function updateTable(data, selectType) {
+          var country = data[0].country,
+              variable = data[0].variable;
 
-        // }
+          var maxPercent = getMaxValue(data);
+
+          var variable_text = variable.replace(/([A-Z])/g, ' $1')
+                  .replace(/^./, function(str){ return str.toUpperCase(); })
+
+          d3.select('th.colHeader').text(country);
+          d3.select('td.colHeader').text(variable_text);
+
+          var tableCell;
+
+          var table = d3.select('table tbody tr');
+
+          if(selectType == 'country') {
+            tableCell = table.selectAll(".tableCell")
+              .data(data, function(d) {
+                return d.country == country;
+              })
+          } else {
+            tableCell = table.selectAll(".tableCell")
+              .data(data, function(d) {
+                return d.variable == variable;
+              })
+          }
+
+          tableCell.exit().remove();
+
+          tableCell.enter()
+              .append("td")
+              .attr("class", function(d){
+                return d.count_percent == maxPercent ? "tableCell maxValue" : "tableCell";
+              })
+                .text(function(d) { return d.count_percent + '%' })
+        }
+
 
         draw_lines_dots('talkAboutMaths');
 
-        var selectVariable = data.filter(function(d) {
+        var selectedData = data.filter(function(d) {
                 var variable = d3.select("#variableMenu select").node().value;
                 var country = d3.select("#countryMenu select").node().value;
                 return d.variable == variable && d.country == country;
             });
 
-        tabulate(selectVariable);
+        tabulate(selectedData);
 
         d3.select("table").style("margin-left", margin.left + "px");
+
+        d3.select("#countryMenu").dispatch('change');
+
+        // --------------------------- ACTIONS ---------------------------
 
         // Run update function when dropdown selection changes
         countryMenu.on('change', function(){
@@ -365,7 +422,16 @@
                   })
                   // Set class to selected for matching line
                   .classed("selectedCircle", true)
+
+          var selectedData = data.filter(function(d) {
+                var variable = d3.select("#variableMenu select").node().value;
+                var country = d3.select("#countryMenu select").node().value;
+                return d.variable == variable && d.country == country;
+            });
+
+          updateTable(selectedData, "country");
         })
+
 
         // Run update function when dropdown selection changes
         variableMenu.on('change', function(){
@@ -375,15 +441,20 @@
                   .select("select")
                   .property("value")
 
-              // Run update function with the selected variable
+              // Draw chart for the selected variable
               draw_lines_dots(selectedVariable)
 
+              // Run table update function
+              var selectedData = data.filter(function(d) {
+                  var variable = d3.select("#variableMenu select").node().value;
+                  var country = d3.select("#countryMenu select").node().value;
+                  return d.variable == variable && d.country == country;
+              });
+
+              updateTable(selectedData, "variable");
 
 
           });
-
-        // https://bl.ocks.org/ProQuestionAsker/b8f8c2ab12c4f21e882aeb68728216c2
-
 
       }
     </script>
