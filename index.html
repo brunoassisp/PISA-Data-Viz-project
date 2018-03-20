@@ -274,7 +274,7 @@
             // Draw circles
             var circles = g.selectAll('circle')
               .data(data.filter(function(d) {
-                  return d.variable == variable && d.frequency != 'Never or rarely';
+                  return d.variable == variable;
               }), function(d) {
                   return d ? d.variable : this.variable;
               });
@@ -303,7 +303,7 @@
         }
 
 
-        // --------------------- TABLE FUNCTIONS ---------------------
+        // --------------------- TABLE FUNCTIONS --------------------- //
 
         function tabulate(data) {
           var table = d3.select("body").append("table")
@@ -382,7 +382,7 @@
         }
 
 
-        // --------------------- [END] TABLE FUNCTIONS ---------------------
+        // --------------------- [END] TABLE FUNCTIONS --------------------- //
 
         draw_lines_dots('computerProgramming');
         d3.select('#variableMenu select').property("value", "computerProgramming");
@@ -400,7 +400,7 @@
 
         setTimeout(function() { d3.select("#countryMenu").dispatch('change'); }, 2);
 
-        // --------------------------- ACTIONS ---------------------------
+        // --------------------------- ACTIONS --------------------------- //
 
         // Run update function when dropdown selection changes
         countryMenu.on('change', function(){
@@ -463,44 +463,48 @@
 
         });
 
-        // var behavior_idx = 0;
+        // ----------------------- ANIMATION ----------------------- //
 
-        // var behavior_interval = setInterval(function() {
-        //   update(years[year_idx]);
+        d3.select("#countryMenu select").property("disabled", true);
+        d3.select("#variableMenu select").property("disabled", true);
 
-        //   behavior_idx++;
+        var behavior_idx = 0;
 
-        //   if(year_idx >= years.length) {
-        //       clearInterval(year_interval);
+        var variables_list = d3.map(data, function(d) {
+          return d['variable'];
+        }).keys();
 
-        //       var buttons = d3.select("body")
-        //               .append("div")
-        //               .attr("class", "years_buttons")
-        //               .selectAll("div")
-        //               .data(years)
-        //               .enter()
-        //               .append("div")
-        //               .text(function(d) {
-        //                   return d;
-        //               });
+        var idx = variables_list.indexOf("computerProgramming");
+        variables_list.splice(idx, 1);
 
-        //       buttons.on("click", function(d) {
-        //           d3.select(".years_buttons")
-        //             .selectAll("div")
-        //             .transition()
-        //             .duration(500)
-        //             .style("color", "black")
-        //             .style("background", "rgb(251, 201, 127)");
+        var behavior_interval = setInterval(function() {
+          var variable = variables_list[behavior_idx]
 
-        //           d3.select(this)
-        //             .transition()
-        //             .duration(500)
-        //             .style("background", "lightBlue")
-        //             .style("color", "white");
-        //           update(d);
-        //       });
-        //   }
-        // }, 1000);
+          draw_lines_dots(variable);
+          d3.select('#variableMenu select').property("value", variable);
+          d3.select('#countryMenu select').property("value", "Brazil");
+
+          var selectedData = data.filter(function(d) {
+                  var variable = d3.select("#variableMenu select").node().value;
+                  var country = d3.select("#countryMenu select").node().value;
+                  return d.variable == variable && d.country == country;
+              });
+
+          updateTable(selectedData);
+
+          d3.select("table").style("margin-left", margin.left + "px");
+
+          setTimeout(function() { d3.select("#countryMenu").dispatch('change'); }, 2);
+
+          behavior_idx++;
+
+          if(behavior_idx >= variables_list.length) {
+              clearInterval(behavior_interval);
+
+              d3.select("#countryMenu select").property("disabled", false);
+              d3.select("#variableMenu select").property("disabled", false);
+          }
+        }, 2000);
 
       }
     </script>
