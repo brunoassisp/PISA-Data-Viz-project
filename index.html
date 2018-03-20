@@ -32,15 +32,21 @@
 
       #variableMenu {
         position: absolute;
-        left: 634px;
+        left: 630px;
         top: 50px;
-        width: 380px;
+        width: 390px;
       }
 
       .dropdownLabel {
         float: left;
         margin: 0;
         margin-right: 10px;
+        font-weight: bold;
+      }
+
+      .label {
+        font-family: "Trebuchet MS";
+        font-size: 13px;
       }
 
       .line {
@@ -71,11 +77,33 @@
         stroke-width: 4px;
         stroke-opacity: 1;
       }
+
+      table {
+        border-collapse: collapse;
+      }
+
+      tr th {
+        border-bottom: 2px solid #4f4fff;
+      }
+
+      td, th {
+        padding: 10px;
+      }
+
+      .tableCell {
+        font-size: 11px;
+        text-align: center;
+      }
+
+      .colHeader {
+        border-right: 1px solid #999999;
+        font-weight: bold;
+      }
     </style>
     <script type="text/javascript">
       function draw(data) {
         "use strict";
-        var margin = {top: 10, right: 100, bottom: 100, left: 100},
+        var margin = {top: 10, right: 100, bottom: 65, left: 100},
             width = 1100,
             height = 400,
             innerWidth = width - margin.left - margin.right,
@@ -156,6 +184,7 @@
 
         // text label for the y axis
         g.append("text")
+            .attr("class", "label yLabel")
             .attr("transform", "rotate(-90)")
             .attr("y", 0 - 60)
             .attr("x", margin.top - (innerHeight / 2))
@@ -168,10 +197,11 @@
             .call(xAxis);
 
         // text label for the x axis
-        g.append("text")             
+        g.append("text")
+            .attr("class", "label xLabel")
             .attr("transform",
                   "translate(" + (innerWidth/2) + " ," + 
-                                 (innerHeight + 50) + ")")
+                                 (innerHeight + 40) + ")")
             .style("text-anchor", "middle")
             .text("Frequency");
 
@@ -194,6 +224,7 @@
               })
         }
 
+
         // Creating dropdowns
         var countryMenu = d3.select("#countryMenu");
         countryMenu.append("p")
@@ -210,6 +241,7 @@
             .attr("class", "dropdownLabel")
             .text("Behavior Variable:");
         generate_dropdown(variableMenu, variables_list);
+
 
         function draw_lines_dots(variable) {
             var selectVariable = countries.filter(function(d) {
@@ -256,7 +288,56 @@
               });
         }
 
+
+        function tabulate(data) {
+          var table = d3.select("body").append("table")
+          var thead = table.append("thead"),
+              tbody = table.append("tbody");
+
+          var country = data[0].country,
+              variable = data[0].variable;
+
+          variable = variable.replace(/([A-Z])/g, ' $1')
+                  .replace(/^./, function(str){ return str.toUpperCase(); })
+
+          var headerRow = thead.append("tr");
+
+          headerRow.append("th").attr("class", "colHeader").text(country);
+
+          // append the header row
+          headerRow.selectAll(".tableCol")
+              .data(data).enter()
+              .append("th")
+              .attr("class", "tableCol")
+                .text(function(d) { return d.frequency })
+
+          // create a row for each object in the data
+          var bodyRow = tbody.append("tr");
+
+          bodyRow.append("td").attr("class", "colHeader").text(variable);
+
+          bodyRow.selectAll(".tableCell")
+              .data(data).enter()
+              .append("td")
+              .attr("class", "tableCell")
+                .text(function(d) { return d.count_percent + '%' })
+        }
+
+        // function updateTable(data) {
+
+        // }
+
         draw_lines_dots('talkAboutMaths');
+
+        var selectVariable = data.filter(function(d) {
+                var variable = d3.select("#variableMenu select").node().value;
+                var country = d3.select("#countryMenu select").node().value;
+                return d.variable == variable && d.country == country;
+            });
+
+        tabulate(selectVariable);
+
+        d3.select("table").style("margin-left", margin.left + "px");
 
         // Run update function when dropdown selection changes
         countryMenu.on('change', function(){
@@ -296,6 +377,8 @@
 
               // Run update function with the selected variable
               draw_lines_dots(selectedVariable)
+
+
 
           });
 
