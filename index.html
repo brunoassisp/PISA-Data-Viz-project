@@ -19,22 +19,28 @@
         fill: none;
         stroke: #999999;
         stroke-width: 2px;
+        stroke-opacity: .1;
       }
 
       circle {
-        fill: #bfbfbf;
+        fill: none;
         stroke: #999999;
+        stroke-opacity: .1;
+        opacity: .1;
       }
 
       .selected-circle {
         fill: #a9a9ff;
         stroke: #4f4fff;
+        stroke-opacity: 1;
+        opacity: 1;
         r: 5;
       }
 
       .selected-line {
         stroke: #4f4fff;
         stroke-width: 4px;
+        stroke-opacity: 1;
       }
     </style>
     <script type="text/javascript">
@@ -94,16 +100,13 @@
             .attr('class', 'chart');
 
         // Create scales
-        var frequency_scale = d3.scaleBand()
-            .rangeRound([0, innerWidth])
+        var frequency_scale = d3.scalePoint()
+            .range([0, innerWidth])
             .domain(frequency_list);
 
         var percent_scale = d3.scaleLinear()
             .range([innerHeight, 0])
             .domain([0, 100]);
-
-        var color_scale = d3.scaleOrdinal(d3.schemeCategory10)
-            .domain(countries_list);
 
         // Create axis generators
         var xAxis = d3.axisBottom(frequency_scale);
@@ -111,7 +114,7 @@
 
         // Create line generator
         var line = d3.line()
-            .x(function(d) { return frequency_scale(d["frequency"]) + frequency_scale.bandwidth() / 2; })
+            .x(function(d) { return frequency_scale(d["frequency"]); })
             .y(function(d) { return percent_scale(d["count_percent"]); });
 
         // Append axes
@@ -165,12 +168,14 @@
               .append("g")
               .attr("class", "country")
 
-            var selectLines = selectCountries.selectAll(".line")
+            var selectLine = selectCountries.selectAll(".line")
               .data(function(d) { return d.value.country; })
-
-            selectLines.exit().remove();
             
-            selectLines.enter()
+            debugger;
+
+            selectLine.exit().remove();
+
+            selectLine.enter()
               .append("path")
               .attr("class", "line")
               .attr("d", function(d) { return line(d.values) })
@@ -179,22 +184,19 @@
             // Draw circles
             var circles = g.selectAll('circle')
               .data(data.filter(function(d) {
-                  return d.variable == variable;
+                  return d.variable == variable && d.frequency != 'Never or rarely';
               }))
               .enter()
               .append('circle')
               .attr('cx', function(d) {
-                  return frequency_scale(d['frequency']) + frequency_scale.bandwidth() / 2;
+                  return frequency_scale(d['frequency']);
               })
               .attr('cy', function(d) {
                   return percent_scale(d['count_percent']);
               })
               .attr('r', function(d) {
-                  return 2;
-              })
-              // .attr('fill', function(d) {
-              //     return 'black';
-              // })
+                  return 1;
+              });
         }
 
         draw_lines_dots('talkAboutMaths');
