@@ -15,11 +15,38 @@
         shape-rendering: crispEdges;
       }
 
+      h2 {
+        color: black;
+        position: relative;
+        left: 100px;
+      }
+
+      #countryMenu {
+        position: absolute;
+        left: 750px;
+        top: 25px;
+        width: 275px;
+      }
+
+      #variableMenu {
+        position: absolute;
+        left: 634px;
+        top: 50px;
+        width: 380px;
+      }
+
+      .dropdownLabel {
+        float: left;
+        margin: 0;
+        margin-right: 10px;
+      }
+
       .line {
         fill: none;
         stroke: #999999;
         stroke-width: 2px;
         stroke-opacity: .1;
+        transition: stroke .5s, stroke-width .5s, stroke-opacity .5s;
       }
 
       circle {
@@ -29,7 +56,7 @@
         opacity: .1;
       }
 
-      .selected-circle {
+      .selectedCircle {
         fill: #a9a9ff;
         stroke: #4f4fff;
         stroke-opacity: 1;
@@ -37,7 +64,7 @@
         r: 5;
       }
 
-      .selected-line {
+      .selectedLine {
         stroke: #4f4fff;
         stroke-width: 4px;
         stroke-opacity: 1;
@@ -46,11 +73,15 @@
     <script type="text/javascript">
       function draw(data) {
         "use strict";
-        var margin = {top: 100, right: 100, bottom: 100, left: 100},
+        var margin = {top: 10, right: 100, bottom: 100, left: 100},
             width = 1100,
-            height = 600,
+            height = 400,
             innerWidth = width - margin.left - margin.right,
             innerHeight = height - margin.top - margin.bottom;
+
+        d3.select("body")
+          .append("h2")
+          .text("Students Behavior in Maths");
 
         // Aggregate function
         function agg_country_var(leaves) {
@@ -121,9 +152,26 @@
         var percent_axis = g.append('g')
             .call(yAxis);
 
+        // text label for the y axis
+        g.append("text")
+            .attr("transform", "rotate(-90)")
+            .attr("y", 0 - 60)
+            .attr("x", margin.top - (innerHeight / 2))
+            .attr("dy", "1em")
+            .style("text-anchor", "middle")
+            .text("Count Percentage (%)"); 
+
         var frequency_axis = g.append('g')
             .attr('transform', 'translate(0,' + innerHeight + ')')
             .call(xAxis);
+
+        // text label for the x axis
+        g.append("text")             
+            .attr("transform",
+                  "translate(" + (innerWidth/2) + " ," + 
+                                 (innerHeight + 50) + ")")
+            .style("text-anchor", "middle")
+            .text("Frequency");
 
         function generate_dropdown(menu, data, split="False") {
           menu
@@ -146,6 +194,9 @@
 
         // Creating dropdowns
         var countryMenu = d3.select("#countryMenu");
+        countryMenu.append("p")
+            .attr("class", "dropdownLabel")
+            .text("Countries:");
         generate_dropdown(countryMenu, countries_list);
 
         var variables_list = d3.map(data, function(d) {
@@ -153,6 +204,9 @@
         }).keys();
 
         var variableMenu = d3.select("#variableMenu");
+        variableMenu.append("p")
+            .attr("class", "dropdownLabel")
+            .text("Behavior Variable:");
         generate_dropdown(variableMenu, variables_list);
 
         function draw_lines_dots(variable) {
@@ -160,23 +214,17 @@
                 return d.key == variable;
             });
 
-            var selectCountries = g.selectAll(".country")
-              .data(selectVariable, function(d){
-                return d ? d.key : this.key;
+            var selectLine = g.selectAll(".line")
+              .data(selectVariable[0].value.country, function(d) {
+                  return d ? d.values[0].variable : this.values[0].variable;
               })
-              .enter()
-              .append("g")
-              .attr("class", "country")
-
-            var selectLine = selectCountries.selectAll(".line")
-              .data(function(d) { return d.value.country; })
-            
-            debugger;
 
             selectLine.exit().remove();
 
             selectLine.enter()
               .append("path")
+              .transition()
+              .duration(1000)
               .attr("class", "line")
               .attr("d", function(d) { return line(d.values) })
               .style("fill", "none");
@@ -185,9 +233,16 @@
             var circles = g.selectAll('circle')
               .data(data.filter(function(d) {
                   return d.variable == variable && d.frequency != 'Never or rarely';
-              }))
-              .enter()
+              }), function(d) {
+                  return d ? d.variable : this.variable;
+              });
+
+            circles.exit().remove();
+
+            circles.enter()
               .append('circle')
+              .transition()
+              .duration(1000)
               .attr('cx', function(d) {
                   return frequency_scale(d['frequency']);
               })
@@ -211,24 +266,22 @@
           // Change the class of the matching line to "selected"
           var selLine = g.selectAll(".line")
                   // de-select all the lines
-                  .classed("selected-line", false)
+                  .classed("selectedLine", false)
                   .filter(function(d) {
                       return d.key === selectedCountry
                   })
                   // Set class to selected for matching line
-                  .classed("selected-line", true)
-                  .raise()
+                  .classed("selectedLine", true)
 
           // Change the class of the matching circle to "selected"
           var selLine = g.selectAll("circle")
                   // de-select all the lines
-                  .classed("selected-circle", false)
+                  .classed("selectedCircle", false)
                   .filter(function(d) {
                       return d.country === selectedCountry
                   })
                   // Set class to selected for matching line
-                  .classed("selected-circle", true)
-                  .raise()
+                  .classed("selectedCircle", true)
         })
 
         // Run update function when dropdown selection changes
