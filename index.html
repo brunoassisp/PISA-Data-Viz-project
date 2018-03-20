@@ -266,7 +266,7 @@
             selectLine.enter()
               .append("path")
               .transition()
-              .duration(1000)
+              .duration(1)
               .attr("class", "line")
               .attr("d", function(d) { return line(d.values) })
               .style("fill", "none");
@@ -290,7 +290,7 @@
               })
               .attr('cy', function(d) {
                   return percent_scale(d['count_percent']);
-              })
+              });
         }
 
 
@@ -302,6 +302,8 @@
           return d3.max(percent_list);
         }
 
+
+        // --------------------- TABLE FUNCTIONS ---------------------
 
         function tabulate(data) {
           var table = d3.select("body").append("table")
@@ -380,7 +382,11 @@
         }
 
 
-        draw_lines_dots('talkAboutMaths');
+        // --------------------- [END] TABLE FUNCTIONS ---------------------
+
+        draw_lines_dots('computerProgramming');
+        d3.select('#variableMenu select').property("value", "computerProgramming");
+        d3.select('#countryMenu select').property("value", "Brazil");
 
         var selectedData = data.filter(function(d) {
                 var variable = d3.select("#variableMenu select").node().value;
@@ -392,7 +398,7 @@
 
         d3.select("table").style("margin-left", margin.left + "px");
 
-        d3.select("#countryMenu").dispatch('change');
+        setTimeout(function() { d3.select("#countryMenu").dispatch('change'); }, 2);
 
         // --------------------------- ACTIONS ---------------------------
 
@@ -400,34 +406,34 @@
         countryMenu.on('change', function(){
           // Find which year was selected
           var selectedCountry = d3.select(this)
-            .select("select")
-            .property("value")
+              .select("select")
+              .property("value")
 
           // Change the class of the matching line to "selected"
           var selLine = g.selectAll(".line")
-                  // de-select all the lines
-                  .classed("selectedLine", false)
-                  .filter(function(d) {
-                      return d.key === selectedCountry
-                  })
-                  // Set class to selected for matching line
-                  .classed("selectedLine", true)
+              // de-select all the lines
+              .classed("selectedLine", false)
+              .filter(function(d) {
+                  return d.key === selectedCountry
+              })
+              // Set class to selected for matching line
+              .classed("selectedLine", true)
 
           // Change the class of the matching circle to "selected"
-          var selLine = g.selectAll("circle")
-                  // de-select all the lines
-                  .classed("selectedCircle", false)
-                  .filter(function(d) {
-                      return d.country === selectedCountry
-                  })
-                  // Set class to selected for matching line
-                  .classed("selectedCircle", true)
+          var selCircle = g.selectAll("circle")
+              // de-select all the lines
+              .classed("selectedCircle", false)
+              .filter(function(d) {
+                  return d.country === selectedCountry
+              })
+              // Set class to selected for matching line
+              .classed("selectedCircle", true)
 
           var selectedData = data.filter(function(d) {
-                var variable = d3.select("#variableMenu select").node().value;
-                var country = d3.select("#countryMenu select").node().value;
-                return d.variable == variable && d.country == country;
-            });
+              var variable = d3.select("#variableMenu select").node().value;
+              var country = d3.select("#countryMenu select").node().value;
+              return d.variable == variable && d.country == country;
+          });
 
           updateTable(selectedData, "country");
         })
@@ -438,23 +444,63 @@
 
           // Find which variable was selected from the dropdown
           var selectedVariable = d3.select(this)
-                  .select("select")
-                  .property("value")
+              .select("select")
+              .property("value")
 
-              // Draw chart for the selected variable
-              draw_lines_dots(selectedVariable)
+          // Draw chart for the selected variable
+          draw_lines_dots(selectedVariable)
 
-              // Run table update function
-              var selectedData = data.filter(function(d) {
-                  var variable = d3.select("#variableMenu select").node().value;
-                  var country = d3.select("#countryMenu select").node().value;
-                  return d.variable == variable && d.country == country;
-              });
-
-              updateTable(selectedData, "variable");
-
-
+          // Run table update function
+          var selectedData = data.filter(function(d) {
+              var variable = d3.select("#variableMenu select").node().value;
+              var country = d3.select("#countryMenu select").node().value;
+              return d.variable == variable && d.country == country;
           });
+
+          updateTable(selectedData, "variable");
+
+          setTimeout(function() { d3.select("#countryMenu").dispatch('change'); }, 2);
+
+        });
+
+        // var behavior_idx = 0;
+
+        // var behavior_interval = setInterval(function() {
+        //   update(years[year_idx]);
+
+        //   behavior_idx++;
+
+        //   if(year_idx >= years.length) {
+        //       clearInterval(year_interval);
+
+        //       var buttons = d3.select("body")
+        //               .append("div")
+        //               .attr("class", "years_buttons")
+        //               .selectAll("div")
+        //               .data(years)
+        //               .enter()
+        //               .append("div")
+        //               .text(function(d) {
+        //                   return d;
+        //               });
+
+        //       buttons.on("click", function(d) {
+        //           d3.select(".years_buttons")
+        //             .selectAll("div")
+        //             .transition()
+        //             .duration(500)
+        //             .style("color", "black")
+        //             .style("background", "rgb(251, 201, 127)");
+
+        //           d3.select(this)
+        //             .transition()
+        //             .duration(500)
+        //             .style("background", "lightBlue")
+        //             .style("color", "white");
+        //           update(d);
+        //       });
+        //   }
+        // }, 1000);
 
       }
     </script>
@@ -473,6 +519,7 @@
     }
 
     d3.csv("PISA_Math_Behavior.csv", type, draw);
+
   </script>
 </body>
 </html>
