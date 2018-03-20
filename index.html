@@ -169,9 +169,10 @@
             .attr('class', 'chart');
 
         // Create scales
-        var frequency_scale = d3.scalePoint()
-            .range([0, innerWidth])
-            .domain(frequency_list);
+        var frequency_scale = d3.scaleBand()
+            .rangeRound([0, innerWidth])
+            .domain(frequency_list)
+            .paddingInner(.8);
 
         var percent_scale = d3.scaleLinear()
             .range([innerHeight, 0])
@@ -183,7 +184,7 @@
 
         // Create line generator
         var line = d3.line()
-            .x(function(d) { return frequency_scale(d["frequency"]); })
+            .x(function(d) { return frequency_scale(d["frequency"]) + frequency_scale.bandwidth() / 2; })
             .y(function(d) { return percent_scale(d["count_percent"]); });
 
         // Append axes
@@ -283,10 +284,12 @@
 
             circles.enter()
               .append('circle')
+              .on("mouseover", handleMouseOver)
+              .on("mouseout", handleMouseOut)
               .transition()
               .duration(1000)
               .attr('cx', function(d) {
-                  return frequency_scale(d['frequency']);
+                  return frequency_scale(d['frequency']) + frequency_scale.bandwidth() / 2;
               })
               .attr('cy', function(d) {
                   return percent_scale(d['count_percent']);
@@ -462,6 +465,17 @@
           setTimeout(function() { d3.select("#countryMenu").dispatch('change'); }, 2);
 
         });
+
+
+        // Create Event Handlers for mouse
+        function handleMouseOver(d, i) {
+          console.log("entrou");
+        }
+
+        function handleMouseOut(d, i) {
+          console.log("saiu");
+        }
+
 
         // ----------------------- ANIMATION ----------------------- //
 
