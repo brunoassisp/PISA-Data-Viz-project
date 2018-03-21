@@ -112,6 +112,10 @@
         background: #ececec;
       }
 
+      .hoverCol {
+        background: #dcdcff;
+      }
+
       .colHeader {
         border-right: 1px solid #999999;
         font-weight: bold;
@@ -516,6 +520,17 @@
              .transition()
              .duration(1000)
              .attr("stroke-dasharray", 5);   
+
+            var col = d3.selectAll('.tableCol').filter(function(f) {
+              return f.frequency == d.frequency;
+            });
+
+            var cell = d3.selectAll('.tableCell').filter(function(f) {
+              return f.count_percent == d.count_percent;
+            });
+
+            col.classed("hoverCol", true);
+            cell.classed("hoverCol", true);
           }
           
         }
@@ -524,56 +539,67 @@
           var elem_class = d3.select(this).attr("class");
           if (elem_class == "selectedCircle") {
             d3.selectAll('.referenceLine').remove();
+
+            var col = d3.selectAll('.tableCol').filter(function(f) {
+              return f.frequency == d.frequency;
+            });
+
+            var cell = d3.selectAll('.tableCell').filter(function(f) {
+              return f.count_percent == d.count_percent;
+            });
+
+            col.classed("hoverCol", false);
+            cell.classed("hoverCol", false);
           }
         }
 
 
         // ----------------------- ANIMATION ----------------------- //
 
-        d3.select("#countryMenu select").property("disabled", true);
-        d3.select("#variableMenu select").property("disabled", true);
+        // d3.select("#countryMenu select").property("disabled", true);
+        // d3.select("#variableMenu select").property("disabled", true);
 
-        var behavior_idx = 0;
+        // var behavior_idx = 0;
 
-        var variables_list = d3.map(data, function(d) {
-          return d['variable'];
-        }).keys();
+        // var variables_list = d3.map(data, function(d) {
+        //   return d['variable'];
+        // }).keys();
 
-        var idx = variables_list.indexOf("computerProgramming");
-        variables_list.splice(idx, 1);
+        // var idx = variables_list.indexOf("computerProgramming");
+        // variables_list.splice(idx, 1);
 
-        var behavior_interval = setInterval(function() {
-          var variable = variables_list[behavior_idx]
+        // var behavior_interval = setInterval(function() {
+        //   var variable = variables_list[behavior_idx]
 
-          draw_lines_dots(variable);
-          d3.select('#variableMenu select').property("value", variable);
-          d3.select('#countryMenu select').property("value", "Brazil");
+        //   draw_lines_dots(variable);
+        //   d3.select('#variableMenu select').property("value", variable);
+        //   d3.select('#countryMenu select').property("value", "Brazil");
 
-          var selectedData = data.filter(function(d) {
-                  var variable = d3.select("#variableMenu select").node().value;
-                  var country = d3.select("#countryMenu select").node().value;
-                  return d.variable == variable && d.country == country;
-              });
+        //   var selectedData = data.filter(function(d) {
+        //           var variable = d3.select("#variableMenu select").node().value;
+        //           var country = d3.select("#countryMenu select").node().value;
+        //           return d.variable == variable && d.country == country;
+        //       });
 
-          updateTable(selectedData);
+        //   updateTable(selectedData);
 
-          d3.select("table").style("margin-left", margin.left + "px");
+        //   d3.select("table").style("margin-left", margin.left + "px");
 
-          setTimeout(function() { d3.select("#countryMenu").dispatch('change'); }, 2);
+        //   setTimeout(function() { d3.select("#countryMenu").dispatch('change'); }, 2);
 
-          // Adding mouse event listeners
-          setTimeout(function() { d3.selectAll(".selectedCircle").on("mouseover", handleMouseOver); }, 2);
-          setTimeout(function() { d3.selectAll(".selectedCircle").on("mouseout", handleMouseOut); }, 2);
+        //   // Adding mouse event listeners
+        //   setTimeout(function() { d3.selectAll(".selectedCircle").on("mouseover", handleMouseOver); }, 2);
+        //   setTimeout(function() { d3.selectAll(".selectedCircle").on("mouseout", handleMouseOut); }, 2);
 
-          behavior_idx++;
+        //   behavior_idx++;
 
-          if(behavior_idx >= variables_list.length) {
-              clearInterval(behavior_interval);
+        //   if(behavior_idx >= variables_list.length) {
+        //       clearInterval(behavior_interval);
 
-              d3.select("#countryMenu select").property("disabled", false);
-              d3.select("#variableMenu select").property("disabled", false);
-          }
-        }, 2000);
+        //       d3.select("#countryMenu select").property("disabled", false);
+        //       d3.select("#variableMenu select").property("disabled", false);
+        //   }
+        // }, 2000);
 
       }
     </script>
