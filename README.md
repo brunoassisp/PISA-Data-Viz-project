@@ -1,8 +1,13 @@
 # PISA-Data-Viz-project (In construction :construction_worker:)
 Data Visualization Project from Udacity developed over the PISA dataset
 
-## Table of Contents
-- [Summary](#summary)
+| Table of Contents |
+| --- |
+| [Summary](#summary) |
+| [Design](#design) |
+| [Feedback](#feedback) |
+| [Final View](#final-view) |
+| [Resources](#resources) |
 
 ## Summary
 PISA is a worldwide study by OECD in member and non-member nations intended to **evaluate educational systems** by measuring 15-year-old students **scholastic performance on _mathematics_, _science_, and _reading_**.
