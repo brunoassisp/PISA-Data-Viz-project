@@ -204,7 +204,7 @@
         var percent_axis = g.append('g')
             .call(yAxis);
 
-        // text label for the y axis
+        // Text label for the y axis
         g.append("text")
             .attr("class", "label yLabel")
             .attr("transform", "rotate(-90)")
@@ -218,7 +218,7 @@
             .attr('transform', 'translate(0,' + innerHeight + ')')
             .call(xAxis);
 
-        // text label for the x axis
+        // Text label for the x axis
         g.append("text")
             .attr("class", "label xLabel")
             .attr("transform",
@@ -297,8 +297,6 @@
 
             circles.enter()
               .append('circle')
-              // .on("mouseenter", handleMouseOver)
-              // .on("mouseleave", handleMouseOut)
               .transition()
               .duration(1000)
               .attr('cx', function(d) {
@@ -331,14 +329,16 @@
 
           var maxPercent = getMaxValue(data);
 
+          // Rewriting camelcase in the normal format
           var variable_text = variable.replace(/([A-Z])/g, ' $1')
                   .replace(/^./, function(str){ return str.toUpperCase(); })
 
           var headerRow = thead.append("tr");
 
+          // Add the country name as the first column header
           headerRow.append("th").attr("class", "colHeader").text(country);
 
-          // append the header row
+          // Append frequencies as row headers
           headerRow.selectAll(".tableCol")
               .data(data).enter()
               .append("th")
@@ -348,8 +348,10 @@
           // create a row for each object in the data
           var bodyRow = tbody.append("tr");
 
+          // Add the variable name as the second column header
           bodyRow.append("td").attr("class", "colHeader").text(variable_text);
 
+          // Append count percents as row cells
           bodyRow.selectAll(".tableCell")
               .data(data).enter()
               .append("td")
@@ -365,6 +367,7 @@
 
           var maxPercent = getMaxValue(data);
 
+          // Rewriting camelcase in the normal format
           var variable_text = variable.replace(/([A-Z])/g, ' $1')
                   .replace(/^./, function(str){ return str.toUpperCase(); })
 
@@ -449,6 +452,7 @@
               // Set class to selected for matching circle
               .classed("selectedCircle", true)
 
+          // Run table update function
           var selectedData = data.filter(function(d) {
               var variable = d3.select("#variableMenu select").node().value;
               var country = d3.select("#countryMenu select").node().value;
@@ -492,13 +496,17 @@
         });
 
 
-        // Create Event Handlers for mouse
+        // ----------------------- EVENT HANDLERS ----------------------- //
+
         function handleMouseOver(d, i) {
-          var elem = d3.select(this)
-          var elem_class = elem.attr("class");     
+          var elem_class = d3.select(this).attr("class");    
+
+          // Verify if the current element is part of the selected ones ... 
           if (elem_class == "selectedCircle") {
+            // ... Get the x position of this element ...
             var x = frequency_scale(d['frequency']) + frequency_scale.bandwidth() / 2
 
+            // ... Draw reference lines for this element
             g.append("line")
              .attr("class", "referenceLine")
              .attr("x1", x)
@@ -521,6 +529,7 @@
              .duration(1000)
              .attr("stroke-dasharray", 5);   
 
+            // ... Select table column associated to this element ...
             var col = d3.selectAll('.tableCol').filter(function(f) {
               return f.frequency == d.frequency;
             });
@@ -529,6 +538,7 @@
               return f.count_percent == d.count_percent;
             });
 
+            // ... Enable class to highlight column background
             col.classed("hoverCol", true);
             cell.classed("hoverCol", true);
           }
@@ -537,9 +547,12 @@
 
         function handleMouseOut(d, i) {
           var elem_class = d3.select(this).attr("class");
+          // Verify if the current element is part of the selected ones ...
           if (elem_class == "selectedCircle") {
+            // ... Remove horizontal and vertical reference lines
             d3.selectAll('.referenceLine').remove();
 
+            // ... Select table column associated to this element ...
             var col = d3.selectAll('.tableCol').filter(function(f) {
               return f.frequency == d.frequency;
             });
@@ -548,6 +561,7 @@
               return f.count_percent == d.count_percent;
             });
 
+            // Disable class so the column comes back to its default
             col.classed("hoverCol", false);
             cell.classed("hoverCol", false);
           }
