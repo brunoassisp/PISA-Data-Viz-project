@@ -37,7 +37,7 @@ Many feedbacks were taken into account to build the final view. Let's list some 
 ## Final View
 Do you want to see the final result?
 
-Click [here](https://bl.ocks.org/brunoassisp/raw/02ca5be318e5fcb5237f893065e59b55/)! :point_left:
+Click [here](https://bl.ocks.org/brunoassisp/raw/2cc2cfe0081fc3557a808e778ac58d9d/)! :point_left:
 
 ## Resources
 Here a list of references used to build this Data-viz:
