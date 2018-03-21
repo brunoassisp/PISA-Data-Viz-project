@@ -452,6 +452,10 @@
           });
 
           updateTable(selectedData, "country");
+
+          // Adding mouse event listeners
+          setTimeout(function() { d3.selectAll(".selectedCircle").on("mouseover", handleMouseOver); }, 2);
+          setTimeout(function() { d3.selectAll(".selectedCircle").on("mouseout", handleMouseOut); }, 2);
         })
 
 
