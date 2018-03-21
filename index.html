@@ -44,6 +44,10 @@
         font-weight: bold;
       }
 
+      svg {
+        cursor: crosshair;
+      }
+
       .label {
         font-family: "Trebuchet MS";
         font-size: 13px;
@@ -78,6 +82,11 @@
         stroke-width: 4px;
         stroke-opacity: 1;
         transition: stroke 1s, stroke-width 1s, stroke-opacity 1s;
+      }
+
+      .referenceLine {
+        stroke: #ff8e1c;
+        stroke-width: 1;
       }
 
       table {
@@ -284,8 +293,8 @@
 
             circles.enter()
               .append('circle')
-              .on("mouseover", handleMouseOver)
-              .on("mouseout", handleMouseOut)
+              // .on("mouseenter", handleMouseOver)
+              // .on("mouseleave", handleMouseOut)
               .transition()
               .duration(1000)
               .attr('cx', function(d) {
@@ -403,6 +412,10 @@
 
         setTimeout(function() { d3.select("#countryMenu").dispatch('change'); }, 2);
 
+        // Adding mouse event listeners
+        setTimeout(function() { d3.selectAll(".selectedCircle").on("mouseover", handleMouseOver); }, 2);
+        setTimeout(function() { d3.selectAll(".selectedCircle").on("mouseout", handleMouseOut); }, 2);
+
         // --------------------------- ACTIONS --------------------------- //
 
         // Run update function when dropdown selection changes
@@ -424,12 +437,12 @@
 
           // Change the class of the matching circle to "selected"
           var selCircle = g.selectAll("circle")
-              // de-select all the lines
+              // de-select all the circles
               .classed("selectedCircle", false)
               .filter(function(d) {
                   return d.country === selectedCountry
               })
-              // Set class to selected for matching line
+              // Set class to selected for matching circle
               .classed("selectedCircle", true)
 
           var selectedData = data.filter(function(d) {
@@ -464,16 +477,50 @@
 
           setTimeout(function() { d3.select("#countryMenu").dispatch('change'); }, 2);
 
+          // Adding mouse event listeners
+          setTimeout(function() { d3.selectAll(".selectedCircle").on("mouseover", handleMouseOver); }, 2);
+          setTimeout(function() { d3.selectAll(".selectedCircle").on("mouseout", handleMouseOut); }, 2);
+
         });
 
 
         // Create Event Handlers for mouse
         function handleMouseOver(d, i) {
-          console.log("entrou");
+          var elem = d3.select(this)
+          var elem_class = elem.attr("class");     
+          if (elem_class == "selectedCircle") {
+            var x = frequency_scale(d['frequency']) + frequency_scale.bandwidth() / 2
+
+            g.append("line")
+             .attr("class", "referenceLine")
+             .attr("x1", x)
+             .attr("y1", percent_scale(d['count_percent']))
+             .attr("x2", 0)
+             .attr("y2", percent_scale(d['count_percent']))
+             .attr("stroke-dasharray", 0)
+             .transition()
+             .duration(1000)
+             .attr("stroke-dasharray", 5); 
+
+            g.append("line")
+             .attr("class", "referenceLine")
+             .attr("x1", x)
+             .attr("y1", percent_scale(d['count_percent']))
+             .attr("x2", x)
+             .attr("y2", innerHeight)
+             .attr("stroke-dasharray", 0)
+             .transition()
+             .duration(1000)
+             .attr("stroke-dasharray", 5);   
+          }
+          
         }
 
         function handleMouseOut(d, i) {
-          console.log("saiu");
+          var elem_class = d3.select(this).attr("class");
+          if (elem_class == "selectedCircle") {
+            d3.selectAll('.referenceLine').remove();
+          }
         }
 
 
@@ -509,6 +556,10 @@
           d3.select("table").style("margin-left", margin.left + "px");
 
           setTimeout(function() { d3.select("#countryMenu").dispatch('change'); }, 2);
+
+          // Adding mouse event listeners
+          setTimeout(function() { d3.selectAll(".selectedCircle").on("mouseover", handleMouseOver); }, 2);
+          setTimeout(function() { d3.selectAll(".selectedCircle").on("mouseout", handleMouseOut); }, 2);
 
           behavior_idx++;
 
