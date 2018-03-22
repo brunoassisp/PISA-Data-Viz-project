@@ -38,7 +38,7 @@ Mouse events were also covered so the user could interact with the circles (or b
 Many feedbacks were taken into account to build the final view. Let's list some of them:
 
 ### Person 1
-- Create a link between the table and the circles so the information could be seem as one;
+- Create a link between the table and the circles so the information could be seen as one;
 - Adding a gap between the y-axis and the first x point;
 
 **Folow-up**: Added mouse events so when the user hover the mouse over the circles, the correspondent table column gets highlighted. 
@@ -76,10 +76,12 @@ var frequency_scale = d3.scaleBand()
 
 **Follow-up**: Added mouse events so when the user hover the mouse over the lines and click them, this line gets selected.
 
+Added a dynamic text box that changes for each displayed variable during the animation.
+
 ## Final View
 Do you want to see the final result?
 
-Click [here](https://bl.ocks.org/brunoassisp/raw/2cc2cfe0081fc3557a808e778ac58d9d/)! :point_left:
+Click [here](https://bl.ocks.org/brunoassisp/raw/777155e4bec1f3d883373717208c43a9/)! :point_left:
 
 ## Resources
 Here a list of references used to build this Data-viz:
