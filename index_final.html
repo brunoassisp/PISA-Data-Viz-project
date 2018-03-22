@@ -68,6 +68,10 @@
         font-size: 13px;
       }
 
+      .animationLine {
+        pointer-events: none !important;
+      }
+
       .line {
         fill: none;
         stroke: #999999;
@@ -672,6 +676,9 @@
            .append("p")
               .text(narrationDict['computerProgramming']);
 
+        setTimeout(function() { d3.selectAll(".line").attr("pointer-events", "none"); }, 2);
+
+        // -------------- Initializing animation --------------
         var behavior_interval = setInterval(function() {
           var variable = variables_list[behavior_idx]
 
@@ -699,6 +706,8 @@
           setTimeout(function() { d3.selectAll(".selectedCircle").on("mouseout", handleMouseOut); }, 2);
 
           behavior_idx++;
+
+          setTimeout(function() { d3.selectAll(".line").attr("pointer-events", "none"); }, 2);
 
           if(behavior_idx >= variables_list.length) {
               clearInterval(behavior_interval);
@@ -740,6 +749,8 @@
               // Enabling dropdowns
               d3.select("#countryMenu").style("visibility", "visible");
               d3.select("#variableMenu").style("visibility", "visible");
+
+              setTimeout(function() { d3.selectAll(".line").attr("pointer-events", "auto"); }, 2);
           }
         }, 5500);
 
