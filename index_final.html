@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.13.0/d3.min.js"></script>
+    <style>
+      .axis text {
+        font: 10px sans-serif;
+      }
+
+      .axis path,
+      .axis line {
+        fill: none;
+        stroke: #000;
+        shape-rendering: crispEdges;
+      }
+
+      h2 {
+        color: black;
+        position: relative;
+        left: 100px;
+        width: 450px;
+        margin: 25px 0 0 0;
+      }
+
+      #countryMenu {
+        position: absolute;
+        left: 750px;
+        top: 25px;
+        width: 275px;
+      }
+
+      #variableMenu {
+        position: absolute;
+        left: 630px;
+        top: 50px;
+        width: 390px;
+      }
+
+      #narrationBox {
+        position: absolute;
+        left: 530px;
+        top: 100px;
+        width: 270px;
+        padding: 2px;
+        border: 2px solid #737373;
+      }
+
+      #narrationBox p {
+        border: 1px solid #999999;
+        padding: 10px;
+        margin: 0;
+      }
+
+      .dropdownLabel {
+        float: left;
+        margin: 0;
+        margin-right: 10px;
+        font-weight: bold;
+      }
+
+      svg {
+        cursor: crosshair;
+      }
+
+      .label {
+        font-family: "Trebuchet MS";
+        font-size: 13px;
+      }
+
+      .line {
+        fill: none;
+        stroke: #999999;
+        stroke-width: 2px;
+        stroke-opacity: .1;
+      }
+
+      circle {
+        fill: #999999;
+        stroke: #999999;
+        stroke-opacity: .1;
+        opacity: .1;
+        r: 0.2;
+      }
+
+      .selectedCircle {
+        fill: #a9a9ff;
+        stroke: #4f4fff;
+        stroke-opacity: 1;
+        opacity: 1;
+        r: 5;
+        transition: fill 1s, opacity .5s, r .5s;
+      }
+
+      .selectedLine {
+        stroke: #4f4fff;
+        stroke-width: 4px;
+        stroke-opacity: 1 !important;
+        transition: stroke 1s, stroke-width 1s, stroke-opacity 1s;
+      }
+
+      .hoverLine {
+        stroke-opacity: .8 !important;
+      }
+
+      .hoverCircle {
+        fill: #ececec;
+        stroke-opacity: .8;
+        opacity: .8;
+        r: 4;
+      }
+
+      .referenceLine {
+        stroke: #ff8e1c;
+        stroke-width: 1;
+      }
+
+      table {
+        border-collapse: collapse;
+      }
+
+      tr th {
+        border-bottom: 2px solid #4f4fff;
+      }
+
+      td, th {
+        padding: 10px;
+      }
+
+      .tableCell {
+        font-size: 11px;
+        text-align: center;
+      }
+
+      .maxValue {
+        font-size: 14px;
+        font-weight: bold;
+        background: #ececec;
+      }
+
+      .hoverCol {
+        background: #dcdcff;
+      }
+
+      .colHeader {
+        border-right: 1px solid #999999;
+        font-weight: bold;
+      }
+    </style>
+    <script type="text/javascript">
+      "use strict";
+      function draw(data) {
+        var margin = {top: 10, right: 100, bottom: 65, left: 100},
+            width = 1100,
+            height = 400,
+            innerWidth = width - margin.left - margin.right,
+            innerHeight = height - margin.top - margin.bottom;
+
+        d3.select("body")
+          .append("h2")
+          .text("Students Behavior in Maths per Country");
+
+        // Aggregate function
+        function agg_country_var(leaves) {
+            var frequency_list = [],
+                percent_list = [];
+            
+            leaves.forEach(function(d) {
+                frequency_list.push(d.frequency);
+                percent_list.push(d.count_percent);
+            });
+
+            var country = d3.nest().key(function(d) {
+                return d.country;
+            }).entries(leaves);
+
+            return {
+              "country": country,
+              "frequency_list": frequency_list,
+              "percent_list": percent_list
+            };
+        }
+
+        var narrationDict = {
+          "talkAboutMaths": "...Only sometimes, almost half of the brazilian \
+                             students talk about Maths...",
+          "helpFriendsMaths": "...They also help their friends with Maths, but \
+                               that too is not a usual behavior for more than \
+                               60% of them...",
+          "extracurricularActivity": "...That number gets even higher when we \
+                                      talk about extracurricular activities \
+                                      getting to impressive 70%...",
+          "participateInCompetitions": "...80% of them do not participate in \
+                                        competitions...",
+          "studyMoreThan2ExtraHoursADay": "...We can already see that \
+                                           this behavior prevails...",
+          "playChess": "...But there is one thing that maybe we didn't notice...",
+          "computerProgramming": "68.2% of Brazil's students never or rarely \
+                                  used Computer Programming somehow...",
+          "participateInMathClub": "...Almost all countries present a similar tendency!"
+        };
+
+        // Aggregating data by Country and Behavior Variable
+        var countries = d3.nest()
+            .key(function(d) { return d.variable })
+            .rollup(agg_country_var)
+            .entries(data);
+        
+        // x-axis labels
+        var frequency_list = d3.map(data, function(d) {
+          return d["frequency"];
+        }).keys();
+
+        // z-axis labels
+        var countries_list = d3.map(data, function(d) {
+          return d["country"];
+        }).keys();
+
+        var svg = d3.select("body")
+            .append("svg")
+            .attr("width", width)
+            .attr("height", height);
+
+        // Wrap everything in inner container
+        var g = svg.append("g")
+            .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
+            .attr("class", "chart");
+
+        // Create scales
+        var frequency_scale = d3.scaleBand()
+            .rangeRound([0, innerWidth])
+            .domain(frequency_list)
+            .paddingInner(.8);
+
+        var percent_scale = d3.scaleLinear()
+            .range([innerHeight, 0])
+            .domain([0, 100]);
+
+        // Create axis generators
+        var xAxis = d3.axisBottom(frequency_scale);
+        var yAxis = d3.axisLeft(percent_scale);
+
+        // Create line generator
+        var line = d3.line()
+            .x(function(d) { return frequency_scale(d["frequency"]) + frequency_scale.bandwidth() / 2; })
+            .y(function(d) { return percent_scale(d["count_percent"]); });
+
+        // Append axes
+        var percent_axis = g.append('g')
+            .call(yAxis);
+
+        // Text label for the y axis
+        g.append("text")
+            .attr("class", "label yLabel")
+            .attr("transform", "rotate(-90)")
+            .attr("y", 0 - 60)
+            .attr("x", margin.top - (innerHeight / 2))
+            .attr("dy", "1em")
+            .style("text-anchor", "middle")
+            .text("Count Percentage (%)"); 
+
+        var frequency_axis = g.append('g')
+            .attr('transform', 'translate(0,' + innerHeight + ')')
+            .call(xAxis);
+
+        // Text label for the x axis
+        g.append("text")
+            .attr("class", "label xLabel")
+            .attr("transform",
+                  "translate(" + (innerWidth/2) + " ," + 
+                                 (innerHeight + 40) + ")")
+            .style("text-anchor", "middle")
+            .text("Frequency");
+
+        function generate_dropdown(menu, data, split="False") {
+          menu
+          .append("select")
+          .selectAll("option")
+              .data(data)
+              .enter()
+              .append("option")
+              .attr("value", function(d){
+                  return d;
+              })
+              .text(function(d){
+                  if(split) {
+                    return d.replace(/([A-Z])/g, ' $1')
+                          .replace(/^./, function(str){ return str.toUpperCase(); })
+                  }
+                  return d;
+              })
+        }
+
+
+        // Creating dropdowns
+        var countryMenu = d3.select("#countryMenu");
+        countryMenu.append("p")
+            .attr("class", "dropdownLabel")
+            .text("Countries:");
+        generate_dropdown(countryMenu, countries_list);
+
+        var variables_list = d3.map(data, function(d) {
+          return d['variable'];
+        }).keys();
+
+        var variableMenu = d3.select("#variableMenu");
+        variableMenu.append("p")
+            .attr("class", "dropdownLabel")
+            .text("Behavior Variable:");
+        generate_dropdown(variableMenu, variables_list);
+
+
+        function draw_lines_dots(variable) {
+            var selectVariable = countries.filter(function(d) {
+                return d.key == variable;
+            });
+
+            var selectLine = g.selectAll(".line")
+              .data(selectVariable[0].value.country, function(d) {
+                  return d ? d.values[0].variable : this.values[0].variable;
+              })
+
+            selectLine.exit().remove();
+
+            selectLine.enter()
+              .append("path")
+              .on("mouseover", handleMouseOverLine)
+              .on("mouseout", handleMouseOutLine)
+              .on("mousedown", handleMouseClickLine)
+              .transition()
+              .duration(1)
+              .attr("class", "line")
+              .attr("d", function(d) { return line(d.values) })
+              .style("fill", "none");
+
+            // Draw circles
+            var circles = g.selectAll('circle')
+              .data(data.filter(function(d) {
+                  return d.variable == variable;
+              }), function(d) {
+                  return d ? d.variable : this.variable;
+              });
+
+            circles.exit().remove();
+
+            circles.enter()
+              .append('circle')
+              .transition()
+              .duration(1000)
+              .attr('cx', function(d) {
+                  return frequency_scale(d['frequency']) + frequency_scale.bandwidth() / 2;
+              })
+              .attr('cy', function(d) {
+                  return percent_scale(d['count_percent']);
+              });
+        }
+
+
+        function getMaxValue(data) {
+          var percent_list = [];
+          data.forEach(function(d) {
+              return percent_list.push(d.count_percent);
+          });
+          return d3.max(percent_list);
+        }
+
+
+        // --------------------- TABLE FUNCTIONS --------------------- //
+
+        function tabulate(data) {
+          var table = d3.select("body").append("table")
+          var thead = table.append("thead"),
+              tbody = table.append("tbody");
+
+          var country = data[0].country,
+              variable = data[0].variable;
+
+          var maxPercent = getMaxValue(data);
+
+          // Rewriting camelcase in the normal format
+          var variable_text = variable.replace(/([A-Z])/g, ' $1')
+                  .replace(/^./, function(str){ return str.toUpperCase(); })
+
+          var headerRow = thead.append("tr");
+
+          // Add the country name as the first column header
+          headerRow.append("th").attr("class", "colHeader").text(country);
+
+          // Append frequencies as row headers
+          headerRow.selectAll(".tableCol")
+              .data(data).enter()
+              .append("th")
+              .attr("class", "tableCol")
+                .text(function(d) { return d.frequency })
+
+          // create a row for each object in the data
+          var bodyRow = tbody.append("tr");
+
+          // Add the variable name as the second column header
+          bodyRow.append("td").attr("class", "colHeader").text(variable_text);
+
+          // Append count percents as row cells
+          bodyRow.selectAll(".tableCell")
+              .data(data).enter()
+              .append("td")
+              .attr("class", function(d){
+                return d.count_percent == maxPercent ? "tableCell maxValue" : "tableCell";
+              })
+                .text(function(d) { return d.count_percent + '%' })
+        }
+
+        function updateTable(data, selectType) {
+          var country = data[0].country,
+              variable = data[0].variable;
+
+          var maxPercent = getMaxValue(data);
+
+          // Rewriting camelcase in the normal format
+          var variable_text = variable.replace(/([A-Z])/g, ' $1')
+                  .replace(/^./, function(str){ return str.toUpperCase(); })
+
+          d3.select('th.colHeader').text(country);
+          d3.select('td.colHeader').text(variable_text);
+
+          var tableCell;
+
+          var table = d3.select('table tbody tr');
+
+          if(selectType == 'country') {
+            tableCell = table.selectAll(".tableCell")
+              .data(data, function(d) {
+                return d.country == country;
+              })
+          } else {
+            tableCell = table.selectAll(".tableCell")
+              .data(data, function(d) {
+                return d.variable == variable;
+              })
+          }
+
+          tableCell.exit().remove();
+
+          tableCell.enter()
+              .append("td")
+              .attr("class", function(d){
+                return d.count_percent == maxPercent ? "tableCell maxValue" : "tableCell";
+              })
+                .text(function(d) { return d.count_percent + '%' })
+        }
+
+
+        // --------------------- [END] TABLE FUNCTIONS --------------------- //
+
+        draw_lines_dots('computerProgramming');
+        d3.select('#variableMenu select').property("value", "computerProgramming");
+        d3.select('#countryMenu select').property("value", "Brazil");
+
+        var selectedData = data.filter(function(d) {
+                var variable = d3.select("#variableMenu select").node().value;
+                var country = d3.select("#countryMenu select").node().value;
+                return d.variable == variable && d.country == country;
+            });
+
+        tabulate(selectedData);
+
+        d3.select("table").style("margin-left", margin.left + "px");
+
+        setTimeout(function() { d3.select("#countryMenu").dispatch('change'); }, 2);
+
+        // Adding mouse event listeners
+        setTimeout(function() { d3.selectAll(".selectedCircle").on("mouseover", handleMouseOver); }, 2);
+        setTimeout(function() { d3.selectAll(".selectedCircle").on("mouseout", handleMouseOut); }, 2);
+
+        // --------------------------- ACTIONS --------------------------- //
+
+        // Run update function when dropdown selection changes
+        countryMenu.on('change', function(){
+          // Find which year was selected
+          var selectedCountry = d3.select(this)
+              .select("select")
+              .property("value")
+
+          // Change the class of the matching line to "selected"
+          var selLine = g.selectAll(".line")
+              // de-select all the lines
+              .classed("selectedLine", false)
+              .filter(function(d) {
+                  return d.key === selectedCountry
+              })
+              // Set class to selected for matching line
+              .classed("selectedLine", true)
+
+          // Change the class of the matching circle to "selected"
+          var selCircle = g.selectAll("circle")
+              // de-select all the circles
+              .classed("selectedCircle", false)
+              .filter(function(d) {
+                  return d.country === selectedCountry
+              })
+              // Set class to selected for matching circle
+              .classed("selectedCircle", true)
+
+          // Run table update function
+          var selectedData = data.filter(function(d) {
+              var variable = d3.select("#variableMenu select").node().value;
+              var country = d3.select("#countryMenu select").node().value;
+              return d.variable == variable && d.country == country;
+          });
+
+          updateTable(selectedData, "country");
+
+          // Adding mouse event listeners
+          setTimeout(function() { d3.selectAll(".selectedCircle").on("mouseover", handleMouseOver); }, 2);
+          setTimeout(function() { d3.selectAll(".selectedCircle").on("mouseout", handleMouseOut); }, 2);
+        })
+
+
+        // Run update function when dropdown selection changes
+        variableMenu.on('change', function(){
+
+          // Find which variable was selected from the dropdown
+          var selectedVariable = d3.select(this)
+              .select("select")
+              .property("value")
+
+          // Draw chart for the selected variable
+          draw_lines_dots(selectedVariable)
+
+          // Run table update function
+          var selectedData = data.filter(function(d) {
+              var variable = d3.select("#variableMenu select").node().value;
+              var country = d3.select("#countryMenu select").node().value;
+              return d.variable == variable && d.country == country;
+          });
+
+          updateTable(selectedData, "variable");
+
+          setTimeout(function() { d3.select("#countryMenu").dispatch('change'); }, 2);
+
+          // Adding mouse event listeners
+          setTimeout(function() { d3.selectAll(".selectedCircle").on("mouseover", handleMouseOver); }, 2);
+          setTimeout(function() { d3.selectAll(".selectedCircle").on("mouseout", handleMouseOut); }, 2);
+
+        });
+
+
+        // ----------------------- EVENT HANDLERS ----------------------- //
+
+        function handleMouseOver(d, i) {
+          var elem_class = d3.select(this).attr("class");    
+
+          // Verify if the current element is part of the selected ones ... 
+          if (elem_class == "selectedCircle") {
+            // ... Get the x position of this element ...
+            var x = frequency_scale(d['frequency']) + frequency_scale.bandwidth() / 2
+
+            // ... Draw reference lines for this element
+            g.append("line")
+             .attr("class", "referenceLine")
+             .attr("x1", x)
+             .attr("y1", percent_scale(d['count_percent']))
+             .attr("x2", 0)
+             .attr("y2", percent_scale(d['count_percent']))
+             .attr("stroke-dasharray", 0)
+             .transition()
+             .duration(1000)
+             .attr("stroke-dasharray", 5); 
+
+            g.append("line")
+             .attr("class", "referenceLine")
+             .attr("x1", x)
+             .attr("y1", percent_scale(d['count_percent']))
+             .attr("x2", x)
+             .attr("y2", innerHeight)
+             .attr("stroke-dasharray", 0)
+             .transition()
+             .duration(1000)
+             .attr("stroke-dasharray", 5);   
+
+            // ... Select table column associated to this element ...
+            var col = d3.selectAll('.tableCol').filter(function(f) {
+              return f.frequency == d.frequency;
+            });
+
+            var cell = d3.selectAll('.tableCell').filter(function(f) {
+              return f.count_percent == d.count_percent;
+            });
+
+            // ... Enable class to highlight column background
+            col.classed("hoverCol", true);
+            cell.classed("hoverCol", true);
+          }
+          
+        }
+
+        function handleMouseOut(d, i) {
+          var elem_class = d3.select(this).attr("class");
+          // Verify if the current element is part of the selected ones ...
+          if (elem_class == "selectedCircle") {
+            // ... Remove horizontal and vertical reference lines
+            d3.selectAll('.referenceLine').remove();
+
+            // ... Select table column associated to this element ...
+            var col = d3.selectAll('.tableCol').filter(function(f) {
+              return f.frequency == d.frequency;
+            });
+
+            var cell = d3.selectAll('.tableCell').filter(function(f) {
+              return f.count_percent == d.count_percent;
+            });
+
+            // Disable class so the column comes back to its default
+            col.classed("hoverCol", false);
+            cell.classed("hoverCol", false);
+          }
+        }
+
+        function handleMouseClickLine(d, i) {
+          d3.select("#countryMenu select").property("value", d.key);
+
+          // Run table update function
+          var selectedData = data.filter(function(d) {
+              var variable = d3.select("#variableMenu select").node().value;
+              var country = d3.select("#countryMenu select").node().value;
+              return d.variable == variable && d.country == country;
+          });
+
+          d3.select("#countryMenu").dispatch('change');
+
+          updateTable(selectedData, "variable");
+        }
+
+        function handleMouseOverLine(d, i) {
+          var hovered = d3.select(this);
+          hovered.classed("hoverLine", true);
+
+          var circles_in_line = d3.selectAll('circle').filter(function(f){
+            return f.country == d.key;
+          });
+
+          circles_in_line.classed("hoverCircle", true);
+        }
+
+        function handleMouseOutLine(d, i) {
+          var hovered = d3.select(this);
+          hovered.classed("hoverLine", false);
+
+          var circles_in_line = d3.selectAll('circle').filter(function(f){
+            return f.country == d.key;
+          });
+
+          circles_in_line.classed("hoverCircle", false);
+        }
+
+        // ----------------------- ANIMATION ----------------------- //
+
+        d3.select("#countryMenu").style("visibility", "hidden");
+        d3.select("#variableMenu").style("visibility", "hidden");
+
+        var behavior_idx = 0;
+
+        var variables_list = d3.map(data, function(d) {
+          return d['variable'];
+        }).keys();
+
+        var idx = variables_list.indexOf("computerProgramming");
+        variables_list.splice(idx, 1);
+
+        // Adding narration box to input texts
+        var narrationText = d3.select("body").append("div")
+           .attr("id", "narrationBox")
+           .append("p")
+              .text(narrationDict['computerProgramming']);
+
+        var behavior_interval = setInterval(function() {
+          var variable = variables_list[behavior_idx]
+
+          // Updating narration text
+          narrationText.text(narrationDict[variable]);
+
+          draw_lines_dots(variable);
+          d3.select('#variableMenu select').property("value", variable);
+          d3.select('#countryMenu select').property("value", "Brazil");
+
+          var selectedData = data.filter(function(d) {
+                  var variable = d3.select("#variableMenu select").node().value;
+                  var country = d3.select("#countryMenu select").node().value;
+                  return d.variable == variable && d.country == country;
+              });
+
+          updateTable(selectedData);
+
+          d3.select("table").style("margin-left", margin.left + "px");
+
+          setTimeout(function() { d3.select("#countryMenu").dispatch('change'); }, 2);
+
+          // Adding mouse event listeners
+          setTimeout(function() { d3.selectAll(".selectedCircle").on("mouseover", handleMouseOver); }, 2);
+          setTimeout(function() { d3.selectAll(".selectedCircle").on("mouseout", handleMouseOut); }, 2);
+
+          behavior_idx++;
+
+          if(behavior_idx >= variables_list.length) {
+              clearInterval(behavior_interval);
+              
+              setTimeout(function() {
+                var notSelectedLines = d3.selectAll(".line")
+                  .filter(function() {
+                    return !this.classList.contains('selectedLine');
+                  });
+
+                notSelectedLines
+                  .classed("line", false)
+                  .style("fill", "none")
+                  .style("stroke", "#999999")
+                  .style("stroke-width", "2px")
+                  .style("stroke-opacity", .1)
+                  .transition()
+                  .duration(1000)
+                  .style("stroke-opacity", .4)
+                  .transition()
+                  .duration(1000)
+                  .style("stroke-opacity", .1)
+                  .transition();
+
+                notSelectedLines.attr("style", null);
+                notSelectedLines.classed("line", true);
+              }, 2000);
+
+              // Fading out and removing narration box
+              setTimeout(function() {
+                d3.select("#narrationBox")
+                  .style("opacity", 1)
+                  .transition()
+                  .duration(1000)
+                  .style("opacity", "0")
+                  .remove();
+              }, 3000);
+
+              // Enabling dropdowns
+              d3.select("#countryMenu").style("visibility", "visible");
+              d3.select("#variableMenu").style("visibility", "visible");
+          }
+        }, 5500);
+
+      }
+    </script>
+  </head>
+<body>
+  <div id="countryMenu"> </div>
+  <div id="variableMenu"> </div>
+  <script type="text/javascript">
+
+    // Change the datatype of some features
+    function type(d) {
+      d.count_percent = +d.count_percent;
+      d.value_x = +d.value_x;
+      d.value_y = +d.value_y;
+      return d;
+    }
+
+    d3.csv("PISA_Math_Behavior.csv", type, draw);
+
+  </script>
+</body>
+</html>
