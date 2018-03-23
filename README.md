@@ -1,4 +1,4 @@
-# PISA-Data-Viz-project (In construction :construction_worker:)
+# PISA-Data-Viz-project
 Data Visualization Project from Udacity developed over the PISA dataset
 
 | Table of Contents |
