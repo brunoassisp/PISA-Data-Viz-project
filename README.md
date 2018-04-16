@@ -26,7 +26,7 @@ Besides that, I could also compare Brazil's students behavior tendency with all 
 The question that raises is: **How can we change this scenario?**
 
 ## Design
-The design followed a ["martini glass" visualzation](https://www.benchmarkemail.com/blogs/detail/infographics-structure-the-martini-glass) and by using a [**frequency polygon**](http://onlinestatbook.com/2/graphing_distributions/freq_poly.html) it shows how the students behavior varies per country.
+The design followed a ["martini glass" visualization](https://www.benchmarkemail.com/blogs/detail/infographics-structure-the-martini-glass) and by using a [**frequency polygon**](http://onlinestatbook.com/2/graphing_distributions/freq_poly.html) it shows how the students behavior varies per country.
 
 By applying different **colors** and **transparency** in the lines, it becomes possible to analyze and compare a Country behavior with the others and understand which is the tendency for every country.
 
